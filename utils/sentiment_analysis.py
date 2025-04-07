@@ -11,15 +11,27 @@ import streamlit as st
 from datetime import timezone, timedelta
 import praw
 import re
+from dotenv import load_dotenv
 
-# Default API keys - Replace with your own in production
-REDDIT_CLIENT_ID = "3GrrAP6Z7iOSvgQY3oMH1w"
-REDDIT_CLIENT_SECRET = "YQya7ob0iBJDCx10S4sfb6Jr_vK4LQ"
-REDDIT_USERNAME = "yugs111"
-REDDIT_PASSWORD = "hotpizza"
-NEWSAPI_KEY = "9314b4e1b6a14929a813544e3ec27586"
-ALPHA_VANTAGE_KEY = "JCSUIVFWE2F6FXSB"
-OPENROUTER_KEY = "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"
+load_dotenv()
+
+# Add the get_api_key utility function
+def get_api_key(key_name, default=""):
+    """Get API key with fallback logic"""
+    # First check session state
+    if "api_keys" in st.session_state and key_name in st.session_state.api_keys and st.session_state.api_keys[key_name]:
+        return st.session_state.api_keys[key_name]
+    # Then fall back to environment variable
+    return os.getenv(key_name, default)
+
+# Replace direct env variable references with get_api_key calls
+REDDIT_CLIENT_ID = get_api_key("REDDIT_CLIENT_ID")
+REDDIT_CLIENT_SECRET = get_api_key("REDDIT_CLIENT_SECRET") 
+REDDIT_USERNAME = get_api_key("REDDIT_USERNAME")
+REDDIT_PASSWORD = get_api_key("REDDIT_PASSWORD")
+NEWSAPI_KEY = get_api_key("NEWSAPI_KEY")
+ALPHA_VANTAGE_KEY = get_api_key("ALPHA_VANTAGE_KEY")
+OPENROUTER_KEY = get_api_key("OPENROUTER_KEY")
 GEMINI_MODEL = "google/gemini-2.5-pro-exp-03-25:free"
 
 # Create cache directory
@@ -52,11 +64,11 @@ def fetch_reddit_data(ticker, days=7, max_posts=100):
     # Initialize Reddit client
     try:
         reddit = praw.Reddit(
-            client_id=REDDIT_CLIENT_ID,
-            client_secret=REDDIT_CLIENT_SECRET,
-            username=REDDIT_USERNAME,
-            password=REDDIT_PASSWORD,
-            user_agent=f"script:stock-dashboard:v1.0 (by /u/{REDDIT_USERNAME})"
+            client_id=get_api_key("REDDIT_CLIENT_ID"),
+            client_secret=get_api_key("REDDIT_CLIENT_SECRET"),
+            username=get_api_key("REDDIT_USERNAME"),
+            password=get_api_key("REDDIT_PASSWORD"),
+            user_agent=f"script:stock-dashboard:v1.0 (by /u/{get_api_key('REDDIT_USERNAME')})"
         )
     except Exception as e:
         st.error(f"Error connecting to Reddit: {str(e)}")
@@ -127,7 +139,10 @@ def fetch_news_data(ticker,days =7):
     start_time = end_time - timedelta(days=days)
     from_date = start_time.strftime('%Y-%m-%d')
     to_date = end_time.strftime('%Y-%m-%d')
-    if NEWSAPI_KEY:
+    
+    # Updated to use get_api_key
+    newsapi_key = get_api_key("NEWSAPI_KEY")
+    if newsapi_key:
         try:
             # News API endpoint
             url = 'https://newsapi.org/v2/everything'
@@ -139,7 +154,7 @@ def fetch_news_data(ticker,days =7):
                 'to': to_date,
                 'language': 'en',
                 'sortBy': 'publishedAt',
-                'apiKey': NEWSAPI_KEY
+                'apiKey': newsapi_key
             }
             
             response = requests.get(url, params=params)
@@ -161,7 +176,10 @@ def fetch_news_data(ticker,days =7):
                     articles.append(article_data)
         except Exception as e:
             st.warning(f"Error fetching news from News API: {str(e)}")
-    if ALPHA_VANTAGE_KEY:
+    
+    # Updated to use get_api_key
+    alpha_vantage_key = get_api_key("ALPHA_VANTAGE_KEY")
+    if alpha_vantage_key:
         try:
             # Alpha Vantage News API endpoint
             url = 'https://www.alphavantage.co/query'
@@ -170,7 +188,7 @@ def fetch_news_data(ticker,days =7):
             params = {
                 'function': 'NEWS_SENTIMENT',
                 'tickers': ticker,
-                'apikey': ALPHA_VANTAGE_KEY,
+                'apikey': alpha_vantage_key,
                 'limit': 50  # Maximum allowed by Alpha Vantage
             }
             
@@ -257,18 +275,30 @@ def combine_sentiment_data(ticker, reddit_data, news_data):
 def fetch_sentiment_data(ticker, days=7, use_cache=True):
     ticker = ticker.upper()
     
+    # Check if in demo mode
+    demo_mode = st.session_state.get("demo_mode", False)
+    
+    # Use appropriate cache directory based on mode
+    cache_dir = "demo_cache/sentiment" if demo_mode else "cache/sentiment"
+    os.makedirs(cache_dir, exist_ok=True)
+    
     # Check cache first if enabled
-    cache_file = f"cache/sentiment/{ticker}_sentiment_{days}d.json"
+    cache_file = f"{cache_dir}/{ticker}_sentiment_{days}d.json"
     
     if use_cache and os.path.exists(cache_file):
         # Check if cache is recent enough (less than 6 hours old)
         if time.time() - os.path.getmtime(cache_file) < 21600:  # 6 hours in seconds
             try:
                 with open(cache_file, 'r', encoding='utf-8') as f:
-                    st.success(f"Using cached sentiment data for {ticker} (less than 6 hours old)")
+                    mode_text = "demo " if demo_mode else ""
+                    st.success(f"Using cached {mode_text}sentiment data for {ticker} (less than 6 hours old)")
                     return json.load(f)
             except Exception as e:
                 st.warning(f"Error reading cached sentiment data: {str(e)}")
+    
+    # If demo mode and cache not available, don't try to fetch new data
+    if demo_mode and not os.path.exists(cache_file):
+        return None
     
     # If cache is not available or not recent, fetch new data
     with st.spinner(f"Fetching sentiment data for {ticker}..."):
@@ -287,7 +317,7 @@ def fetch_sentiment_data(ticker, days=7, use_cache=True):
         
         return data
 
-def analyze_sentiment(data, api_key=OPENROUTER_KEY, model=GEMINI_MODEL):
+def analyze_sentiment(data, api_key=None, model=GEMINI_MODEL):
     """
     Analyze sentiment data using Gemini via OpenRouter API
     
@@ -299,6 +329,13 @@ def analyze_sentiment(data, api_key=OPENROUTER_KEY, model=GEMINI_MODEL):
     Returns:
         str: Analysis results
     """
+    # Check if in demo mode
+    demo_mode = st.session_state.get("demo_mode", False)
+    
+    # Updated to use get_api_key if api_key not provided
+    if api_key is None:
+        api_key = get_api_key("OPENROUTER_KEY")
+        
     if not data:
         print("DEBUG: No data provided to analyze_sentiment")
         return "No data available for analysis."
@@ -306,10 +343,28 @@ def analyze_sentiment(data, api_key=OPENROUTER_KEY, model=GEMINI_MODEL):
     ticker = data.get("ticker", "UNKNOWN")
     print(f"DEBUG: Starting sentiment analysis for {ticker}")
     
+    # Use appropriate cache directory based on mode
+    cache_dir = "demo_cache/sentiment" if demo_mode else "cache/sentiment"
+    os.makedirs(cache_dir, exist_ok=True)
+    cache_file = f"{cache_dir}/{ticker}_analysis.txt"
+    
+    # Check if we have cached analysis first (for demo mode)
+    if demo_mode and os.path.exists(cache_file):
+        try:
+            with open(cache_file, 'r', encoding='utf-8') as f:
+                print(f"DEBUG: Using cached demo analysis for {ticker}")
+                return f.read()
+        except Exception as e:
+            print(f"DEBUG: Error reading cached analysis: {str(e)}")
+    
     # Create a prompt for the analysis
     prompt = create_analysis_prompt(data)
     print(f"DEBUG: Prompt created, length: {len(prompt)} characters")
     print(f"DEBUG: First 200 chars of prompt: {prompt[:200]}")
+    
+    # Don't make API calls in demo mode if we don't have cached data
+    if demo_mode and not os.path.exists(cache_file):
+        return f"No demo analysis available for {ticker}. In production mode, a real-time analysis would be generated here."
     
     # Call the API
     url = 'https://openrouter.ai/api/v1/chat/completions'
@@ -365,7 +420,6 @@ def analyze_sentiment(data, api_key=OPENROUTER_KEY, model=GEMINI_MODEL):
                 print(f"DEBUG: Analysis preview: {analysis[:200]}")
                 
                 # Cache the analysis
-                cache_file = f"cache/sentiment/{ticker}_analysis.txt"
                 with open(cache_file, 'w', encoding='utf-8') as f:
                     f.write(analysis)
                 print(f"DEBUG: Analysis cached to {cache_file}")
@@ -645,7 +699,7 @@ def get_sentiment_score_color(score):
     else:
         return "#C62828"  # Red
 
-def chat_with_ai(question, sentiment_data, stock_data, api_key=OPENROUTER_KEY, model=GEMINI_MODEL):
+def chat_with_ai(question, sentiment_data, stock_data, api_key=None, model=GEMINI_MODEL):
     """
     Chat with AI about stock sentiment and performance
     
@@ -659,6 +713,10 @@ def chat_with_ai(question, sentiment_data, stock_data, api_key=OPENROUTER_KEY, m
     Returns:
         str: AI response
     """
+    # Updated to use get_api_key if api_key not provided
+    if api_key is None:
+        api_key = get_api_key("OPENROUTER_KEY")
+        
     if not question or not sentiment_data:
         return "Please provide a question and ensure sentiment data is available."
     

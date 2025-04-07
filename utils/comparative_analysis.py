@@ -9,6 +9,17 @@ import os
 import json
 import hashlib
 from datetime import datetime, timedelta
+from dotenv import load_dotenv
+
+load_dotenv()
+
+def get_api_key(key_name, default=""):
+    """Get API key with fallback logic"""
+    # First check session state
+    if "api_keys" in st.session_state and key_name in st.session_state.api_keys and st.session_state.api_keys[key_name]:
+        return st.session_state.api_keys[key_name]
+    # Then fall back to environment variable
+    return os.getenv(key_name, default)
 
 def calculate_comparative_metrics(data_dict, benchmark_data=None):
     """
@@ -328,13 +339,17 @@ def get_cached_analysis(tickers, metrics_hash):
     Returns:
         str or None: Cached analysis if available, None otherwise
     """
-    # Create cache directory if it doesn't exist
-    os.makedirs("cache/comparative", exist_ok=True)
+    # Check if in demo mode
+    demo_mode = st.session_state.get("demo_mode", False)
+    
+    # Use appropriate cache directory based on mode
+    cache_dir = "demo_cache/comparative" if demo_mode else "cache/comparative"
+    os.makedirs(cache_dir, exist_ok=True)
     
     # Create cache key from tickers and metrics hash
     tickers_key = "-".join(sorted(tickers))
     cache_key = f"{tickers_key}_{metrics_hash}"
-    cache_file = f"cache/comparative/{cache_key}.json"
+    cache_file = f"{cache_dir}/{cache_key}.json"
     
     # Check if cache exists and is fresh (less than 24 hours old)
     if os.path.exists(cache_file):
@@ -360,13 +375,17 @@ def save_analysis_to_cache(tickers, metrics_hash, analysis):
         metrics_hash (str): Hash of metrics for cache identification
         analysis (str): Analysis result to cache
     """
-    # Create cache directory if it doesn't exist
-    os.makedirs("cache/comparative", exist_ok=True)
+    # Check if in demo mode
+    demo_mode = st.session_state.get("demo_mode", False)
+    
+    # Use appropriate cache directory based on mode
+    cache_dir = "demo_cache/comparative" if demo_mode else "cache/comparative"
+    os.makedirs(cache_dir, exist_ok=True)
     
     # Create cache key from tickers and metrics hash
     tickers_key = "-".join(sorted(tickers))
     cache_key = f"{tickers_key}_{metrics_hash}"
-    cache_file = f"cache/comparative/{cache_key}.json"
+    cache_file = f"{cache_dir}/{cache_key}.json"
     
     try:
         with open(cache_file, 'w') as f:
@@ -391,6 +410,9 @@ def generate_comparative_analysis(data_dict, comparative_metrics):
         str: AI-generated comparative analysis
     """
     print("DEBUG: Starting generate_comparative_analysis function")
+    
+    # Check if in demo mode
+    demo_mode = st.session_state.get("demo_mode", False)
     
     # Format the metrics to include in the prompt
     tickers = list(data_dict.keys())
@@ -422,6 +444,13 @@ def generate_comparative_analysis(data_dict, comparative_metrics):
         if cached_analysis:
             print("DEBUG: Using cached analysis result")
             return cached_analysis
+        
+        # If in demo mode and no cached analysis, return placeholder message
+        if demo_mode:
+            fallback_message = f"# Comparative Analysis for {', '.join(tickers)}\n\n"
+            fallback_message += "No demo comparative analysis available for these stocks. In production mode, a detailed comparison would be generated here."
+            save_analysis_to_cache(tickers, metrics_hash, fallback_message)
+            return fallback_message
         
         print("DEBUG: Metrics summary prepared successfully")
         
@@ -458,7 +487,8 @@ def generate_comparative_analysis(data_dict, comparative_metrics):
         print(f"DEBUG: Prompt prepared, length: {len(prompt)} characters")
         
         # Call the OpenRouter API to get Gemini analysis
-        OPENROUTER_KEY = "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"  # Default key
+        OPENROUTER_KEY = get_api_key("OPENROUTER_KEY")
+ 
         GEMINI_MODEL = "google/gemini-2.5-pro-exp-03-25:free"
         
         url = 'https://openrouter.ai/api/v1/chat/completions'
@@ -705,27 +735,20 @@ def render_comparative_analysis_ui(comparative_data):
         print("DEBUG: Rendering AI Insights tab")
         st.subheader("AI Comparative Analysis")
         
-        # Define keys for this specific tab to avoid conflicts
         analysis_key = "comp_analysis_result"
         
-        # Initialize session state for this specific analysis if not already present
         if analysis_key not in st.session_state:
             st.session_state[analysis_key] = None
         
-        # Create a button container to keep the button in the same place
         button_container = st.container()
         
-        # If we don't have a result yet, show the generate button
         if st.session_state[analysis_key] is None:
             with button_container:
                 if st.button("Generate AI Comparative Analysis", key="generate_ai_analysis"):
-                    # Show a spinner while generating
                     with st.spinner("Generating comparative analysis..."):
                         try:
-                            # Create metrics hash for caching
                             tickers = list(comparative_data.keys())
                             perf_metrics = {}
-                            
                             for ticker, metrics in comparative_metrics['individual_metrics'].items():
                                 perf_metrics[ticker] = {
                                     'total_return': metrics['total_return'],
@@ -733,11 +756,7 @@ def render_comparative_analysis_ui(comparative_data):
                                     'max_drawdown': metrics['max_drawdown'],
                                     'sharpe_ratio': metrics['sharpe_ratio']
                                 }
-                            
-                            # Create hash for cache key
                             metrics_hash = hashlib.md5(json.dumps(perf_metrics, sort_keys=True).encode()).hexdigest()[:10]
-                            
-                            # Try to get from cache first
                             cached_result = get_cached_analysis(tickers, metrics_hash)
                             if cached_result:
                                 print("DEBUG: Using cached analysis result")
@@ -747,7 +766,6 @@ def render_comparative_analysis_ui(comparative_data):
                                 st.session_state[analysis_key] = generate_comparative_analysis(
                                     comparative_data, comparative_metrics
                                 )
-                                
                         except Exception as e:
                             error_msg = f"Error generating AI analysis: {str(e)}"
                             print(f"DEBUG: {error_msg}")
@@ -755,15 +773,11 @@ def render_comparative_analysis_ui(comparative_data):
                             st.error(error_msg)
                             st.session_state[analysis_key] = f"### Analysis Error\n\n{error_msg}"
                     
-                    # Force a rerun to display the result
                     st.experimental_rerun()
                 else:
                     st.info("Click 'Generate AI Comparative Analysis' for an AI-powered interpretation of these comparative metrics.")
         else:
-            # Display the saved result
             st.markdown(st.session_state[analysis_key])
-            
-            # Add a reset button to allow regenerating the analysis
             with button_container:
                 if st.button("Generate New Analysis", key="reset_analysis"):
                     st.session_state[analysis_key] = None

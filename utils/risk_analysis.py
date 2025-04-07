@@ -6,6 +6,19 @@ from plotly.subplots import make_subplots
 from datetime import datetime, timedelta
 import streamlit as st
 import requests
+import os 
+from dotenv import load_dotenv
+
+load_dotenv()
+
+# Add the get_api_key utility function
+def get_api_key(key_name, default=""):
+    """Get API key with fallback logic"""
+    # First check session state
+    if "api_keys" in st.session_state and key_name in st.session_state.api_keys and st.session_state.api_keys[key_name]:
+        return st.session_state.api_keys[key_name]
+    # Then fall back to environment variable
+    return os.getenv(key_name, default)
 
 def calculate_risk_metrics(df, benchmark_df=None, risk_free_rate=0.03, period_days=252):
     """
@@ -825,6 +838,23 @@ def generate_risk_analysis(ticker, metrics):
     Returns:
         str: AI-generated risk analysis
     """
+    # Check if in demo mode
+    demo_mode = st.session_state.get("demo_mode", False)
+    
+    # Use appropriate cache directory based on mode
+    cache_dir = "demo_cache/risk" if demo_mode else "cache/risk"
+    os.makedirs(cache_dir, exist_ok=True)
+    cache_file = f"{cache_dir}/{ticker}_risk_analysis.txt"
+    
+    # Check if we have cached analysis first (for demo mode)
+    if os.path.exists(cache_file):
+        try:
+            with open(cache_file, 'r', encoding='utf-8') as f:
+                print(f"Using cached {'demo ' if demo_mode else ''}risk analysis for {ticker}")
+                return f.read()
+        except Exception as e:
+            print(f"Error reading cached risk analysis: {str(e)}")
+    
     # Format the metrics to include in the prompt
     beta_val = metrics['technical']['beta']
     beta_str = f"{beta_val:.2f}" if not np.isnan(beta_val) else "N/A"
@@ -864,6 +894,26 @@ def generate_risk_analysis(ticker, metrics):
 
     """
     
+    # Don't make API calls in demo mode if we don't have cached data
+    if demo_mode and not os.path.exists(cache_file):
+        fallback_analysis = f"""
+        # Risk Analysis for {ticker}
+
+        No demo risk analysis available. In production mode, a comprehensive risk assessment would be generated here.
+        
+        ## Risk Metrics Summary
+        
+        - Maximum Drawdown: {metrics['drawdown']['max_drawdown'] * 100:.2f}%
+        - Annualized Volatility: {metrics['volatility']['annual'] * 100:.2f}%
+        - Sharpe Ratio: {metrics['risk_adjusted']['sharpe_ratio']:.2f}
+        """
+        
+        # Save the fallback analysis to cache
+        with open(cache_file, 'w', encoding='utf-8') as f:
+            f.write(fallback_analysis)
+            
+        return fallback_analysis
+    
     # Build the prompt for Gemini
     prompt = f"""You are an expert financial risk analyst. Based on the risk metrics provided below for {ticker} stock, provide a thorough risk analysis and interpretation.
 
@@ -882,7 +932,7 @@ def generate_risk_analysis(ticker, metrics):
     """
     
     # Call the OpenRouter API to get Gemini analysis
-    OPENROUTER_KEY = "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"  # Default key
+    OPENROUTER_KEY = get_api_key("OPENROUTER_KEY") # Default key
     GEMINI_MODEL = "google/gemini-2.5-pro-exp-03-25:free"
     
     url = 'https://openrouter.ai/api/v1/chat/completions'
@@ -904,13 +954,23 @@ def generate_risk_analysis(ticker, metrics):
     }
     
     try:
+        print(f"Calling OpenRouter API for risk analysis of {ticker}...")
         response = requests.post(url, headers=headers, json=payload)
         response.raise_for_status()
         result = response.json()
         analysis = result.get('choices', [{}])[0].get('message', {}).get('content', 'No analysis generated')
+        print(f"Successfully generated risk analysis for {ticker}")
+        
+        # Save to cache
+        with open(cache_file, 'w', encoding='utf-8') as f:
+            f.write(analysis)
+        print(f"Saved risk analysis to cache: {cache_file}")
+        
         return analysis
     except Exception as e:
-        return f"""
+        print(f"Error generating risk analysis: {str(e)}")
+        
+        fallback_analysis = f"""
         # AI Risk Analysis
 
         I couldn't generate a complete analysis at this time due to an API error: {str(e)}
@@ -923,3 +983,5 @@ def generate_risk_analysis(ticker, metrics):
         
         For a more detailed analysis, please try again later.
         """
+        
+        return fallback_analysis
