@@ -846,14 +846,45 @@ def generate_risk_analysis(ticker, metrics):
     os.makedirs(cache_dir, exist_ok=True)
     cache_file = f"{cache_dir}/{ticker}_risk_analysis.txt"
     
-    # Check if we have cached analysis first (for demo mode)
-    if os.path.exists(cache_file):
+    # Demo mode: Always use demo cache if available
+    if demo_mode and os.path.exists(cache_file):
         try:
             with open(cache_file, 'r', encoding='utf-8') as f:
-                print(f"Using cached {'demo ' if demo_mode else ''}risk analysis for {ticker}")
+                print(f"Using cached demo risk analysis for {ticker}")
                 return f.read()
         except Exception as e:
             print(f"Error reading cached risk analysis: {str(e)}")
+    
+    # Regular mode: Check if cache exists and is recent (less than 24 hours old)
+    elif not demo_mode and os.path.exists(cache_file):
+        file_age_seconds = datetime.now().timestamp() - os.path.getmtime(cache_file)
+        if file_age_seconds < 86400:  # 24 hours
+            try:
+                with open(cache_file, 'r', encoding='utf-8') as f:
+                    print(f"Using cached risk analysis for {ticker} (less than 24 hours old)")
+                    return f.read()
+            except Exception as e:
+                print(f"Error reading cached risk analysis: {str(e)}")
+                
+    # Don't make API calls in demo mode if we don't have cached data
+    if demo_mode and not os.path.exists(cache_file):
+        fallback_message = f"""
+        # Risk Analysis for {ticker}
+
+        No demo risk analysis available. In production mode, a comprehensive risk assessment would be generated here.
+        
+        ## Risk Metrics Summary
+        
+        - Maximum Drawdown: {metrics['drawdown']['max_drawdown'] * 100:.2f}%
+        - Annualized Volatility: {metrics['volatility']['annual'] * 100:.2f}%
+        - Sharpe Ratio: {metrics['risk_adjusted']['sharpe_ratio']:.2f}
+        """
+        
+        # Save the fallback analysis to cache
+        with open(cache_file, 'w', encoding='utf-8') as f:
+            f.write(fallback_message)
+            
+        return fallback_message
     
     # Format the metrics to include in the prompt
     beta_val = metrics['technical']['beta']
@@ -893,26 +924,6 @@ def generate_risk_analysis(ticker, metrics):
     - Beta: {beta_str}
 
     """
-    
-    # Don't make API calls in demo mode if we don't have cached data
-    if demo_mode and not os.path.exists(cache_file):
-        fallback_analysis = f"""
-        # Risk Analysis for {ticker}
-
-        No demo risk analysis available. In production mode, a comprehensive risk assessment would be generated here.
-        
-        ## Risk Metrics Summary
-        
-        - Maximum Drawdown: {metrics['drawdown']['max_drawdown'] * 100:.2f}%
-        - Annualized Volatility: {metrics['volatility']['annual'] * 100:.2f}%
-        - Sharpe Ratio: {metrics['risk_adjusted']['sharpe_ratio']:.2f}
-        """
-        
-        # Save the fallback analysis to cache
-        with open(cache_file, 'w', encoding='utf-8') as f:
-            f.write(fallback_analysis)
-            
-        return fallback_analysis
     
     # Build the prompt for Gemini
     prompt = f"""You are an expert financial risk analyst. Based on the risk metrics provided below for {ticker} stock, provide a thorough risk analysis and interpretation.
