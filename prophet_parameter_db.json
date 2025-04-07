@@ -1,0 +1,897 @@
+{
+  "1mo": {},
+  "3mo": {},
+  "6mo": {},
+  "1y": {
+    "7": {
+      "features": [
+        "ema_12",
+        "sma_20",
+        "psar",
+        "ema_26",
+        "sma_50"
+      ],
+      "parameters": {
+        "changepoint_prior_scale": 0.001,
+        "seasonality_prior_scale": 1.0,
+        "seasonality_mode": "multiplicative"
+      },
+      "sample_size": 8,
+      "stock_results": [
+        {
+          "ticker": "AAPL",
+          "params": {
+            "changepoint_prior_scale": 0.001,
+            "seasonality_prior_scale": 1.0,
+            "seasonality_mode": "multiplicative",
+            "changepoint_range": 0.9
+          },
+          "features": [
+            "ema_12",
+            "sma_20",
+            "psar",
+            "ema_26",
+            "obv"
+          ],
+          "rmse": 7.676510362928804
+        },
+        {
+          "ticker": "MSFT",
+          "params": {
+            "changepoint_prior_scale": 0.001,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "multiplicative",
+            "changepoint_range": 0.9
+          },
+          "features": [
+            "ema_26",
+            "ema_12",
+            "psar",
+            "sma_20",
+            "sma_50"
+          ],
+          "rmse": 6.513497769275238
+        },
+        {
+          "ticker": "GOOGL",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 0.01,
+            "seasonality_mode": "additive",
+            "changepoint_range": 0.9
+          },
+          "features": [
+            "sma_50",
+            "ema_12",
+            "ema_26",
+            "sma_20",
+            "psar"
+          ],
+          "rmse": 7.6275856812632075
+        },
+        {
+          "ticker": "GE",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "additive"
+          },
+          "features": [
+            "macd",
+            "rsi_14",
+            "macd_signal",
+            "close_sma50_ratio",
+            "psar"
+          ],
+          "rmse": 0.752577155316427
+        },
+        {
+          "ticker": "CAT",
+          "params": {
+            "changepoint_prior_scale": 0.1,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "additive"
+          },
+          "features": [
+            "obv",
+            "psar",
+            "ema_12",
+            "std_dev",
+            "sma_50"
+          ],
+          "rmse": 7.856455797331498
+        },
+        {
+          "ticker": "MMM",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "additive"
+          },
+          "features": [
+            "sma_50",
+            "ema_12",
+            "adx",
+            "sma_20",
+            "ema_26"
+          ],
+          "rmse": 6.28343251939267
+        },
+        {
+          "ticker": "BA",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "additive"
+          },
+          "features": [
+            "psar",
+            "ema_12",
+            "std_dev",
+            "sma_50",
+            "ema_26"
+          ],
+          "rmse": 13.499977054132549
+        },
+        {
+          "ticker": "HON",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "multiplicative"
+          },
+          "features": [
+            "stoch_d",
+            "stoch_k",
+            "psar",
+            "ema_12",
+            "willr"
+          ],
+          "rmse": 3.997797356287079
+        }
+      ]
+    },
+    "14": {
+      "features": [
+        "ema_12",
+        "psar",
+        "sma_20",
+        "ema_26",
+        "obv"
+      ],
+      "parameters": {
+        "changepoint_prior_scale": 0.5,
+        "seasonality_prior_scale": 0.01,
+        "seasonality_mode": "multiplicative"
+      },
+      "sample_size": 8,
+      "stock_results": [
+        {
+          "ticker": "AAPL",
+          "params": {
+            "changepoint_prior_scale": 0.5,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "additive",
+            "changepoint_range": 0.8
+          },
+          "features": [
+            "ema_12",
+            "psar",
+            "sma_20",
+            "obv",
+            "ema_26"
+          ],
+          "rmse": 3.10838316878794
+        },
+        {
+          "ticker": "MSFT",
+          "params": {
+            "changepoint_prior_scale": 0.1,
+            "seasonality_prior_scale": 0.01,
+            "seasonality_mode": "multiplicative",
+            "changepoint_range": 0.8
+          },
+          "features": [
+            "ema_12",
+            "ema_26",
+            "psar",
+            "sma_20",
+            "obv"
+          ],
+          "rmse": 4.60505567588565
+        },
+        {
+          "ticker": "GOOGL",
+          "params": {
+            "changepoint_prior_scale": 0.5,
+            "seasonality_prior_scale": 0.01,
+            "seasonality_mode": "multiplicative",
+            "changepoint_range": 0.8
+          },
+          "features": [
+            "sma_50",
+            "ema_12",
+            "ema_26",
+            "psar",
+            "sma_20"
+          ],
+          "rmse": 10.672852197648417
+        },
+        {
+          "ticker": "GE",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "multiplicative"
+          },
+          "features": [
+            "macd_signal",
+            "macd",
+            "psar",
+            "close_sma50_ratio",
+            "ema_12"
+          ],
+          "rmse": 0.836409863845593
+        },
+        {
+          "ticker": "CAT",
+          "params": {
+            "changepoint_prior_scale": 0.1,
+            "seasonality_prior_scale": 1.0,
+            "seasonality_mode": "additive"
+          },
+          "features": [
+            "obv",
+            "mfi",
+            "psar",
+            "sma_50",
+            "ema_12"
+          ],
+          "rmse": 10.658304197646526
+        },
+        {
+          "ticker": "MMM",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "additive"
+          },
+          "features": [
+            "sma_50",
+            "ema_12",
+            "psar",
+            "sma_20",
+            "obv"
+          ],
+          "rmse": 10.076423139704156
+        },
+        {
+          "ticker": "BA",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "multiplicative"
+          },
+          "features": [
+            "sma_50",
+            "psar",
+            "ema_26",
+            "ema_12",
+            "sma_20"
+          ],
+          "rmse": 8.13531653678128
+        },
+        {
+          "ticker": "HON",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "multiplicative"
+          },
+          "features": [
+            "ema_12",
+            "psar",
+            "ema_26",
+            "sma_20",
+            "sma_50"
+          ],
+          "rmse": 16.512665103126093
+        }
+      ]
+    }
+  },
+  "2y": {
+    "7": {
+      "features": [
+        "psar",
+        "ema_12",
+        "sma_20",
+        "ema_26",
+        "obv"
+      ],
+      "parameters": {
+        "changepoint_prior_scale": 0.01,
+        "seasonality_prior_scale": 10.0,
+        "seasonality_mode": "additive"
+      },
+      "sample_size": 8,
+      "stock_results": [
+        {
+          "ticker": "AAPL",
+          "params": {
+            "changepoint_prior_scale": 0.5,
+            "seasonality_prior_scale": 0.01,
+            "seasonality_mode": "additive",
+            "changepoint_range": 0.8
+          },
+          "features": [
+            "psar",
+            "ema_12",
+            "sma_20",
+            "obv",
+            "ema_26"
+          ],
+          "rmse": 3.524042011285247
+        },
+        {
+          "ticker": "MSFT",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "additive",
+            "changepoint_range": 0.9
+          },
+          "features": [
+            "ema_12",
+            "psar",
+            "sma_20",
+            "ema_26",
+            "obv"
+          ],
+          "rmse": 7.0027216683430344
+        },
+        {
+          "ticker": "GOOGL",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "additive",
+            "changepoint_range": 0.8
+          },
+          "features": [
+            "ema_26",
+            "ema_12",
+            "sma_20",
+            "psar",
+            "mfi"
+          ],
+          "rmse": 3.4811431019138164
+        },
+        {
+          "ticker": "GE",
+          "params": {
+            "changepoint_prior_scale": 0.1,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "multiplicative"
+          },
+          "features": [
+            "adx",
+            "cci",
+            "willr",
+            "mfi",
+            "sma_50"
+          ],
+          "rmse": 7.499841706591311
+        },
+        {
+          "ticker": "CAT",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 1.0,
+            "seasonality_mode": "additive"
+          },
+          "features": [
+            "ema_26",
+            "std_dev",
+            "sma_20",
+            "sma_50",
+            "psar"
+          ],
+          "rmse": 8.881490009956956
+        },
+        {
+          "ticker": "MMM",
+          "params": {
+            "changepoint_prior_scale": 0.1,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "additive"
+          },
+          "features": [
+            "adx",
+            "stoch_k",
+            "cci",
+            "willr",
+            "stoch_d"
+          ],
+          "rmse": 3.663213625147164
+        },
+        {
+          "ticker": "BA",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "multiplicative"
+          },
+          "features": [
+            "sma_20",
+            "ema_12",
+            "ema_26",
+            "sma_50",
+            "psar"
+          ],
+          "rmse": 3.649841073834896
+        },
+        {
+          "ticker": "HON",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "additive"
+          },
+          "features": [
+            "stoch_k",
+            "stoch_d",
+            "willr",
+            "psar",
+            "cci"
+          ],
+          "rmse": 2.753158346480885
+        }
+      ]
+    },
+    "14": {
+      "features": [
+        "psar",
+        "ema_12",
+        "ema_26",
+        "sma_20",
+        "obv"
+      ],
+      "parameters": {
+        "changepoint_prior_scale": 0.01,
+        "seasonality_prior_scale": 0.1,
+        "seasonality_mode": "additive"
+      },
+      "sample_size": 8,
+      "stock_results": [
+        {
+          "ticker": "AAPL",
+          "params": {
+            "changepoint_prior_scale": 0.1,
+            "seasonality_prior_scale": 0.01,
+            "seasonality_mode": "additive",
+            "changepoint_range": 0.8
+          },
+          "features": [
+            "psar",
+            "ema_12",
+            "obv",
+            "ema_26",
+            "sma_20"
+          ],
+          "rmse": 3.560695186197055
+        },
+        {
+          "ticker": "MSFT",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 0.1,
+            "seasonality_mode": "multiplicative",
+            "changepoint_range": 0.8
+          },
+          "features": [
+            "psar",
+            "ema_12",
+            "obv",
+            "sma_20",
+            "ema_26"
+          ],
+          "rmse": 7.3504220416527914
+        },
+        {
+          "ticker": "GOOGL",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 0.1,
+            "seasonality_mode": "additive",
+            "changepoint_range": 0.8
+          },
+          "features": [
+            "ema_12",
+            "psar",
+            "sma_20",
+            "ema_26",
+            "sma_50"
+          ],
+          "rmse": 3.968228384712165
+        },
+        {
+          "ticker": "GE",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "additive"
+          },
+          "features": [
+            "adx",
+            "mfi",
+            "sma_50",
+            "sma_20",
+            "psar"
+          ],
+          "rmse": 5.324494205917852
+        },
+        {
+          "ticker": "CAT",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 1.0,
+            "seasonality_mode": "additive"
+          },
+          "features": [
+            "ema_26",
+            "sma_20",
+            "sma_50",
+            "ema_12",
+            "psar"
+          ],
+          "rmse": 8.236744035217125
+        },
+        {
+          "ticker": "MMM",
+          "params": {
+            "changepoint_prior_scale": 0.1,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "multiplicative"
+          },
+          "features": [
+            "adx",
+            "macd_signal",
+            "std_dev",
+            "close_sma50_ratio",
+            "macd"
+          ],
+          "rmse": 3.6426406783441068
+        },
+        {
+          "ticker": "BA",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "multiplicative"
+          },
+          "features": [
+            "sma_20",
+            "ema_12",
+            "ema_26",
+            "psar",
+            "sma_50"
+          ],
+          "rmse": 3.438544998352635
+        },
+        {
+          "ticker": "HON",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "additive"
+          },
+          "features": [
+            "psar",
+            "ema_12",
+            "sma_20",
+            "ema_26",
+            "sma_50"
+          ],
+          "rmse": 3.727660953741894
+        }
+      ]
+    },
+    "30": {
+      "features": [
+        "sma_20",
+        "ema_26",
+        "ema_12",
+        "psar",
+        "macd_signal"
+      ],
+      "parameters": {
+        "changepoint_prior_scale": 0.01,
+        "seasonality_prior_scale": 1.0,
+        "seasonality_mode": "multiplicative"
+      },
+      "sample_size": 8,
+      "stock_results": [
+        {
+          "ticker": "AAPL",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 1.0,
+            "seasonality_mode": "additive",
+            "changepoint_range": 0.9
+          },
+          "features": [
+            "obv",
+            "psar",
+            "adx",
+            "ema_12",
+            "sma_20"
+          ],
+          "rmse": 4.076942518069159
+        },
+        {
+          "ticker": "MSFT",
+          "params": {
+            "changepoint_prior_scale": 0.001,
+            "seasonality_prior_scale": 0.01,
+            "seasonality_mode": "multiplicative",
+            "changepoint_range": 0.8
+          },
+          "features": [
+            "psar",
+            "ema_12",
+            "obv",
+            "sma_20",
+            "ema_26"
+          ],
+          "rmse": 6.9217714173662515
+        },
+        {
+          "ticker": "GOOGL",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 0.1,
+            "seasonality_mode": "additive",
+            "changepoint_range": 0.9
+          },
+          "features": [
+            "psar",
+            "ema_12",
+            "sma_20",
+            "sma_50",
+            "ema_26"
+          ],
+          "rmse": 3.9579824504951078
+        },
+        {
+          "ticker": "GE",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 1.0,
+            "seasonality_mode": "additive"
+          },
+          "features": [
+            "adx",
+            "atr",
+            "sma_50",
+            "sma_20",
+            "ema_26"
+          ],
+          "rmse": 5.412579697289517
+        },
+        {
+          "ticker": "CAT",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "additive"
+          },
+          "features": [
+            "sma_20",
+            "ema_26",
+            "ema_12",
+            "psar",
+            "sma_50"
+          ],
+          "rmse": 7.806901597545623
+        },
+        {
+          "ticker": "MMM",
+          "params": {
+            "changepoint_prior_scale": 0.1,
+            "seasonality_prior_scale": 1.0,
+            "seasonality_mode": "multiplicative"
+          },
+          "features": [
+            "macd_signal",
+            "close_sma50_ratio",
+            "macd",
+            "rsi_14",
+            "std_dev"
+          ],
+          "rmse": 5.222005762578516
+        },
+        {
+          "ticker": "BA",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 1.0,
+            "seasonality_mode": "multiplicative"
+          },
+          "features": [
+            "ema_12",
+            "sma_20",
+            "psar",
+            "ema_26",
+            "macd_signal"
+          ],
+          "rmse": 1.991615226492477
+        },
+        {
+          "ticker": "HON",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 1.0,
+            "seasonality_mode": "multiplicative"
+          },
+          "features": [
+            "psar",
+            "ema_12",
+            "sma_20",
+            "ema_26",
+            "macd_signal"
+          ],
+          "rmse": 1.9260252809289802
+        }
+      ]
+    },
+    "60": {
+      "features": [
+        "obv",
+        "close_sma50_ratio",
+        "macd",
+        "rsi_14",
+        "macd_signal"
+      ],
+      "parameters": {
+        "changepoint_prior_scale": 0.01,
+        "seasonality_prior_scale": 1.0,
+        "seasonality_mode": "multiplicative"
+      },
+      "sample_size": 8,
+      "stock_results": [
+        {
+          "ticker": "AAPL",
+          "params": {
+            "changepoint_prior_scale": 0.5,
+            "seasonality_prior_scale": 1.0,
+            "seasonality_mode": "multiplicative",
+            "changepoint_range": 0.9
+          },
+          "features": [
+            "obv",
+            "macd_signal",
+            "macd",
+            "psar",
+            "close_sma50_ratio"
+          ],
+          "rmse": 6.703587504229031
+        },
+        {
+          "ticker": "MSFT",
+          "params": {
+            "changepoint_prior_scale": 0.001,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "multiplicative",
+            "changepoint_range": 0.8
+          },
+          "features": [
+            "psar",
+            "ema_12",
+            "obv",
+            "sma_50",
+            "sma_20"
+          ],
+          "rmse": 8.217385385571003
+        },
+        {
+          "ticker": "GOOGL",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 1.0,
+            "seasonality_mode": "additive",
+            "changepoint_range": 0.8
+          },
+          "features": [
+            "psar",
+            "ema_12",
+            "macd_signal",
+            "close_sma50_ratio",
+            "macd"
+          ],
+          "rmse": 1.3384949962093267
+        },
+        {
+          "ticker": "GE",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 1.0,
+            "seasonality_mode": "additive"
+          },
+          "features": [
+            "atr",
+            "sma_50",
+            "obv",
+            "sma_20",
+            "ema_26"
+          ],
+          "rmse": 4.888197750982677
+        },
+        {
+          "ticker": "CAT",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 1.0,
+            "seasonality_mode": "additive"
+          },
+          "features": [
+            "psar",
+            "ema_12",
+            "sma_20",
+            "obv",
+            "ema_26"
+          ],
+          "rmse": 8.966232234884831
+        },
+        {
+          "ticker": "MMM",
+          "params": {
+            "changepoint_prior_scale": 0.1,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "multiplicative"
+          },
+          "features": [
+            "close_sma50_ratio",
+            "macd",
+            "rsi_14",
+            "macd_signal",
+            "close_sma20_ratio"
+          ],
+          "rmse": 9.87624708740805
+        },
+        {
+          "ticker": "BA",
+          "params": {
+            "changepoint_prior_scale": 0.1,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "additive"
+          },
+          "features": [
+            "macd_signal",
+            "obv",
+            "close_sma50_ratio",
+            "macd",
+            "rsi_14"
+          ],
+          "rmse": 6.949349447638707
+        },
+        {
+          "ticker": "HON",
+          "params": {
+            "changepoint_prior_scale": 0.01,
+            "seasonality_prior_scale": 10.0,
+            "seasonality_mode": "additive"
+          },
+          "features": [
+            "close_sma50_ratio",
+            "macd_signal",
+            "macd",
+            "psar",
+            "rsi_14"
+          ],
+          "rmse": 8.990163445953854
+        }
+      ]
+    }
+  }
+}

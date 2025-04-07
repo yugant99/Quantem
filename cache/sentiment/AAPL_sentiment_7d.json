@@ -1,0 +1,1601 @@
+{
+    "ticker": "AAPL",
+    "company_name": null,
+    "search_period": {
+        "start": "2025-03-27T17:13:23.367428+00:00",
+        "end": "2025-04-03T17:13:23.367428+00:00"
+    },
+    "sources": {
+        "reddit": {
+            "submissions": [
+                {
+                    "id": "1jqi2wj",
+                    "subreddit": "stocks",
+                    "title": "Interesting Stocks Today (04/3) - Liberation Day",
+                    "author": "WinningWatchlist",
+                    "created_utc": 1743685934.0,
+                    "created_datetime": "2025-04-03T06:12:14",
+                    "upvote_ratio": 0.4,
+                    "score": 0,
+                    "num_comments": 10,
+                    "url": "https://www.reddit.com/r/stocks/comments/1jqi2wj/interesting_stocks_today_043_liberation_day/",
+                    "permalink": "https://www.reddit.com/r/stocks/comments/1jqi2wj/interesting_stocks_today_043_liberation_day/",
+                    "selftext": "Hi! I am an ex-prop shop equity trader. This is a daily watchlist for short-term trading: I might trade all/none of the stocks listed, and even stocks not listed! I am targeting potentially good candidates for short-term trading; I have no opinion on them as investments. The potential of the stock moving today is what makes it interesting, everything else is secondary.\n\n**Stay agile, and be on the lookout for tariff news from Beijing.**\n\nNews: [Trump's Tariff Announcement](https://www.bloomberg.com/news/live-blog/2025-04-02/trump-s-tariff-announcement)\n\n[**AAPL (Apple)**](https://finviz.com/quote.ashx?t=AAPL&p=d)\\- 34% tariff on Chinese imports, adding to existing duties, brings the total to 54% effective April 9. AAPL relies heavily on Chinese manufacturing, and these tariffs are expected to lead to increased production costs, which will be passed on to consumers through higher prices. Watching $200, but likely the stock I'm going to play if there's any chance of a bounce (in addition to NVDA). These tariffs will result in retaliatory measures from China, further impacting Apple's supply chain and profitability. Additionally, prolonged tariffs could lower consumer demand due to higher prices. Related Tickers: AVGO, SWKS, TSM, QCOM.\n\n[**CRWV (CoreWeave)**](https://finviz.com/quote.ashx?t=CRWV&p=d)\\- Google is reportedly in advanced discussions to rent Nvidia's Blackwell AI servers from CoreWeave. This potential partnership is huge because it means that CRWV has a little more diversification in their revenue stream (alleviating a huge risk to the company). It's hard, this has risen so much from the IPO but we're back at pre-tariff and pre-announcement prices- have a small long position but likely will exit due to all the craziness today and need to focus on the bigger fish. Despite Taiwanese chips not being tariffed, CRWV will likely benefit due to the rising costs of chips.\n\n[**RH (Restoration Hardware)**](https://finviz.com/quote.ashx?t=RH&p=d)\\- Reported EPS of $1.58 vs $1.92 expected. Revenue of $812M vs $829M. The company issued guidance for the current fiscal year, projecting revenue growth of 10% to 13%, an adjusted operating margin between 14% and 15%, and an adjusted EBITDA margin of 20% to 21%. Management highlighted concerns over a higher-risk business environment due to tariffs, market volatility, and inflation risks, noting that RH has been operating in the \"worst housing market in almost 50 years.\" Interested at $150, but won't focus on this today vs AAPL or other Mag7 names that are selling off.\n\n[**VXX (VIX Short-Term Futures ETN)**](https://finviz.com/quote.ashx?t=VXX&p=d)\\- The recent spike in volatility attributed to \"Liberation Day\" saw a massive VIX spike along with everything else selling off. Interested in seeing what we do but I doubt today will be the day I take a short position- volatility is coming and is not as likely to be the quick one-day spikes we've seen in the past. We may see additional tariffs from China in retaliation.\n\n[**NKE (Nike)**](https://finviz.com/quote.ashx?t=NKE&p=d)\\- Nike is one of the biggest losers due to tariffs, as a substantial portion of its manufacturing is based in Southeast Asian countries facing high tariff rates. Notably, Nike produces nearly 50% of its footwear and 30% of its apparel in Vietnam. Currently long, but will bail if we break new lows (\\~$55.20). Prolonged tariffs lead to higher consumer prices, and NKE has cited lowered demand/guidance for its goods due to competitors.\n\n[**NVDA (NVIDIA)**](https://finviz.com/quote.ashx?t=NVDA&p=d)\\- NVIDIA's exposure to the recent tariff announcements appears limited, as the 32% levy on imports from Taiwan. The White House clarified that semis are exempt from these tariffs, which provides a buffer for NVIDIA's core business and limits downside risk from the new trade measures. We still saw a 6% move post-tariff announcement."
+                },
+                {
+                    "id": "1jq509q",
+                    "subreddit": "stocks",
+                    "title": "Did I mess up In my choice of diversification?",
+                    "author": "septiclizardkid",
+                    "created_utc": 1743641616.0,
+                    "created_datetime": "2025-04-02T17:53:36",
+                    "upvote_ratio": 0.22,
+                    "score": 0,
+                    "num_comments": 24,
+                    "url": "https://www.reddit.com/r/stocks/comments/1jq509q/did_i_mess_up_in_my_choice_of_diversification/",
+                    "permalink": "https://www.reddit.com/r/stocks/comments/1jq509q/did_i_mess_up_in_my_choice_of_diversification/",
+                    "selftext": "Start:\nVOO\nKO\n\nNow:\nVOO\nKO\nSCHX\nVTI\nAAPL\n\nTotal account value this morning: $392\n\nNow (as of 4/2/25): $380\n\nI'm 20. $200 In a month. What's a good diverse portfolio for me long term wise? Is this some kind of sick joke? Seriously, did Trump NOT learn from Taft that tariffs cause depressions? \n\nWhatever man, dips happen, but this Is some bullshit. Should i sell when high and diversify better or Is It good as Is?"
+                },
+                {
+                    "id": "1joztpk",
+                    "subreddit": "stocks",
+                    "title": "Should I actually buy stocks as I buy options?",
+                    "author": "Rude_Candidate_9843",
+                    "created_utc": 1743524698.0,
+                    "created_datetime": "2025-04-01T09:24:58",
+                    "upvote_ratio": 0.38,
+                    "score": 0,
+                    "num_comments": 11,
+                    "url": "https://www.reddit.com/r/stocks/comments/1joztpk/should_i_actually_buy_stocks_as_i_buy_options/",
+                    "permalink": "https://www.reddit.com/r/stocks/comments/1joztpk/should_i_actually_buy_stocks_as_i_buy_options/",
+                    "selftext": "For example, if I buy long call option (strike price $240) on AAPL (now $230). When the date is close to the expiration day, the AAPL price is $260. Should I actually spend $24000 ($240 ×100) to exercise the call right? Is there any way to walk around to get my earnings? Because I'm not sure I could take $24000 cash from my bank.\n\nThanks in advance!"
+                },
+                {
+                    "id": "1jqj6l5",
+                    "subreddit": "investing",
+                    "title": "How can you pass up DCA into AAPL?",
+                    "author": "MCK40",
+                    "created_utc": 1743688785.0,
+                    "created_datetime": "2025-04-03T06:59:45",
+                    "upvote_ratio": 0.67,
+                    "score": 2,
+                    "num_comments": 4,
+                    "url": "https://www.reddit.com/r/investing/comments/1jqj6l5/how_can_you_pass_up_dca_into_aapl/",
+                    "permalink": "https://www.reddit.com/r/investing/comments/1jqj6l5/how_can_you_pass_up_dca_into_aapl/",
+                    "selftext": "So, at the 207, how can this ultimately be a bad way to go.  Will it really dip well under $200?  And if so, then buy more.  This will certainly pass, and when it does, how do you justify not buying into this dip?  What are some of the other reasons that you would stay away from Apple?  They seem to be too smart of a company to not be able to weather this storm.  If this is not the time, then when? Thoughts?"
+                },
+                {
+                    "id": "1jqecr7",
+                    "subreddit": "investing",
+                    "title": "Can someone explain this for me?",
+                    "author": "abhinav4703",
+                    "created_utc": 1743674159.0,
+                    "created_datetime": "2025-04-03T02:55:59",
+                    "upvote_ratio": 0.5,
+                    "score": 0,
+                    "num_comments": 11,
+                    "url": "https://www.reddit.com/r/investing/comments/1jqecr7/can_someone_explain_this_for_me/",
+                    "permalink": "https://www.reddit.com/r/investing/comments/1jqecr7/can_someone_explain_this_for_me/",
+                    "selftext": "According to the internet and people that commented in my prior post, the market capitalisation of a company stays the same after buy back of shares i.e, the share price rises sharply to match the increase in EPS.\n\nIf that is the case, then it seems like a free way to earn money. Let’s say apple is buying back half of its outstanding shares with its free reserve. I have 100 shares of AAPL which I bought yesterday for 100 dollars totally(1$ per share). I sell 50 of those 100 shares and get 50$ as compensation and hold the remaining 50 shares.\n\nNow, since there are only half the outstanding shares as before the EPS doubles. Since it has doubled, the price doubles too to match the PE ratio as before(Assuming the forecast of the company future cashflows with or without the free reserve stays the same). In such case, my remaining 50 shares are now worth 100$. Upon selling I finally have 150$ in my account.\n\nDoes the existence of such loophole mean, the EPS rising as a result of buybacks dont have a say in the future price of the stock and that market capitalisation decreases after stock buyback?"
+                },
+                {
+                    "id": "1jozuvi",
+                    "subreddit": "investing",
+                    "title": "Should I actually buy stocks when exercising right of options?",
+                    "author": "Rude_Candidate_9843",
+                    "created_utc": 1743524781.0,
+                    "created_datetime": "2025-04-01T09:26:21",
+                    "upvote_ratio": 0.56,
+                    "score": 2,
+                    "num_comments": 7,
+                    "url": "https://www.reddit.com/r/investing/comments/1jozuvi/should_i_actually_buy_stocks_when_exercising/",
+                    "permalink": "https://www.reddit.com/r/investing/comments/1jozuvi/should_i_actually_buy_stocks_when_exercising/",
+                    "selftext": "For example, if I buy long call option (strike price $240) on AAPL (now $230). When the date is close to the expiration day, the AAPL price is $260. Should I actually spend $24000 ($240 ×100) to exercise the call right? Is there any way to walk around to get my earnings? Because I'm not sure I could take $24000 cash from my bank.\n\nThanks in advance!"
+                },
+                {
+                    "id": "1jqi5et",
+                    "subreddit": "StockMarket",
+                    "title": "Interesting Stocks Today (04/3) - Liberation Day",
+                    "author": "WinningWatchlist",
+                    "created_utc": 1743686122.0,
+                    "created_datetime": "2025-04-03T06:15:22",
+                    "upvote_ratio": 1.0,
+                    "score": 1,
+                    "num_comments": 2,
+                    "url": "https://www.reddit.com/r/StockMarket/comments/1jqi5et/interesting_stocks_today_043_liberation_day/",
+                    "permalink": "https://www.reddit.com/r/StockMarket/comments/1jqi5et/interesting_stocks_today_043_liberation_day/",
+                    "selftext": "Hi! I am an ex-prop shop equity trader. This is a daily watchlist for short-term trading: I might trade all/none of the stocks listed, and even stocks not listed! I am targeting potentially good candidates for short-term trading; I have no opinion on them as investments. The potential of the stock moving today is what makes it interesting, everything else is secondary.\n\nStay agile, and be on the lookout for tariff news from Beijing.\n\nNews: [Trump's Tariff Announcement](https://www.bloomberg.com/news/live-blog/2025-04-02/trump-s-tariff-announcement)\n\n[**AAPL (Apple)**](https://finviz.com/quote.ashx?t=AAPL&p=d)\\- 34% tariff on Chinese imports, adding to existing duties, brings the total to 54% effective April 9. AAPL relies heavily on Chinese manufacturing, and these tariffs are expected to lead to increased production costs, which will be passed on to consumers through higher prices. Watching $200, but likely the stock I'm going to play if there's any chance of a bounce (in addition to NVDA). These tariffs will result in retaliatory measures from China, further impacting Apple's supply chain and profitability. Additionally, prolonged tariffs could lower consumer demand due to higher prices. Related Tickers: AVGO, SWKS, TSM, QCOM.\n\nhttps://preview.redd.it/49spz0rldmse1.png?width=1017&format=png&auto=webp&s=6f64373c7e8bd5a60030b88823c66e9354c27574\n\n[**CRWV (CoreWeave)**](https://finviz.com/quote.ashx?t=CRWV&p=d)\\- Google is reportedly in advanced discussions to rent Nvidia's Blackwell AI servers from CoreWeave. This potential partnership is huge because it means that CRWV has a little more diversification in their revenue stream (alleviating a huge risk to the company). It's hard, this has risen so much from the IPO but we're back at pre-tariff and pre-announcement prices- have a small long position but likely will exit due to all the craziness today and need to focus on the bigger fish. Despite Taiwanese chips not being tariffed, CRWV will likely benefit due to the rising costs of chips- it pushes companies to be more incentivized to rent for the short term.\n\nhttps://preview.redd.it/29i57yvsdmse1.png?width=1524&format=png&auto=webp&s=dbd68618f5cf96b46c2325e6b14ff787ccc40504\n\n[**RH (Restoration Hardware)**](https://finviz.com/quote.ashx?t=RH&p=d)\\- Reported EPS of $1.58 vs $1.92 expected. Revenue of $812M vs $829M. The company issued guidance for the current fiscal year, projecting revenue growth of 10% to 13%, an adjusted operating margin between 14% and 15%, and an adjusted EBITDA margin of 20% to 21%. Management highlighted concerns over a higher-risk business environment due to tariffs, market volatility, and inflation risks, noting that RH has been operating in the \"worst housing market in almost 50 years.\" Interested at $150, but won't focus on this today vs AAPL or other Mag7 names that are selling off.\n\nhttps://preview.redd.it/hakavz1vdmse1.png?width=1528&format=png&auto=webp&s=652b31ff9c21aad705a4e6ebda02d2e3540a0a37\n\n[**VXX (VIX Short-Term Futures ETN)**](https://finviz.com/quote.ashx?t=VXX&p=d)\\- The recent spike in volatility attributed to \"Liberation Day\" saw a massive VIX spike along with everything else selling off. Interested in seeing what we do but I doubt today will be the day I take a short position- volatility is coming and is not as likely to be the quick one-day spikes we've seen in the past. We may see additional tariffs from China in retaliation.\n\nhttps://preview.redd.it/yer2664ydmse1.png?width=1015&format=png&auto=webp&s=93681fadd3cb370ce5d8f432a114cf1c016fa549\n\n[**NKE (Nike)**](https://finviz.com/quote.ashx?t=NKE&p=d)\\- Nike is one of the biggest losers due to tariffs, as a substantial portion of its manufacturing is based in Southeast Asian countries facing high tariff rates. Notably, Nike produces nearly 50% of its footwear and 30% of its apparel in Vietnam. Currently long, but will bail if we break new lows (\\~$55.20). Prolonged tariffs lead to higher consumer prices, and NKE has cited lowered demand/guidance for its goods due to competitors.\n\nhttps://preview.redd.it/pcyb3hkzdmse1.png?width=1522&format=png&auto=webp&s=57ea7fba436bbe9e17297108858e91681f41815c\n\n[**NVDA (NVIDIA)**](https://finviz.com/quote.ashx?t=NVDA&p=d)\\- NVIDIA's exposure to the recent tariff announcements appears limited, as the 32% levy on imports from Taiwan. The White House clarified that semis are exempt from these tariffs, which provides a buffer for NVIDIA's core business and limits downside risk from the new trade measures. We still saw a 6% move post-tariff announcement.\n\nhttps://preview.redd.it/kkz7nin0emse1.png?width=1537&format=png&auto=webp&s=2fb3687fe18ef2611215f27c32699b4cc983efe5"
+                },
+                {
+                    "id": "1jpxjhz",
+                    "subreddit": "StockMarket",
+                    "title": "Exited most of my positions",
+                    "author": "aomt",
+                    "created_utc": 1743622327.0,
+                    "created_datetime": "2025-04-02T12:32:07",
+                    "upvote_ratio": 0.87,
+                    "score": 68,
+                    "num_comments": 59,
+                    "url": "https://www.reddit.com/r/StockMarket/comments/1jpxjhz/exited_most_of_my_positions/",
+                    "permalink": "https://www.reddit.com/r/StockMarket/comments/1jpxjhz/exited_most_of_my_positions/",
+                    "selftext": "The day before the recent selloff started, I was *this* close to liquidating most of my positions. I had sell orders ready — even hovered over the button on my main holding — but decided to “wait a bit more.” Classic.\n\nFor the weeks, I’ve watched my portfolio slowly bleed. Selling options helped cushion the drawdown a bit, and the recent bounce gave me a chance to recover some ground. But personally, **this recent rally feels like a bull trap for the books**. SPY got absolutely no business going 547 - 567.   \nIn a hope of tarrifs aint gonna be so bad? Well, but the rumors, sell the news. \n\nI don’t see the market hitting new all-time highs anytime soon. Between tariff tensions, retaliations, and the looming jobs data on Friday, the setup feels fragile. If we get a negative surprise, things could get *very* tight at the exits.\n\nSeasonally, late April through mid-May tends to be choppy with weak returns. That lines up with my short-term view: more bleeding and indecision into the summer, followed by a stronger second half.\n\nI’m still partially exposed — holding quality stocks and layering ITM covered calls. If the market runs, I give up some upside. But if it drops again, the CCs help absorb some of the pain.\n\nMy focus is on **high-quality names** like $NVDA, $AAPL, $AMZN, $WMT, $CRWD, and $V. Once the market truly turns, these should lead. NVDA in particular — look at its PE. It’s valued like a value stock, but this is a trillion-dollar company growing triple digits.\n\n\n\nPatience and positioning. Let’s see how it plays out."
+                },
+                {
+                    "id": "1jmqn3p",
+                    "subreddit": "options",
+                    "title": "Capital/Buying power needed to generate around 100k income annually",
+                    "author": "mfing-coleslaw",
+                    "created_utc": 1743267182.0,
+                    "created_datetime": "2025-03-29T09:53:02",
+                    "upvote_ratio": 0.9,
+                    "score": 157,
+                    "num_comments": 104,
+                    "url": "https://www.reddit.com/r/options/comments/1jmqn3p/capitalbuying_power_needed_to_generate_around/",
+                    "permalink": "https://www.reddit.com/r/options/comments/1jmqn3p/capitalbuying_power_needed_to_generate_around/",
+                    "selftext": "How much would you need to make 60-120k per year with options? Something like wheeling SPY, CSP on SPX/NDX, wheeling blue chip stocks and other S&Ps like AAPL, NVDA, & PLTR? \n\nI know there are a lot of variables but if you had to replace your income and were willing to getting a little risky selling .40 or even .50 delta then either rolling out or getting assigned and wheeling to avoid “losses” then what amount of money/buying power would you need. Could this be done with 500k, which would give you about 1m options buying power and then with most platforms you BP would only decrease partially trading most of these bigger symbols \n\nDon’t roast me. Please just give an idea of your best guess and why.  \n\nSELLING ONLY, I hate getting burned by theta "
+                }
+            ],
+            "comments": []
+        },
+        "news": {
+            "articles": [
+                {
+                    "source": "Quartz India",
+                    "author": "Josh Fellman",
+                    "title": "Tesla, Newsmax, Big Tech: Stocks to watch today",
+                    "description": "Stocks fell premarket on “Liberation Day,” when President Donald Trump is set to unveil new tariffs on virtually all countries with which the U.S. has a trading relationship. Futures linked to the S&P 500, Nasdaq 100 and the Dow Jones Industrial Average all p…",
+                    "url": "https://qz.com/stock-watch-tesla-newsmax-nvidia-palantir-meta-amazon-1851774140",
+                    "published_at": "2025-04-02T11:56:00Z",
+                    "content": "In This Story\r\nStocks fell premarket on Liberation Day, when President Donald Trump is set to unveil new tariffs on virtually all countries with which the U.S. has a trading relationship. Futures lin… [+1998 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "S.A. Mason LLC Has $5.56 Million Holdings in Apple Inc. (NASDAQ:AAPL)",
+                    "description": "S.A. Mason LLC cut its holdings in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 1.3% during the fourth quarter, Holdings Channel.com reports. The fund owned 22,185 shares of the iPhone maker’s stock after selling 293 shares during the period. Apple acc…",
+                    "url": "https://www.etfdailynews.com/2025/04/02/s-a-mason-llc-has-5-56-million-holdings-in-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-04-02T07:08:53Z",
+                    "content": "S.A. Mason LLC cut its holdings in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 1.3% during the fourth quarter, Holdings Channel.com reports. The fund owned 22,185 shares of the iPhone maker’s… [+4488 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Asset Management Advisors LLC Sells 6,575 Shares of Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Asset Management Advisors LLC decreased its holdings in Apple Inc. (NASDAQ:AAPL – Free Report) by 16.3% during the 4th quarter, HoldingsChannel reports. The firm owned 33,875 shares of the iPhone maker’s stock after selling 6,575 shares during the quarter. Ap…",
+                    "url": "https://www.etfdailynews.com/2025/04/02/asset-management-advisors-llc-sells-6575-shares-of-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-04-02T07:08:52Z",
+                    "content": "Asset Management Advisors LLC decreased its holdings in Apple Inc. (NASDAQ:AAPL – Free Report) by 16.3% during the 4th quarter, HoldingsChannel reports. The firm owned 33,875 shares of the iPhone mak… [+4448 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Home Federal Bank of Tennessee Sells 1,440 Shares of Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Home Federal Bank of Tennessee trimmed its position in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 4.9% in the fourth quarter, according to the company in its most recent 13F filing with the Securities and Exchange Commission. The institutional invest…",
+                    "url": "https://www.etfdailynews.com/2025/04/02/home-federal-bank-of-tennessee-sells-1440-shares-of-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-04-02T07:08:52Z",
+                    "content": "Home Federal Bank of Tennessee trimmed its position in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 4.9% in the fourth quarter, according to the company in its most recent 13F filing with the … [+5070 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Hodges Capital Management Inc. Lowers Holdings in Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Hodges Capital Management Inc. lowered its holdings in Apple Inc. (NASDAQ:AAPL – Free Report) by 2.4% in the fourth quarter, according to its most recent disclosure with the SEC. The institutional investor owned 78,782 shares of the iPhone maker’s stock after…",
+                    "url": "https://www.etfdailynews.com/2025/04/02/hodges-capital-management-inc-lowers-holdings-in-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-04-02T07:08:52Z",
+                    "content": "Hodges Capital Management Inc. lowered its holdings in Apple Inc. (NASDAQ:AAPL – Free Report) by 2.4% in the fourth quarter, according to its most recent disclosure with the SEC. The institutional in… [+4979 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Apple Inc. (NASDAQ:AAPL) Holdings Lessened by Financial Partners Group Inc",
+                    "description": "Financial Partners Group Inc lowered its stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 1.8% in the fourth quarter, according to its most recent 13F filing with the SEC. The firm owned 104,745 shares of the iPhone maker’s stock after selling 1,9…",
+                    "url": "https://www.etfdailynews.com/2025/04/02/apple-inc-nasdaqaapl-holdings-lessened-by-financial-partners-group-inc/",
+                    "published_at": "2025-04-02T07:08:52Z",
+                    "content": "Financial Partners Group Inc lowered its stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 1.8% in the fourth quarter, according to its most recent 13F filing with the SEC. The firm owned … [+5067 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Fiduciary Planning LLC Grows Position in Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Fiduciary Planning LLC raised its position in Apple Inc. (NASDAQ:AAPL – Free Report) by 3.6% in the fourth quarter, Holdings Channel.com reports. The institutional investor owned 14,514 shares of the iPhone maker’s stock after purchasing an additional 499 sha…",
+                    "url": "https://www.etfdailynews.com/2025/04/02/fiduciary-planning-llc-grows-position-in-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-04-02T07:08:48Z",
+                    "content": "Fiduciary Planning LLC raised its position in Apple Inc. (NASDAQ:AAPL – Free Report) by 3.6% in the fourth quarter, Holdings Channel.com reports. The institutional investor owned 14,514 shares of the… [+4916 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Financial Life Planners Acquires Shares of 28,790 Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Financial Life Planners bought a new position in shares of Apple Inc. (NASDAQ:AAPL – Free Report) during the fourth quarter, Holdings Channel.com reports. The fund bought 28,790 shares of the iPhone maker’s stock, valued at approximately $7,211,000. Apple acc…",
+                    "url": "https://www.etfdailynews.com/2025/04/02/financial-life-planners-acquires-shares-of-28790-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-04-02T07:08:48Z",
+                    "content": "Financial Life Planners bought a new position in shares of Apple Inc. (NASDAQ:AAPL – Free Report) during the fourth quarter, Holdings Channel.com reports. The fund bought 28,790 shares of the iPhone … [+4318 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "GDS Wealth Management Raises Stock Position in Apple Inc. (NASDAQ:AAPL)",
+                    "description": "GDS Wealth Management grew its holdings in Apple Inc. (NASDAQ:AAPL – Free Report) by 12.8% in the 4th quarter, according to its most recent disclosure with the Securities & Exchange Commission. The institutional investor owned 104,647 shares of the iPhone mak…",
+                    "url": "https://www.etfdailynews.com/2025/04/02/gds-wealth-management-raises-stock-position-in-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-04-02T07:08:48Z",
+                    "content": "GDS Wealth Management grew its holdings in Apple Inc. (NASDAQ:AAPL – Free Report) by 12.8% in the 4th quarter, according to its most recent disclosure with the Securities &amp; Exchange Commission. T… [+5279 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Apple Inc. (NASDAQ:AAPL) Shares Sold by Ogorek Anthony Joseph NY ADV",
+                    "description": "Ogorek Anthony Joseph NY ADV lessened its holdings in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 1.4% in the 4th quarter, according to the company in its most recent 13F filing with the Securities and Exchange Commission. The fund owned 22,135 shares…",
+                    "url": "https://www.etfdailynews.com/2025/04/02/apple-inc-nasdaqaapl-shares-sold-by-ogorek-anthony-joseph-ny-adv/",
+                    "published_at": "2025-04-02T07:08:48Z",
+                    "content": "Ogorek Anthony Joseph NY ADV lessened its holdings in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 1.4% in the 4th quarter, according to the company in its most recent 13F filing with the Secu… [+4466 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Leisure Capital Management Buys 58,637 Shares of Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Leisure Capital Management increased its stake in Apple Inc. (NASDAQ:AAPL – Free Report) by 72.2% in the fourth quarter, according to its most recent 13F filing with the Securities & Exchange Commission. The institutional investor owned 139,879 shares of the …",
+                    "url": "https://www.etfdailynews.com/2025/04/02/leisure-capital-management-buys-58637-shares-of-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-04-02T07:08:47Z",
+                    "content": "Leisure Capital Management increased its stake in Apple Inc. (NASDAQ:AAPL – Free Report) by 72.2% in the fourth quarter, according to its most recent 13F filing with the Securities &amp; Exchange Com… [+4625 chars]"
+                },
+                {
+                    "source": "Yahoo Entertainment",
+                    "author": "Reuters",
+                    "title": "Visa bids $100 million to replace Mastercard as Apple's new credit card partner, WSJ reports",
+                    "description": "Visa has made a bold push to secure the Apple Card, offering an upfront payment typically reserved for the largest card programs, WSJ reported.  American...",
+                    "url": "https://finance.yahoo.com/news/visa-bids-100-million-replace-222311081.html",
+                    "published_at": "2025-04-01T22:23:11Z",
+                    "content": "(Reuters) -Visa has offered Apple (AAPL) roughly $100 million to take over the tech giant's credit card partnership from Mastercard, the Wall Street Journal reported on Tuesday, citing sources famili… [+1321 chars]"
+                },
+                {
+                    "source": "Yahoo Entertainment",
+                    "author": "Ramish Cheema",
+                    "title": "Jim Cramer on Apple Inc. (NASDAQ:AAPL): “Apple is a great stock but. . .”",
+                    "description": "We recently published a list of Jim Cramer Discusses These 8 Stocks & Says Trump’s Focused On His Goals And Not The Market. In this article, we are going to ...",
+                    "url": "https://finance.yahoo.com/news/jim-cramer-apple-inc-nasdaq-213514749.html",
+                    "published_at": "2025-04-01T21:35:14Z",
+                    "content": "We recently published a list of Jim Cramer Discusses These 8 Stocks &amp; Says Trumps Focused On His Goals And Not The Market. In this article, we are going to take a look at where Apple Inc. (NASDAQ… [+5828 chars]"
+                },
+                {
+                    "source": "Motley Fool Australia",
+                    "author": "James Mickleboro",
+                    "title": "S&P 500 and Nasdaq post worst quarter since 2022. Time to buy NDQ on sale?",
+                    "description": "Let's find out whether now is the time to jump on this popular fund.\nThe post S&P 500 and Nasdaq post worst quarter since 2022. Time to buy NDQ on sale? appeared first on The Motley Fool Australia.",
+                    "url": "https://www.fool.com.au/?p=1779980",
+                    "published_at": "2025-04-01T20:03:00Z",
+                    "content": "It certainly was a bruising quarter for Wall Street.\r\nU.S. stocks have stumbled hard and nowhere has the pain been felt more than in the tech-heavy Nasdaq Composite. A sharp selloff, driven by renewe… [+2494 chars]"
+                },
+                {
+                    "source": "Yahoo Entertainment",
+                    "author": "Faizan Farooque",
+                    "title": "Apple's iOS 18.4 Expands AI Features Amid Siri Delay, Citi Sees Stock Opportunity",
+                    "description": "iOS 18.4 adds Apple Intelligence support for more languages and brings features to EU users.",
+                    "url": "https://finance.yahoo.com/news/apples-ios-18-4-expands-155525115.html",
+                    "published_at": "2025-04-01T15:55:25Z",
+                    "content": "Apple (AAPL, Financials) released its iOS 18.4 update on Monday, introducing expanded Apple Intelligence capabilities and support for additional languages, including Chinese, French, German, Italian,… [+1394 chars]"
+                },
+                {
+                    "source": "Biztoc.com",
+                    "author": "benzinga.com",
+                    "title": "Market Analysis: Apple And Competitors In Technology Hardware, Storage & Peripherals Industry",
+                    "description": "In the fast-paced and cutthroat world of business, conducting thorough company analysis is essential for investors and industry experts. In this article, we will undertake a comprehensive industry comparison, evaluating Apple AAPL in comparison to its major c…",
+                    "url": "https://biztoc.com/x/e9306d55f1d420e4",
+                    "published_at": "2025-04-01T15:13:25Z",
+                    "content": "In the fast-paced and cutthroat world of business, conducting thorough company analysis is essential for investors and industry experts. In this article, we will undertake a comprehensive industry co… [+139 chars]"
+                },
+                {
+                    "source": "Macdailynews.com",
+                    "author": "MacDailyNews",
+                    "title": "Why Apple stock remains a buy even after Apple Intelligence and Siri delays",
+                    "description": "Citi Research analysts suggest that Apple’s stock could soar to $300 as investors recalibrate their expectations for the launch of an…\nThe post Why Apple stock remains a buy even after Apple Intelligence and Siri delays appeared first on MacDailyNews.",
+                    "url": "https://macdailynews.com/2025/04/01/why-apple-stock-remains-a-buy-even-after-apple-intelligence-and-siri-delays/",
+                    "published_at": "2025-04-01T15:02:05Z",
+                    "content": "Citi Research analysts suggest that Apples stock could soar to $300 as investors recalibrate their expectations for the launch of an AI-enhanced Siri upgrade. The team, headed by Atif Malik, maintain… [+1471 chars]"
+                },
+                {
+                    "source": "Biztoc.com",
+                    "author": "finance.yahoo.com",
+                    "title": "Jim Cramer’s Strategic Insight on Apple (AAPL): CEO Tim Cook Pleases Everyone – But Is That a Problem?",
+                    "description": "In This Article:\nWe recently published a list of Jim Cramer Says I’m With Trump & Discusses These 12 Stocks. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other stocks that Jim Cramer discusses.\nIn a recent appe…",
+                    "url": "https://biztoc.com/x/af323011e0d4c033",
+                    "published_at": "2025-04-01T14:29:47Z",
+                    "content": "In This Article:We recently published a list of Jim Cramer Says Im With Trump &amp; Discusses These 12 Stocks. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands ag… [+149 chars]"
+                },
+                {
+                    "source": "Yahoo Entertainment",
+                    "author": "Unknown",
+                    "title": "Jim Cramer’s Strategic Insight on Apple (AAPL): CEO Tim Cook Pleases Everyone – But Is That a Problem?",
+                    "description": null,
+                    "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_854be5a9-6d00-4214-b65e-8162bde52353",
+                    "published_at": "2025-04-01T14:14:21Z",
+                    "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+702 chars]"
+                },
+                {
+                    "source": "Yahoo Entertainment",
+                    "author": "Unknown",
+                    "title": "Tesla Short Position Now 4th Largest, Trails NVDA, MSFT, AAPL",
+                    "description": null,
+                    "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_22de99ff-0f1e-48e3-b532-d13ace03b8f8",
+                    "published_at": "2025-04-01T13:07:10Z",
+                    "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+702 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Music Stocks To Consider – March 30th",
+                    "description": "Amazon.com, Apple, Alibaba Group, Spotify Technology, and Walt Disney are the five Music stocks to watch today, according to MarketBeat’s stock screener tool. Music stocks are shares in companies directly involved in the creation, production, or distribution …",
+                    "url": "https://www.etfdailynews.com/2025/04/01/music-stocks-to-consider-march-30th/",
+                    "published_at": "2025-04-01T08:39:06Z",
+                    "content": "Amazon.com, Apple, Alibaba Group, Spotify Technology, and Walt Disney are the five Music stocks to watch today, according to MarketBeat’s stock screener tool. Music stocks are shares in companies dir… [+5824 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Alterna Wealth Management Inc. Has $4.88 Million Stock Holdings in Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Alterna Wealth Management Inc. decreased its position in Apple Inc. (NASDAQ:AAPL – Free Report) by 3.9% during the fourth quarter, according to the company in its most recent filing with the Securities and Exchange Commission (SEC). The institutional investor…",
+                    "url": "https://www.etfdailynews.com/2025/04/01/alterna-wealth-management-inc-has-4-88-million-stock-holdings-in-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-04-01T07:46:48Z",
+                    "content": "Alterna Wealth Management Inc. decreased its position in Apple Inc. (NASDAQ:AAPL – Free Report) by 3.9% during the fourth quarter, according to the company in its most recent filing with the Securiti… [+4942 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Willis Investment Counsel Increases Stake in Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Willis Investment Counsel grew its holdings in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 0.0% during the 4th quarter, HoldingsChannel reports. The firm owned 110,581 shares of the iPhone maker’s stock after buying an additional 47 shares during the …",
+                    "url": "https://www.etfdailynews.com/2025/04/01/willis-investment-counsel-increases-stake-in-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-04-01T07:15:11Z",
+                    "content": "Willis Investment Counsel grew its holdings in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 0.0% during the 4th quarter, HoldingsChannel reports. The firm owned 110,581 shares of the iPhone ma… [+4959 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "864 Shares in Apple Inc. (NASDAQ:AAPL) Bought by Sequent Asset Management LLC",
+                    "description": "Sequent Asset Management LLC bought a new stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) in the 4th quarter, according to the company in its most recent filing with the Securities & Exchange Commission. The fund bought 864 shares of the iPhone make…",
+                    "url": "https://www.etfdailynews.com/2025/04/01/864-shares-in-apple-inc-nasdaqaapl-bought-by-sequent-asset-management-llc/",
+                    "published_at": "2025-04-01T07:15:11Z",
+                    "content": "Sequent Asset Management LLC bought a new stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) in the 4th quarter, according to the company in its most recent filing with the Securities &amp; Ex… [+4831 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Stock Yards Bank & Trust Co. Sells 35,221 Shares of Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Stock Yards Bank & Trust Co. cut its holdings in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 5.3% during the 4th quarter, HoldingsChannel.com reports. The fund owned 635,471 shares of the iPhone maker’s stock after selling 35,221 shares during the per…",
+                    "url": "https://www.etfdailynews.com/2025/04/01/stock-yards-bank-trust-co-sells-35221-shares-of-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-04-01T07:15:10Z",
+                    "content": "Stock Yards Bank &amp; Trust Co. cut its holdings in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 5.3% during the 4th quarter, HoldingsChannel.com reports. The fund owned 635,471 shares of the… [+4883 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Apple Inc. (NASDAQ:AAPL) is CENTRAL TRUST Co’s Largest Position",
+                    "description": "CENTRAL TRUST Co reduced its stake in Apple Inc. (NASDAQ:AAPL – Free Report) by 19.0% in the 4th quarter, according to the company in its most recent 13F filing with the Securities and Exchange Commission. The institutional investor owned 1,083,432 shares of …",
+                    "url": "https://www.etfdailynews.com/2025/04/01/apple-inc-nasdaqaapl-is-central-trust-cos-largest-position/",
+                    "published_at": "2025-04-01T07:15:09Z",
+                    "content": "CENTRAL TRUST Co reduced its stake in Apple Inc. (NASDAQ:AAPL – Free Report) by 19.0% in the 4th quarter, according to the company in its most recent 13F filing with the Securities and Exchange Commi… [+4602 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Sterling Manor Financial LLC Decreases Stock Position in Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Sterling Manor Financial LLC cut its stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 2.9% in the 4th quarter, HoldingsChannel reports. The fund owned 13,193 shares of the iPhone maker’s stock after selling 400 shares during the quarter. Apple acc…",
+                    "url": "https://www.etfdailynews.com/2025/04/01/sterling-manor-financial-llc-decreases-stock-position-in-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-04-01T07:15:09Z",
+                    "content": "Sterling Manor Financial LLC cut its stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 2.9% in the 4th quarter, HoldingsChannel reports. The fund owned 13,193 shares of the iPhone maker’s … [+4382 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Abner Herrman & Brock LLC Has $26.01 Million Stock Holdings in Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Abner Herrman & Brock LLC boosted its position in Apple Inc. (NASDAQ:AAPL – Free Report) by 0.8% during the fourth quarter, according to the company in its most recent Form 13F filing with the Securities & Exchange Commission. The fund owned 103,869 shares of…",
+                    "url": "https://www.etfdailynews.com/2025/04/01/abner-herrman-brock-llc-has-26-01-million-stock-holdings-in-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-04-01T07:14:56Z",
+                    "content": "Abner Herrman &amp; Brock LLC boosted its position in Apple Inc. (NASDAQ:AAPL – Free Report) by 0.8% during the fourth quarter, according to the company in its most recent Form 13F filing with the Se… [+5041 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Magnolia Capital Advisors LLC Sells 1,954 Shares of Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Magnolia Capital Advisors LLC cut its stake in Apple Inc. (NASDAQ:AAPL – Free Report) by 22.2% during the 4th quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission (SEC). The fund owned 6,834 shares of the iPhone ma…",
+                    "url": "https://www.etfdailynews.com/2025/04/01/magnolia-capital-advisors-llc-sells-1954-shares-of-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-04-01T07:14:53Z",
+                    "content": "Magnolia Capital Advisors LLC cut its stake in Apple Inc. (NASDAQ:AAPL – Free Report) by 22.2% during the 4th quarter, according to its most recent Form 13F filing with the Securities and Exchange Co… [+5044 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Deepwater Asset Management LLC Makes New $1.92 Million Investment in Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Deepwater Asset Management LLC bought a new position in shares of Apple Inc. (NASDAQ:AAPL – Free Report) during the fourth quarter, HoldingsChannel.com reports. The firm bought 7,654 shares of the iPhone maker’s stock, valued at approximately $1,917,000. Appl…",
+                    "url": "https://www.etfdailynews.com/2025/04/01/deepwater-asset-management-llc-makes-new-1-92-million-investment-in-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-04-01T07:14:52Z",
+                    "content": "Deepwater Asset Management LLC bought a new position in shares of Apple Inc. (NASDAQ:AAPL – Free Report) during the fourth quarter, HoldingsChannel.com reports. The firm bought 7,654 shares of the iP… [+5083 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Promising Technology Stocks To Consider – March 30th",
+                    "description": "NVIDIA, Meta Platforms, and Apple are the three Technology stocks to watch today, according to MarketBeat’s stock screener tool. Technology stocks are shares of companies that primarily develop, produce, or distribute technology-based products and services, s…",
+                    "url": "https://www.etfdailynews.com/2025/04/01/promising-technology-stocks-to-consider-march-30th/",
+                    "published_at": "2025-04-01T06:02:47Z",
+                    "content": "NVIDIA, Meta Platforms, and Apple are the three Technology stocks to watch today, according to MarketBeat’s stock screener tool. Technology stocks are shares of companies that primarily develop, prod… [+4192 chars]"
+                },
+                {
+                    "source": "Biztoc.com",
+                    "author": "benzinga.com",
+                    "title": "Here's How Much $100 Invested In Apple 5 Years Ago Would Be Worth Today",
+                    "description": "Apple (NASDAQ:AAPL) has outperformed the market over the past 5 years by 12.12% on an annualized basis producing an average annual return of 29.77%. Currently, Apple has a market capitalization of $3.32 trillion. \nBuying $100 In AAPL: If an ...\nFull story ava…",
+                    "url": "https://biztoc.com/x/7dbbd3160a656a1f",
+                    "published_at": "2025-03-31T23:26:52Z",
+                    "content": "Apple (NASDAQ:AAPL) has outperformed the market over the past 5 years by 12.12% on an annualized basis producing an average annual return of 29.77%. Currently, Apple has a market capitalization of $3… [+138 chars]"
+                },
+                {
+                    "source": "Applech2.com",
+                    "author": "applech2",
+                    "title": "macOS 15.4 SequoiaやiOS 18.4で日本語もサポートされた「Apple Intelligence」にChatGPTアカウントを接続する方法。",
+                    "description": "macOS 15.4 SequoiaやiOS 18.4で日本語もサポートされた「Apple Intelligence」にChatGPTアカウントを接続する方法です。詳細は以下から。 　Appleは現地時間2025年03 […]\nThe post macOS 15.4 SequoiaやiOS 18.4で日本語もサポートされた「Apple Intelligence」にChatGPTアカウントを接続する方法。 first appeared on AAPL Ch..",
+                    "url": "https://applech2.com/archives/20250401-apple-intelligence-with-chatgpt.html",
+                    "published_at": "2025-03-31T23:17:28Z",
+                    "content": "macOS 15.4 SequoiaiOS 18.4Apple IntelligenceChatGPT\r\nApple20250331AppleAIApple IntelligencemacOS 15.4 Sequoia (24E248)iOS/iPadOS 18.4 (22E240)Apple IntelligenceOpenAIChatGPT\r\nApple IntelligenceChatGP… [+499 chars]"
+                },
+                {
+                    "source": "Applech2.com",
+                    "author": "applech2",
+                    "title": "Apple、古いiPhoneやiPod touch、iPad向けに複数のゼロデイ脆弱性を修正した「iOS/iPadOS 15.8.4」と「iOS/iPadOS 16.7.11」、「iPadOS 17.7.6」をリリース。",
+                    "description": "Appleが古いiPhoneやiPad向けに複数のゼロデイ脆弱性を修正した「iOS/iPadOS 15.8.4」と「iOS/iPadOS 16.7.11」、「iPadOS 17.7.6」をリリースしています。詳細は以下 […]\nThe post Apple、古いiPhoneやiPod touch、iPad向けに複数のゼロデイ脆弱性を修正した「iOS/iPadOS 15.8.4」と「iOS/iPadOS 16.7.11」、「iPadOS 17.7.6」をリリース。 first appeared on AAPL Ch…",
+                    "url": "https://applech2.com/archives/20250401-ios-1584-and-16711-security-update.html",
+                    "published_at": "2025-03-31T21:02:38Z",
+                    "content": "AppleiPhoneiPadiOS/iPadOS 15.8.4iOS/iPadOS 16.7.11iPadOS 17.7.6\r\nApple20250331iPhone 15 ProiPhoneApple IntelligenceiOS/iPadOS 18.4 (22E240)iPhone/iPadiOS/iPadOS 15.8.4 (19H390)iOS/iPadOS 16.7.11 (20H… [+192 chars]"
+                },
+                {
+                    "source": "Applech2.com",
+                    "author": "applech2",
+                    "title": "Apple、macOS VenturaやSonoma向けに数多くの脆弱性を修正した「macOS 13.7.5 Ventura (22H527)」と「macOS 14.7.5 Sonoma (23H527)」をリリース。",
+                    "description": "AppleがmacOS VenturaやSonoma向けに数多くの脆弱性を修正した「macOS 13.7.5 Ventura (22H527)」と「macOS 14.7.5 Sonoma (23H527)」をリリースし […]\nThe post Apple、macOS VenturaやSonoma向けに数多くの脆弱性を修正した「macOS 13.7.5 Ventura (22H527)」と「macOS 14.7.5 Sonoma (23H527)」をリリース。 first appeared on AAPL Ch..",
+                    "url": "https://applech2.com/archives/20250401-macoso-13-7-5-ventura-and-14-7-5-sonoma-update.html",
+                    "published_at": "2025-03-31T20:39:17Z",
+                    "content": "ApplemacOS VenturaSonomamacOS 13.7.5 Ventura (22H527)macOS 14.7.5 Sonoma (23H527)\r\nApple20250331Apple IntelligencemacOS 15.4 Sequoia (24E248)iOS/iPadOS 18.4 (22E240)macOS 13 VenturamacOS 14 Sonomamac… [+141 chars]"
+                },
+                {
+                    "source": "Quartz India",
+                    "author": "Josh Fellman",
+                    "title": "Stocks' worst hit from tariffs may be yet to come, strategist says",
+                    "description": "Stocks mostly fell on Monday as investors await better sense of whether new tariffs are just a negotiating tactic — or, as Donald Trump has intermittently insisted, now a permanent part of the economic landscape.Read more...",
+                    "url": "https://qz.com/stocks-tumble-trump-trade-war-empower-tariffs-1851773575",
+                    "published_at": "2025-03-31T18:13:00Z",
+                    "content": "In This Story\r\nStocks mostly fell on Monday as investors await better sense of whether new tariffs are just a negotiating tactic or, as Donald Trump has intermittently insisted, now a permanent part … [+1866 chars]"
+                },
+                {
+                    "source": "Yahoo Entertainment",
+                    "author": "Laiba Immad",
+                    "title": "Is Apple Inc. (AAPL) the Debt Free Halal Stock to Invest in Right Now?",
+                    "description": "We recently published a list of 10 Debt Free Halal Stocks to Invest in Right Now. In this article, we are going to take a look at where Apple Inc...",
+                    "url": "https://finance.yahoo.com/news/apple-inc-aapl-debt-free-180239188.html",
+                    "published_at": "2025-03-31T18:02:39Z",
+                    "content": "We recently published a list of 10 Debt Free Halal Stocks to Invest in Right Now. In this article, we are going to take a look at where Apple Inc. (NASDAQ:AAPL) stands against other debt free halal s… [+6990 chars]"
+                },
+                {
+                    "source": "Stockcharts.com",
+                    "author": "Tom Bowley",
+                    "title": "S&P 500 Drops Quickly to Test Key Support Amid Rising Volatility",
+                    "description": "Thank You!I've been writing at StockCharts.com for nearly 20 years now and many of you have supported my company, EarningsBeats.com, and I certainly want to show my appreciation for all of your loyalty. I believe we're at a major crossroads in the stock marke…",
+                    "url": "https://stockcharts.com/articles/tradingplaces/2025/03/sp-500-drops-quickly-to-test-k-379.html",
+                    "published_at": "2025-03-31T16:43:36Z",
+                    "content": "Thank You!\r\nI've been writing at StockCharts.com for nearly 20 years now and many of you have supported my company, EarningsBeats.com, and I certainly want to show my appreciation for all of your loy… [+16470 chars]"
+                },
+                {
+                    "source": "Yahoo Entertainment",
+                    "author": "Unknown",
+                    "title": "Apple Inc. (AAPL): Among Billionaire Ken Fisher’s Top Growth Stock Picks",
+                    "description": null,
+                    "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_66d80532-8c57-440a-b8ae-881b272a5ed8",
+                    "published_at": "2025-03-31T15:29:20Z",
+                    "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+702 chars]"
+                },
+                {
+                    "source": "Biztoc.com",
+                    "author": "benzinga.com",
+                    "title": "Investigating Apple's Standing In Technology Hardware, Storage & Peripherals Industry Compared To Competitors",
+                    "description": "In the dynamic and fiercely competitive business environment, conducting a thorough analysis of companies is crucial for investors and industry enthusiasts. In this article, we will perform an extensive industry comparison, evaluating Apple AAPL in relation t…",
+                    "url": "https://biztoc.com/x/503a18e1d3971a63",
+                    "published_at": "2025-03-31T15:15:30Z",
+                    "content": "In the dynamic and fiercely competitive business environment, conducting a thorough analysis of companies is crucial for investors and industry enthusiasts. In this article, we will perform an extens… [+148 chars]"
+                },
+                {
+                    "source": "Quartz India",
+                    "author": "Britney Nguyen",
+                    "title": "Magnificent 7 stocks slide amid Trump tariff worries",
+                    "description": "The market’s highest-performing tech stocks all slid on Monday morning amid worries over President Donald Trump’s tariffs.Read more...",
+                    "url": "https://qz.com/magnificent-7-stocks-slide-trump-tariffs-tesla-nvidia-1851773474",
+                    "published_at": "2025-03-31T14:23:00Z",
+                    "content": "In This Story\r\nThe markets highest-performing tech stocks all slid on Monday morning amid worries over President Donald Trumps tariffs.\r\nTesla (TSLA-6.26%\r\n) was down by more than 6.4% at the market … [+1843 chars]"
+                },
+                {
+                    "source": "Motley Fool Australia",
+                    "author": "James Mickleboro",
+                    "title": "Nervous about stock picking? Here's why ASX ETFs are a smart and simple way to invest",
+                    "description": "This is the easy way to invest your money into the share market.\nThe post Nervous about stock picking? Here's why ASX ETFs are a smart and simple way to invest appeared first on The Motley Fool Australia.",
+                    "url": "https://www.fool.com.au/2025/04/01/nervous-about-stock-picking-heres-why-asx-etfs-are-a-smart-and-simple-way-to-invest/",
+                    "published_at": "2025-03-31T14:19:55Z",
+                    "content": "Investing can feel overwhelming at times. There's no shortage of expert opinions, hot stock tips, and market noise that can leave you wondering where to even begin.\r\nUnfortunately, for many beginner … [+2365 chars]"
+                },
+                {
+                    "source": "Quartz India",
+                    "author": "Josh Fellman",
+                    "title": "Mag 7, Carmakers, Warner Bros. Discovery, U.S. Bancorp, Chinese banks: Stocks to watch today",
+                    "description": "Stocks fell in premarket trading on Monday, after the the Wall Street Journal reported that President Donald Trump has pushed his team to be more aggressive on tariffs in recent days. Futures tied to the S&P 500, the Nasdaq 100, and the Dow Jones Industrial A…",
+                    "url": "https://qz.com/stock-watch-warner-usbancorp-1851773362",
+                    "published_at": "2025-03-31T12:04:00Z",
+                    "content": "In This Story\r\nStocks fell in premarket trading on Monday, after The Wall Street Journal reported that President Donald Trump has pushed his team to be more aggressive on tariffs in recent days. Futu… [+3103 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Lunt Capital Management Inc. Reduces Stock Position in Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Lunt Capital Management Inc. trimmed its holdings in Apple Inc. (NASDAQ:AAPL – Free Report) by 1.9% in the fourth quarter, Holdings Channel reports. The institutional investor owned 2,695 shares of the iPhone maker’s stock after selling 52 shares during the q…",
+                    "url": "https://www.etfdailynews.com/2025/03/31/lunt-capital-management-inc-reduces-stock-position-in-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-03-31T07:03:10Z",
+                    "content": "Lunt Capital Management Inc. trimmed its holdings in Apple Inc. (NASDAQ:AAPL – Free Report) by 1.9% in the fourth quarter, Holdings Channel reports. The institutional investor owned 2,695 shares of t… [+4361 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Copeland Capital Management LLC Decreases Stock Position in Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Copeland Capital Management LLC decreased its stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 13.7% during the 4th quarter, according to the company in its most recent filing with the Securities and Exchange Commission (SEC). The firm owned 97,46…",
+                    "url": "https://www.etfdailynews.com/2025/03/31/copeland-capital-management-llc-decreases-stock-position-in-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-03-31T07:03:09Z",
+                    "content": "Copeland Capital Management LLC decreased its stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 13.7% during the 4th quarter, according to the company in its most recent filing with the Se… [+4363 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Level Wealth Management LLC Makes New Investment in Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Level Wealth Management LLC bought a new stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) in the fourth quarter, HoldingsChannel reports. The institutional investor bought 3,200 shares of the iPhone maker’s stock, valued at approximately $801,000. Ap…",
+                    "url": "https://www.etfdailynews.com/2025/03/31/level-wealth-management-llc-makes-new-investment-in-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-03-31T07:03:09Z",
+                    "content": "Level Wealth Management LLC bought a new stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) in the fourth quarter, HoldingsChannel reports. The institutional investor bought 3,200 shares of th… [+4768 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Riggs Asset Managment Co. Inc. Has $12.78 Million Stock Position in Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Riggs Asset Managment Co. Inc. boosted its stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 0.5% during the 4th quarter, according to its most recent disclosure with the Securities and Exchange Commission (SEC). The fund owned 50,677 shares of the…",
+                    "url": "https://www.etfdailynews.com/2025/03/31/riggs-asset-managment-co-inc-has-12-78-million-stock-position-in-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-03-31T07:03:09Z",
+                    "content": "Riggs Asset Managment Co. Inc. boosted its stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 0.5% during the 4th quarter, according to its most recent disclosure with the Securities and Ex… [+5130 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "SkyOak Wealth LLC Acquires 1,239 Shares of Apple Inc. (NASDAQ:AAPL)",
+                    "description": "SkyOak Wealth LLC grew its holdings in Apple Inc. (NASDAQ:AAPL – Free Report) by 1.4% in the fourth quarter, Holdings Channel.com reports. The institutional investor owned 92,577 shares of the iPhone maker’s stock after buying an additional 1,239 shares durin…",
+                    "url": "https://www.etfdailynews.com/2025/03/31/skyoak-wealth-llc-acquires-1239-shares-of-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-03-31T07:03:08Z",
+                    "content": "SkyOak Wealth LLC grew its holdings in Apple Inc. (NASDAQ:AAPL – Free Report) by 1.4% in the fourth quarter, Holdings Channel.com reports. The institutional investor owned 92,577 shares of the iPhone… [+4997 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Valley National Advisers Inc. Boosts Stake in Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Valley National Advisers Inc. grew its position in Apple Inc. (NASDAQ:AAPL – Free Report) by 2.0% in the fourth quarter, Holdings Channel reports. The fund owned 121,792 shares of the iPhone maker’s stock after acquiring an additional 2,416 shares during the …",
+                    "url": "https://www.etfdailynews.com/2025/03/31/valley-national-advisers-inc-boosts-stake-in-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-03-31T07:03:07Z",
+                    "content": "Valley National Advisers Inc. grew its position in Apple Inc. (NASDAQ:AAPL – Free Report) by 2.0% in the fourth quarter, Holdings Channel reports. The fund owned 121,792 shares of the iPhone maker’s … [+5084 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Apple Inc. (NASDAQ:AAPL) Shares Bought by Spire Wealth Management",
+                    "description": "Spire Wealth Management lifted its stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 5.4% in the 4th quarter, according to the company in its most recent 13F filing with the SEC. The institutional investor owned 558,254 shares of the iPhone maker’s…",
+                    "url": "https://www.etfdailynews.com/2025/03/31/apple-inc-nasdaqaapl-shares-bought-by-spire-wealth-management/",
+                    "published_at": "2025-03-31T07:03:03Z",
+                    "content": "Spire Wealth Management lifted its stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 5.4% in the 4th quarter, according to the company in its most recent 13F filing with the SEC. The insti… [+4458 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Great Point Wealth Advisors LLC Buys 78 Shares of Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Great Point Wealth Advisors LLC boosted its stake in Apple Inc. (NASDAQ:AAPL – Free Report) by 0.4% in the fourth quarter, HoldingsChannel reports. The firm owned 19,799 shares of the iPhone maker’s stock after acquiring an additional 78 shares during the per…",
+                    "url": "https://www.etfdailynews.com/2025/03/31/great-point-wealth-advisors-llc-buys-78-shares-of-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-03-31T07:03:02Z",
+                    "content": "Great Point Wealth Advisors LLC boosted its stake in Apple Inc. (NASDAQ:AAPL – Free Report) by 0.4% in the fourth quarter, HoldingsChannel reports. The firm owned 19,799 shares of the iPhone maker’s … [+4447 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "MA Private Wealth Purchases 364 Shares of Apple Inc. (NASDAQ:AAPL)",
+                    "description": "MA Private Wealth boosted its position in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 2.6% in the 4th quarter, according to its most recent filing with the Securities and Exchange Commission. The fund owned 14,144 shares of the iPhone maker’s stock af…",
+                    "url": "https://www.etfdailynews.com/2025/03/31/ma-private-wealth-purchases-364-shares-of-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-03-31T07:02:51Z",
+                    "content": "MA Private Wealth boosted its position in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 2.6% in the 4th quarter, according to its most recent filing with the Securities and Exchange Commission.… [+4956 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Apple Inc. (NASDAQ:AAPL) Shares Sold by Compass Advisory Group LLC",
+                    "description": "Compass Advisory Group LLC trimmed its holdings in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 1.0% during the fourth quarter, according to its most recent Form 13F filing with the SEC. The firm owned 9,155 shares of the iPhone maker’s stock after sel…",
+                    "url": "https://www.etfdailynews.com/2025/03/31/apple-inc-nasdaqaapl-shares-sold-by-compass-advisory-group-llc/",
+                    "published_at": "2025-03-31T07:02:48Z",
+                    "content": "Compass Advisory Group LLC trimmed its holdings in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 1.0% during the fourth quarter, according to its most recent Form 13F filing with the SEC. The f… [+5116 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Apple Inc. (NASDAQ:AAPL) Shares Sold by Berry Wealth Group LP",
+                    "description": "Berry Wealth Group LP lowered its stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 2.1% in the fourth quarter, according to its most recent disclosure with the Securities & Exchange Commission. The firm owned 40,048 shares of the iPhone maker’s st…",
+                    "url": "https://www.etfdailynews.com/2025/03/31/apple-inc-nasdaqaapl-shares-sold-by-berry-wealth-group-lp/",
+                    "published_at": "2025-03-31T07:02:47Z",
+                    "content": "Berry Wealth Group LP lowered its stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 2.1% in the fourth quarter, according to its most recent disclosure with the Securities &amp; Exchange C… [+5140 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Technology Stocks To Keep An Eye On – March 29th",
+                    "description": "NVIDIA, Meta Platforms, Apple, Microsoft, and Alphabet are the five Technology stocks to watch today, according to MarketBeat’s stock screener tool. Technology stocks are shares of companies primarily involved in the research, development, or distribution of …",
+                    "url": "https://www.etfdailynews.com/2025/03/31/technology-stocks-to-keep-an-eye-on-march-29th/",
+                    "published_at": "2025-03-31T06:02:48Z",
+                    "content": "NVIDIA, Meta Platforms, Apple, Microsoft, and Alphabet are the five Technology stocks to watch today, according to MarketBeat’s stock screener tool. Technology stocks are shares of companies primaril… [+6283 chars]"
+                },
+                {
+                    "source": "Yahoo Entertainment",
+                    "author": "Unknown",
+                    "title": "Is Apple Inc. (AAPL) Best Stock to Buy for the Next 3 Months?",
+                    "description": null,
+                    "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_451fbe1b-91ca-41a7-a5ca-920b13842753",
+                    "published_at": "2025-03-30T16:19:33Z",
+                    "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+702 chars]"
+                },
+                {
+                    "source": "Forbes",
+                    "author": "Bill Stone, Contributor, \n Bill Stone, Contributor\n https://www.forbes.com/sites/bill_stone/",
+                    "title": "Liberation Day: Market Implications Of Tariffs",
+                    "description": "Wednesday’s upcoming tariff announcements provide a wide range of possible outcomes. The uncertainty and downside risks to the economy and earnings have rattled markets.",
+                    "url": "https://www.forbes.com/sites/bill_stone/2025/03/30/liberation-day-market-implications-of-tariffs/",
+                    "published_at": "2025-03-30T12:15:52Z",
+                    "content": "According to Strategas Research Partners, the size of the contemplated tariffs to be announced on ... More Wednesday could bring the total to $300 billion, or 1% of U.S. GDP. (Photo by Justin Sulliva… [+10177 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "DAVENPORT & Co LLC Sells 5,364 Shares of Apple Inc. (NASDAQ:AAPL)",
+                    "description": "DAVENPORT & Co LLC reduced its holdings in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 0.4% in the fourth quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission (SEC). The fund owned 1,341,508 shares of the i…",
+                    "url": "https://www.etfdailynews.com/2025/03/30/davenport-co-llc-sells-5364-shares-of-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-03-30T07:50:48Z",
+                    "content": "DAVENPORT &amp; Co LLC reduced its holdings in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 0.4% in the fourth quarter, according to its most recent Form 13F filing with the Securities and Exc… [+5039 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "KG&L Capital Management LLC Has $14.15 Million Position in Apple Inc. (NASDAQ:AAPL)",
+                    "description": "KG&L Capital Management LLC reduced its stake in Apple Inc. (NASDAQ:AAPL – Free Report) by 2.6% during the 4th quarter, HoldingsChannel reports. The fund owned 56,751 shares of the iPhone maker’s stock after selling 1,505 shares during the quarter. Apple comp…",
+                    "url": "https://www.etfdailynews.com/2025/03/30/kgl-capital-management-llc-has-14-15-million-position-in-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-03-30T07:50:48Z",
+                    "content": "KG&amp;L Capital Management LLC reduced its stake in Apple Inc. (NASDAQ:AAPL – Free Report) by 2.6% during the 4th quarter, HoldingsChannel reports. The fund owned 56,751 shares of the iPhone maker’s… [+5288 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Alpha Omega Wealth Management LLC Has $18.73 Million Stock Holdings in Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Alpha Omega Wealth Management LLC trimmed its position in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 1.8% during the 4th quarter, according to its most recent 13F filing with the Securities and Exchange Commission (SEC). The firm owned 74,796 shares …",
+                    "url": "https://www.etfdailynews.com/2025/03/30/alpha-omega-wealth-management-llc-has-18-73-million-stock-holdings-in-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-03-30T07:50:48Z",
+                    "content": "Alpha Omega Wealth Management LLC trimmed its position in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 1.8% during the 4th quarter, according to its most recent 13F filing with the Securities … [+5267 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Apple Inc. (NASDAQ:AAPL) Stock Position Boosted by Tokio Marine Asset Management Co. Ltd.",
+                    "description": "Tokio Marine Asset Management Co. Ltd. boosted its holdings in Apple Inc. (NASDAQ:AAPL – Free Report) by 14.9% during the fourth quarter, according to the company in its most recent filing with the Securities and Exchange Commission. The fund owned 621,494 sh…",
+                    "url": "https://www.etfdailynews.com/2025/03/30/apple-inc-nasdaqaapl-stock-position-boosted-by-tokio-marine-asset-management-co-ltd/",
+                    "published_at": "2025-03-30T07:50:47Z",
+                    "content": "Tokio Marine Asset Management Co. Ltd. boosted its holdings in Apple Inc. (NASDAQ:AAPL – Free Report) by 14.9% during the fourth quarter, according to the company in its most recent filing with the S… [+4544 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Apple Inc. (NASDAQ:AAPL) Stock Position Trimmed by Five Oceans Advisors",
+                    "description": "Five Oceans Advisors trimmed its position in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 3.0% in the 4th quarter, according to its most recent disclosure with the Securities & Exchange Commission. The firm owned 30,141 shares of the iPhone maker’s sto…",
+                    "url": "https://www.etfdailynews.com/2025/03/30/apple-inc-nasdaqaapl-stock-position-trimmed-by-five-oceans-advisors/",
+                    "published_at": "2025-03-30T07:50:46Z",
+                    "content": "Five Oceans Advisors trimmed its position in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 3.0% in the 4th quarter, according to its most recent disclosure with the Securities &amp; Exchange Co… [+4875 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Deroy & Devereaux Private Investment Counsel Inc. Decreases Stake in Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Deroy & Devereaux Private Investment Counsel Inc. lessened its holdings in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 0.9% during the fourth quarter, HoldingsChannel reports. The fund owned 74,713 shares of the iPhone maker’s stock after selling 675 …",
+                    "url": "https://www.etfdailynews.com/2025/03/30/deroy-devereaux-private-investment-counsel-inc-decreases-stake-in-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-03-30T07:50:46Z",
+                    "content": "Deroy &amp; Devereaux Private Investment Counsel Inc. lessened its holdings in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 0.9% during the fourth quarter, HoldingsChannel reports. The fund ow… [+4346 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Symphony Financial Ltd. Co. Reduces Stock Position in Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Symphony Financial Ltd. Co. lowered its position in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 4.9% in the 4th quarter, Holdings Channel.com reports. The fund owned 76,531 shares of the iPhone maker’s stock after selling 3,903 shares during the quart…",
+                    "url": "https://www.etfdailynews.com/2025/03/30/symphony-financial-ltd-co-reduces-stock-position-in-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-03-30T07:09:01Z",
+                    "content": "Symphony Financial Ltd. Co. lowered its position in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 4.9% in the 4th quarter, Holdings Channel.com reports. The fund owned 76,531 shares of the iPho… [+5068 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Apple Inc. (NASDAQ:AAPL) Holdings Lifted by Independence Bank of Kentucky",
+                    "description": "Independence Bank of Kentucky raised its position in Apple Inc. (NASDAQ:AAPL – Free Report) by 20.4% in the 4th quarter, HoldingsChannel reports. The institutional investor owned 120,698 shares of the iPhone maker’s stock after purchasing an additional 20,441…",
+                    "url": "https://www.etfdailynews.com/2025/03/30/apple-inc-nasdaqaapl-holdings-lifted-by-independence-bank-of-kentucky/",
+                    "published_at": "2025-03-30T07:09:01Z",
+                    "content": "Independence Bank of Kentucky raised its position in Apple Inc. (NASDAQ:AAPL – Free Report) by 20.4% in the 4th quarter, HoldingsChannel reports. The institutional investor owned 120,698 shares of th… [+4798 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Blossom Wealth Management Has $3.17 Million Stock Position in Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Blossom Wealth Management increased its stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 3.4% during the fourth quarter, according to the company in its most recent filing with the SEC. The fund owned 12,661 shares of the iPhone maker’s stock afte…",
+                    "url": "https://www.etfdailynews.com/2025/03/30/blossom-wealth-management-has-3-17-million-stock-position-in-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-03-30T07:09:01Z",
+                    "content": "Blossom Wealth Management increased its stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 3.4% during the fourth quarter, according to the company in its most recent filing with the SEC. T… [+4995 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Apple Inc. (NASDAQ:AAPL) is Boit C F David’s 5th Largest Position",
+                    "description": "Boit C F David lifted its stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 0.3% during the 4th quarter, according to the company in its most recent filing with the Securities & Exchange Commission. The firm owned 30,002 shares of the iPhone maker’…",
+                    "url": "https://www.etfdailynews.com/2025/03/30/apple-inc-nasdaqaapl-is-boit-c-f-davids-5th-largest-position/",
+                    "published_at": "2025-03-30T07:09:01Z",
+                    "content": "Boit C F David lifted its stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 0.3% during the 4th quarter, according to the company in its most recent filing with the Securities &amp; Exchan… [+5006 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Promising Retail Stocks To Keep An Eye On – March 28th",
+                    "description": "Tesla, Amazon.com, and Apple are the three Retail stocks to watch today, according to MarketBeat’s stock screener tool. Retail stocks refer to the shares of companies primarily engaged in selling consumer goods and services directly to individuals, through ph…",
+                    "url": "https://www.etfdailynews.com/2025/03/30/promising-retail-stocks-to-keep-an-eye-on-march-28th/",
+                    "published_at": "2025-03-30T06:02:48Z",
+                    "content": "Tesla, Amazon.com, and Apple are the three Retail stocks to watch today, according to MarketBeat’s stock screener tool. Retail stocks refer to the shares of companies primarily engaged in selling con… [+3631 chars]"
+                },
+                {
+                    "source": "Applech2.com",
+                    "author": "applech2",
+                    "title": "AmazonのスマイルSALE新生活FINALでBuffaloやIODATA、KIOXIA、Samsung、SanDisk、Transcend、WDなどのポータブルSSDやHDDがセール中。",
+                    "description": "AmazonのスマイルSALE新生活FINALで、BuffaloやIODATA、KIOXIA、Samsung、SanDisk、Transcend、WDなどのポータブルSSDやHDDが特選タイムセールとなっています。詳細 […]\nThe post AmazonのスマイルSALE新生活FINALでBuffaloやIODATA、KIOXIA、Samsung、SanDisk、Transcend、WDなどのポータブルSSDやHDDがセール中。 first appeared on AAPL Ch..",
+                    "url": "https://applech2.com/archives/20250330-ssd-new-life-sale-fina.html",
+                    "published_at": "2025-03-30T04:23:12Z",
+                    "content": "AmazonSALEFINALBuffaloIODATAKIOXIASamsungSanDiskTranscendWDSSDHDD\r\nAmazon Japan2025032809100AmazonSALE FINALBuffaloIODATAKIOXIASamsungSanDiskTranscendWDSSDSSDHDD\r\nNVMe SSD\r\nKIOXIA EXCERIA G2 500GB 6,… [+2529 chars]"
+                },
+                {
+                    "source": "Applech2.com",
+                    "author": "applech2",
+                    "title": "WoR ProjectによりダウンロードするWindows 10/11のビルド番号の選択が可能になったMacアプリ「CrystalFetch v2.2」がリリース。",
+                    "description": "WoR ProjectによりダウンロードするWindows 10/11のビルド番号の選択が可能になったMacアプリ「CrystalFetch v2.2」がリリースされています。詳細は以下から。 　Intel/Apple […]\nThe post WoR ProjectによりダウンロードするWindows 10/11のビルド番号の選択が可能になったMacアプリ「CrystalFetch v2.2」がリリース。 first appeared on AAPL Ch..",
+                    "url": "https://applech2.com/archives/20250330-crystalfetch-iso-downloader-for-mac-support-build-number.html",
+                    "published_at": "2025-03-29T23:10:59Z",
+                    "content": "WoR ProjectWindows 10/11MacCrystalFetch v2.2\r\nIntel/Apple Silicon MaciOS/iPadOSUTMTuring Software20250329UTMParallels DesktopVMware FusionWindows ISOCrystalFetchCrystalFetch v2.2\r\nAdded ability to pi… [+670 chars]"
+                },
+                {
+                    "source": "Yahoo Entertainment",
+                    "author": "Unknown",
+                    "title": "Is Apple Inc. (AAPL) The Mega Cap Stock Gaining Bullish Momentum This Week?",
+                    "description": null,
+                    "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_4251bd42-7bf4-4306-bb47-f6e5b8433bca",
+                    "published_at": "2025-03-29T19:58:23Z",
+                    "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+702 chars]"
+                },
+                {
+                    "source": "Forbes",
+                    "author": "Michael Foster, Contributor, \n Michael Foster, Contributor\n https://www.forbes.com/sites/michaelfoster/",
+                    "title": "These 100-Year-Old Funds Are Kicking Out Near-10% Dividends",
+                    "description": "Over the last couple of years, we’ve seen a quiet trend in investing—and today we’re going to tap into it with two funds with near 10% dividends.",
+                    "url": "https://www.forbes.com/sites/michaelfoster/2025/03/29/these-100-year-old-funds-are-kicking-out-near-10-dividends/",
+                    "published_at": "2025-03-29T15:59:00Z",
+                    "content": "Different yield and maturities for bonds and interest on stock exchange screen.\r\ngetty\r\nOver the last couple of years, weve seen a quiet trend in investingand today were going to tap into it with two… [+5558 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Waldron Private Wealth LLC Trims Holdings in Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Waldron Private Wealth LLC reduced its stake in Apple Inc. (NASDAQ:AAPL – Free Report) by 0.6% during the fourth quarter, according to the company in its most recent 13F filing with the SEC. The fund owned 200,559 shares of the iPhone maker’s stock after sell…",
+                    "url": "https://www.etfdailynews.com/2025/03/29/waldron-private-wealth-llc-trims-holdings-in-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-03-29T07:06:55Z",
+                    "content": "Waldron Private Wealth LLC reduced its stake in Apple Inc. (NASDAQ:AAPL – Free Report) by 0.6% during the fourth quarter, according to the company in its most recent 13F filing with the SEC. The fund… [+5086 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Apple Inc. (NASDAQ:AAPL) Stock Holdings Lessened by Flagstone Financial Management",
+                    "description": "Flagstone Financial Management cut its stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 1.9% in the 4th quarter, HoldingsChannel.com reports. The fund owned 12,377 shares of the iPhone maker’s stock after selling 244 shares during the quarter. App…",
+                    "url": "https://www.etfdailynews.com/2025/03/29/apple-inc-nasdaqaapl-stock-holdings-lessened-by-flagstone-financial-management/",
+                    "published_at": "2025-03-29T07:06:54Z",
+                    "content": "Flagstone Financial Management cut its stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 1.9% in the 4th quarter, HoldingsChannel.com reports. The fund owned 12,377 shares of the iPhone ma… [+5249 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Marietta Wealth Management LLC Raises Holdings in Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Marietta Wealth Management LLC lifted its holdings in Apple Inc. (NASDAQ:AAPL – Free Report) by 0.7% in the 4th quarter, HoldingsChannel.com reports. The fund owned 117,315 shares of the iPhone maker’s stock after buying an additional 797 shares during the pe…",
+                    "url": "https://www.etfdailynews.com/2025/03/29/marietta-wealth-management-llc-raises-holdings-in-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-03-29T07:06:54Z",
+                    "content": "Marietta Wealth Management LLC lifted its holdings in Apple Inc. (NASDAQ:AAPL – Free Report) by 0.7% in the 4th quarter, HoldingsChannel.com reports. The fund owned 117,315 shares of the iPhone maker… [+4656 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Concord Asset Management LLC VA Purchases 2,127 Shares of Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Concord Asset Management LLC VA lifted its position in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 3.2% in the 4th quarter, Holdings Channel.com reports. The firm owned 68,523 shares of the iPhone maker’s stock after purchasing an additional 2,127 sha…",
+                    "url": "https://www.etfdailynews.com/2025/03/29/concord-asset-management-llc-va-purchases-2127-shares-of-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-03-29T07:06:53Z",
+                    "content": "Concord Asset Management LLC VA lifted its position in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 3.2% in the 4th quarter, Holdings Channel.com reports. The firm owned 68,523 shares of the i… [+4628 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Apple Inc. (NASDAQ:AAPL) Stock Position Lowered by Oxler Private Wealth LLC",
+                    "description": "Oxler Private Wealth LLC lowered its stake in Apple Inc. (NASDAQ:AAPL – Free Report) by 3.3% in the 4th quarter, Holdings Channel reports. The firm owned 41,591 shares of the iPhone maker’s stock after selling 1,432 shares during the quarter. Apple accounts f…",
+                    "url": "https://www.etfdailynews.com/2025/03/29/apple-inc-nasdaqaapl-stock-position-lowered-by-oxler-private-wealth-llc/",
+                    "published_at": "2025-03-29T07:06:51Z",
+                    "content": "Oxler Private Wealth LLC lowered its stake in Apple Inc. (NASDAQ:AAPL – Free Report) by 3.3% in the 4th quarter, Holdings Channel reports. The firm owned 41,591 shares of the iPhone maker’s stock aft… [+4557 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "New Millennium Group LLC Raises Stock Holdings in Apple Inc. (NASDAQ:AAPL)",
+                    "description": "New Millennium Group LLC increased its holdings in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 4.1% during the 4th quarter, according to its most recent filing with the Securities and Exchange Commission (SEC). The institutional investor owned 55,857 …",
+                    "url": "https://www.etfdailynews.com/2025/03/29/new-millennium-group-llc-raises-stock-holdings-in-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-03-29T07:06:51Z",
+                    "content": "New Millennium Group LLC increased its holdings in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 4.1% during the 4th quarter, according to its most recent filing with the Securities and Exchang… [+4983 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Stephenson & Company Inc. Buys 110 Shares of Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Stephenson & Company Inc. lifted its stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 1.6% during the fourth quarter, HoldingsChannel reports. The firm owned 7,074 shares of the iPhone maker’s stock after acquiring an additional 110 shares during …",
+                    "url": "https://www.etfdailynews.com/2025/03/29/stephenson-company-inc-buys-110-shares-of-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-03-29T07:06:49Z",
+                    "content": "Stephenson &amp; Company Inc. lifted its stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 1.6% during the fourth quarter, HoldingsChannel reports. The firm owned 7,074 shares of the iPhon… [+4937 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Apple Inc. (NASDAQ:AAPL) is Total Clarity Wealth Management Inc.’s 4th Largest Position",
+                    "description": "Total Clarity Wealth Management Inc. grew its stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 0.5% during the fourth quarter, according to the company in its most recent 13F filing with the Securities & Exchange Commission. The fund owned 27,728 …",
+                    "url": "https://www.etfdailynews.com/2025/03/29/apple-inc-nasdaqaapl-is-total-clarity-wealth-management-inc-s-4th-largest-position/",
+                    "published_at": "2025-03-29T07:06:49Z",
+                    "content": "Total Clarity Wealth Management Inc. grew its stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 0.5% during the fourth quarter, according to the company in its most recent 13F filing with … [+4984 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "3,990 Shares in Apple Inc. (NASDAQ:AAPL) Bought by Manuka Financial LLC",
+                    "description": "Manuka Financial LLC purchased a new stake in Apple Inc. (NASDAQ:AAPL – Free Report) in the 4th quarter, according to its most recent disclosure with the SEC. The fund purchased 3,990 shares of the iPhone maker’s stock, valued at approximately $999,000. Apple…",
+                    "url": "https://www.etfdailynews.com/2025/03/29/3990-shares-in-apple-inc-nasdaqaapl-bought-by-manuka-financial-llc/",
+                    "published_at": "2025-03-29T07:06:49Z",
+                    "content": "Manuka Financial LLC purchased a new stake in Apple Inc. (NASDAQ:AAPL – Free Report) in the 4th quarter, according to its most recent disclosure with the SEC. The fund purchased 3,990 shares of the i… [+4842 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Clear Creek Financial Management LLC Has $14.86 Million Stock Position in Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Clear Creek Financial Management LLC lifted its stake in Apple Inc. (NASDAQ:AAPL – Free Report) by 26.7% in the fourth quarter, HoldingsChannel reports. The institutional investor owned 59,332 shares of the iPhone maker’s stock after buying an additional 12,5…",
+                    "url": "https://www.etfdailynews.com/2025/03/29/clear-creek-financial-management-llc-has-14-86-million-stock-position-in-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-03-29T07:06:48Z",
+                    "content": "Clear Creek Financial Management LLC lifted its stake in Apple Inc. (NASDAQ:AAPL – Free Report) by 26.7% in the fourth quarter, HoldingsChannel reports. The institutional investor owned 59,332 shares… [+4669 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Technology Stocks To Keep An Eye On – March 27th",
+                    "description": "NVIDIA, Meta Platforms, Apple, Broadcom, and Microsoft are the five Technology stocks to watch today, according to MarketBeat’s stock screener tool. Technology stocks refer to shares of companies that primarily focus on the design, development, and manufactur…",
+                    "url": "https://www.etfdailynews.com/2025/03/29/technology-stocks-to-keep-an-eye-on-march-27th/",
+                    "published_at": "2025-03-29T06:32:43Z",
+                    "content": "NVIDIA, Meta Platforms, Apple, Broadcom, and Microsoft are the five Technology stocks to watch today, according to MarketBeat’s stock screener tool. Technology stocks refer to shares of companies tha… [+6245 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Kurv Yield Premium Strategy Apple (AAPL) ETF (NYSEARCA:AAPY) Shares Down 2.6% – Should You Sell?",
+                    "description": "Kurv Yield Premium Strategy Apple (AAPL) ETF (NYSEARCA:AAPY – Get Free Report) fell 2.6% during mid-day trading on Friday . The stock traded as low as $23.03 and last traded at $23.05. Approximately 5,673 shares changed hands during trading, a decline of 30% …",
+                    "url": "https://www.etfdailynews.com/2025/03/29/kurv-yield-premium-strategy-apple-aapl-etf-nysearcaaapy-shares-down-2-6-should-you-sell/",
+                    "published_at": "2025-03-29T06:28:56Z",
+                    "content": "Kurv Yield Premium Strategy Apple (AAPL) ETF (NYSEARCA:AAPY – Get Free Report) fell 2.6% during mid-day trading on Friday . The stock traded as low as $23.03 and last traded at $23.05. Approximately … [+1463 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "GraniteShares 2x Long AAPL Daily ETF (NASDAQ:AAPB) Short Interest Update",
+                    "description": "GraniteShares 2x Long AAPL Daily ETF (NASDAQ:AAPB – Get Free Report) saw a large growth in short interest in the month of March. As of March 15th, there was short interest totalling 36,200 shares, a growth of 85.6% from the February 28th total of 19,500 share…",
+                    "url": "https://www.etfdailynews.com/2025/03/29/graniteshares-2x-long-aapl-daily-etf-nasdaqaapb-short-interest-update-2/",
+                    "published_at": "2025-03-29T06:04:47Z",
+                    "content": "GraniteShares 2x Long AAPL Daily ETF (NASDAQ:AAPB – Get Free Report) saw a large growth in short interest in the month of March. As of March 15th, there was short interest totalling 36,200 shares, a … [+2114 chars]"
+                },
+                {
+                    "source": "Applech2.com",
+                    "author": "applech2",
+                    "title": "米Anker、コンパクトで人気のNanoシリーズからSamsungのSuper Fast Chargingにも対応した「Anker Nano Charger (45W)」を発売。",
+                    "description": "米Ankerがコンパクトで人気のNanoシリーズからSamsungのSuper Fast Chargingにも対応した「Anker Nano Charger (45W)」を発売しています。詳細は以下から。 　Anker […]\nThe post 米Anker、コンパクトで人気のNanoシリーズからSamsungのSuper Fast Chargingにも対応した「Anker Nano Charger (45W)」を発売。 first appeared on AAPL Ch..",
+                    "url": "https://applech2.com/archives/20250329-anker-nano-charger-45w.html",
+                    "published_at": "2025-03-29T01:07:41Z",
+                    "content": "AnkerNanoSamsungSuper Fast ChargingAnker Nano Charger (45W)\r\nAnker2019USB-CNanoGaNNano IINano 3\r\nAnker Nano Charger\r\nAnkerNanoGaNSamsungSuper Fast ChargingAnker Nano Charger (45W) and 6 ft USB-C to U… [+707 chars]"
+                },
+                {
+                    "source": "Motley Fool Australia",
+                    "author": "James Mickleboro",
+                    "title": "3 of the best ASX ETFs to buy in April",
+                    "description": "These funds could be top picks for Aussie investors next month. Let's see why.\nThe post 3 of the best ASX ETFs to buy in April appeared first on The Motley Fool Australia.",
+                    "url": "https://www.fool.com.au/2025/03/29/3-of-the-best-asx-etfs-to-buy-in-april/",
+                    "published_at": "2025-03-28T22:04:00Z",
+                    "content": "After a shaky few weeks for global markets, investors could be facing a timely opportunity to put fresh capital to work in April.\r\nVolatility has spiked, tech stocks have taken a hit and share prices… [+2701 chars]"
+                },
+                {
+                    "source": "Yahoo Entertainment",
+                    "author": "Unknown",
+                    "title": "Apple Inc. (AAPL): A Top Pick For The Best Retirement Portfolio",
+                    "description": null,
+                    "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_92adb9b0-2ec7-4107-a882-dacab844dc6f",
+                    "published_at": "2025-03-28T20:49:08Z",
+                    "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+702 chars]"
+                },
+                {
+                    "source": "Motley Fool Australia",
+                    "author": "James Mickleboro",
+                    "title": "$10,000 invested in NDQ ETF 5 years ago is now…",
+                    "description": "Let's see if investing your hard-earned money into this ETF 5 years ago was a good idea.\nThe post $10,000 invested in NDQ ETF 5 years ago is now… appeared first on The Motley Fool Australia.",
+                    "url": "https://www.fool.com.au/2025/03/29/10000-invested-in-ndq-etf-5-years-ago-is-now/",
+                    "published_at": "2025-03-28T20:04:00Z",
+                    "content": "Five years ago, global markets were in chaos. COVID-19 had triggered widespread lockdowns, investor panic was rampant, and share prices across the board were plunging.\r\nIt was March 2020 and buying s… [+2137 chars]"
+                },
+                {
+                    "source": "Applech2.com",
+                    "author": "applech2",
+                    "title": "Anker Japan、USB-C端子一体型でスマホを約1回充電できるモバイルバッテリー「Anker Nano Power Bank (22.5W, Built-In USB-C Connector)」のブルーとピンクモデルを発売。",
+                    "description": "Anker JapanがUSB-C端子一体型でスマホを約1回充電できるモバイルバッテリー「Anker Nano Power Bank (22.5W, Built-In USB-C Connector)」のブルーとピンク […]\nThe post Anker Japan、USB-C端子一体型でスマホを約1回充電できるモバイルバッテリー「Anker Nano Power Bank (22.5W, Built-In USB-C Connector)」のブルーとピンクモデルを発売。 first appeared on A…",
+                    "url": "https://applech2.com/archives/20250329-anker-nano-power-bank-with-usb-c-blue-and-pink.html",
+                    "published_at": "2025-03-28T19:56:26Z",
+                    "content": "Anker JapanUSB-C1Anker Nano Power Bank (22.5W, Built-In USB-C Connector)\r\nAnker Japan202309Anker NanoUSB-CAnker Nano Power Bank (22.5W, Built-In USB-C Connector) (A1653)\r\nUSB-C[…]15000mAh22.5W\r\nAnker… [+319 chars]"
+                },
+                {
+                    "source": "Biztoc.com",
+                    "author": "benzinga.com",
+                    "title": "EU To Issue Minimal Fines To Apple And Meta To Avoid Retaliation From Trump Administration",
+                    "description": "is set to impose minor penalties on Apple Inc. AAPL and Meta Platforms Inc. META, the parent company of Facebook, under its Digital Markets Act (DMA).\nWhat Happened: To avoid escalating tensions with U.S. President Donald Trump, the EU has decided to limit fi…",
+                    "url": "https://biztoc.com/x/6225592fdccc6ce8",
+                    "published_at": "2025-03-28T12:36:44Z",
+                    "content": "is set to impose minor penalties on Apple Inc. AAPL and Meta Platforms Inc. META, the parent company of Facebook, under its Digital Markets Act (DMA).What Happened: To avoid escalating tensions with … [+145 chars]"
+                },
+                {
+                    "source": "Yahoo Entertainment",
+                    "author": "Paula Tudoran",
+                    "title": "Dad With 'Mini Portfolio' And $1M Investment Plan Wants Son 'Living Off Of Dividend Income Comfortably' – Reddit Debates Best Stocks To Buy",
+                    "description": "Every parent wants to give their child a head start in life, especially if they grew up without financial security themselves. The desire to break such a...",
+                    "url": "https://finance.yahoo.com/news/dad-mini-portfolio-1m-investment-123020359.html",
+                    "published_at": "2025-03-28T12:30:20Z",
+                    "content": "Every parent wants to give their child a head start in life, especially if they grew up without financial security themselves.\r\nThe desire to break such a generational curse is powerful, but so is th… [+4706 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Direxion Daily AAPL Bear 1X Shares (NASDAQ:AAPD) Short Interest Update",
+                    "description": "Direxion Daily AAPL Bear 1X Shares (NASDAQ:AAPD – Get Free Report) saw a significant growth in short interest in March. As of March 15th, there was short interest totalling 129,300 shares, a growth of 105.9% from the February 28th total of 62,800 shares. Base…",
+                    "url": "https://www.etfdailynews.com/2025/03/28/direxion-daily-aapl-bear-1x-shares-nasdaqaapd-short-interest-update-2/",
+                    "published_at": "2025-03-28T07:50:49Z",
+                    "content": "Direxion Daily AAPL Bear 1X Shares (NASDAQ:AAPD – Get Free Report) saw a significant growth in short interest in March. As of March 15th, there was short interest totalling 129,300 shares, a growth o… [+2402 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Apple Inc. (NASDAQ:AAPL) is Southern Capital Advisors LLC’s 8th Largest Position",
+                    "description": "Southern Capital Advisors LLC reduced its holdings in Apple Inc. (NASDAQ:AAPL – Free Report) by 2.0% during the 4th quarter, Holdings Channel reports. The fund owned 19,916 shares of the iPhone maker’s stock after selling 416 shares during the period. Apple m…",
+                    "url": "https://www.etfdailynews.com/2025/03/28/apple-inc-nasdaqaapl-is-southern-capital-advisors-llcs-8th-largest-position/",
+                    "published_at": "2025-03-28T07:45:02Z",
+                    "content": "Southern Capital Advisors LLC reduced its holdings in Apple Inc. (NASDAQ:AAPL – Free Report) by 2.0% during the 4th quarter, Holdings Channel reports. The fund owned 19,916 shares of the iPhone maker… [+4589 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Coastwise Capital Group LLC Sells 408 Shares of Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Coastwise Capital Group LLC cut its stake in Apple Inc. (NASDAQ:AAPL – Free Report) by 1.2% in the 4th quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission (SEC). The institutional investor owned 33,645 shares of t…",
+                    "url": "https://www.etfdailynews.com/2025/03/28/coastwise-capital-group-llc-sells-408-shares-of-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-03-28T07:45:01Z",
+                    "content": "Coastwise Capital Group LLC cut its stake in Apple Inc. (NASDAQ:AAPL – Free Report) by 1.2% in the 4th quarter, according to its most recent Form 13F filing with the Securities and Exchange Commissio… [+4551 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Intergy Private Wealth LLC Grows Stock Holdings in Apple Inc. (NASDAQ:AAPL)",
+                    "description": "Intergy Private Wealth LLC lifted its position in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 4.8% in the fourth quarter, according to the company in its most recent disclosure with the Securities and Exchange Commission. The firm owned 14,306 shares …",
+                    "url": "https://www.etfdailynews.com/2025/03/28/intergy-private-wealth-llc-grows-stock-holdings-in-apple-inc-nasdaqaapl/",
+                    "published_at": "2025-03-28T07:44:49Z",
+                    "content": "Intergy Private Wealth LLC lifted its position in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 4.8% in the fourth quarter, according to the company in its most recent disclosure with the Secur… [+5038 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Apple Inc. (NASDAQ:AAPL) is Caprock Group LLC’s 2nd Largest Position",
+                    "description": "Caprock Group LLC boosted its stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 2.0% during the fourth quarter, according to the company in its most recent Form 13F filing with the Securities & Exchange Commission. The firm owned 451,633 shares of …",
+                    "url": "https://www.etfdailynews.com/2025/03/28/apple-inc-nasdaqaapl-is-caprock-group-llcs-2nd-largest-position/",
+                    "published_at": "2025-03-28T07:10:56Z",
+                    "content": "Caprock Group LLC boosted its stake in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 2.0% during the fourth quarter, according to the company in its most recent Form 13F filing with the Securit… [+4664 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Apple Inc. (NASDAQ:AAPL) Shares Purchased by Heritage Financial Services LLC",
+                    "description": "Heritage Financial Services LLC raised its position in Apple Inc. (NASDAQ:AAPL – Free Report) by 6.3% during the 4th quarter, according to its most recent filing with the SEC. The firm owned 38,915 shares of the iPhone maker’s stock after buying an additional…",
+                    "url": "https://www.etfdailynews.com/2025/03/28/apple-inc-nasdaqaapl-shares-purchased-by-heritage-financial-services-llc/",
+                    "published_at": "2025-03-28T07:10:54Z",
+                    "content": "Heritage Financial Services LLC raised its position in Apple Inc. (NASDAQ:AAPL – Free Report) by 6.3% during the 4th quarter, according to its most recent filing with the SEC. The firm owned 38,915 s… [+5238 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Apple Inc. (NASDAQ:AAPL) Holdings Raised by Granite Harbor Advisors Inc.",
+                    "description": "Granite Harbor Advisors Inc. grew its stake in Apple Inc. (NASDAQ:AAPL – Free Report) by 0.3% in the 4th quarter, HoldingsChannel.com reports. The institutional investor owned 31,409 shares of the iPhone maker’s stock after buying an additional 103 shares dur…",
+                    "url": "https://www.etfdailynews.com/2025/03/28/apple-inc-nasdaqaapl-holdings-raised-by-granite-harbor-advisors-inc/",
+                    "published_at": "2025-03-28T07:10:54Z",
+                    "content": "Granite Harbor Advisors Inc. grew its stake in Apple Inc. (NASDAQ:AAPL – Free Report) by 0.3% in the 4th quarter, HoldingsChannel.com reports. The institutional investor owned 31,409 shares of the iP… [+4578 chars]"
+                },
+                {
+                    "source": "ETF Daily News",
+                    "author": "MarketBeat News",
+                    "title": "Apple Inc. (NASDAQ:AAPL) Stake Cut by Arcadia Wealth Management LLC",
+                    "description": "Arcadia Wealth Management LLC lessened its holdings in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 7.2% during the 4th quarter, HoldingsChannel reports. The fund owned 2,976 shares of the iPhone maker’s stock after selling 231 shares during the period…",
+                    "url": "https://www.etfdailynews.com/2025/03/28/apple-inc-nasdaqaapl-stake-cut-by-arcadia-wealth-management-llc/",
+                    "published_at": "2025-03-28T07:10:54Z",
+                    "content": "Arcadia Wealth Management LLC lessened its holdings in shares of Apple Inc. (NASDAQ:AAPL – Free Report) by 7.2% during the 4th quarter, HoldingsChannel reports. The fund owned 2,976 shares of the iPh… [+5019 chars]"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "RIPS",
+                    "title": "Today's Trade Strategy For SPY, AAPL, MSFT, NVDA, GOOGL, META, TSLA",
+                    "description": "Good Morning Traders! In today's Market Clubhouse Morning Memo, we will discuss SPY, QQQ, AAPL, MSFT, NVDA, GOOGL, META, and TSLA. Our proprietary formula, exclusive to Market Clubhouse, dictates these price levels. This dynamic equation takes into account price, volume, and options flow.",
+                    "url": "https://www.benzinga.com/markets/equities/25/04/44628123/trade-strategy-for-spy-aapl-msft-nvda-googl-meta-tsla",
+                    "published_at": "2025-04-03T13:44:11+00:00",
+                    "content": "Good Morning Traders! In today's Market Clubhouse Morning Memo, we will discuss SPY, QQQ, AAPL, MSFT, NVDA, GOOGL, META, and TSLA. Our proprietary formula, exclusive to Market Clubhouse, dictates these price levels. This dynamic equation takes into account price, volume, and options flow.",
+                    "sentiment_score": 0.129237,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Namrata Sen",
+                    "title": "As Microsoft Turns 50, Bill Gates Shares The Original Code That Started It All: 'That Was The Revolution' - Apple  ( NASDAQ:AAPL ) , Intel  ( NASDAQ:INTC ) ",
+                    "description": "Microsoft MSFT founder Bill Gates nostalgically looks back on the computer code he wrote 50 years ago, which played a pivotal role in the creation of the tech giant. What Happened: Gates reminisced about the early days of Microsoft in a blog post.",
+                    "url": "https://www.benzinga.com/25/04/44627872/as-microsoft-turns-50-bill-gates-shares-the-original-code-that-started-it-all-that-was-the-revolution",
+                    "published_at": "2025-04-03T13:30:10+00:00",
+                    "content": "Microsoft MSFT founder Bill Gates nostalgically looks back on the computer code he wrote 50 years ago, which played a pivotal role in the creation of the tech giant. What Happened: Gates reminisced about the early days of Microsoft in a blog post.",
+                    "sentiment_score": 0.255385,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Avi Kapoor",
+                    "title": "Apple To $250? Here Are 10 Top Analyst Forecasts For Thursday - Enphase Energy  ( NASDAQ:ENPH ) , Apple  ( NASDAQ:AAPL ) ",
+                    "description": "Top Wall Street analysts changed their outlook on these top names. For a complete view of all analyst rating changes, including upgrades and downgrades, please see our analyst ratings page. B of A Securities cut Apple Inc. AAPL price target from $265 to $250.",
+                    "url": "https://www.benzinga.com/25/04/44627408/apple-to-250-here-are-10-top-analyst-forecasts-for-thursday",
+                    "published_at": "2025-04-03T13:14:56+00:00",
+                    "content": "Top Wall Street analysts changed their outlook on these top names. For a complete view of all analyst rating changes, including upgrades and downgrades, please see our analyst ratings page. B of A Securities cut Apple Inc. AAPL price target from $265 to $250.",
+                    "sentiment_score": 0.18445,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Avi Kapoor",
+                    "title": "RH Posts Downbeat Earnings, Joins Apple, Tesla, Nvidia And Other Big Stocks Moving Lower In Thursday's Pre-Market Session - Apple  ( NASDAQ:AAPL ) , AdvanSix  ( NYSE:ASIX ) ",
+                    "description": "U.S. stock futures were lower this morning, with the Dow futures falling more than 1,000 points on Thursday. Shares of RH RH fell sharply in today's pre-market trading after the company reported weaker-than-expected fourth-quarter financial results.",
+                    "url": "https://www.benzinga.com/25/04/44626074/rh-posts-downbeat-earnings-joins-apple-tesla-nvidia-and-other-big-stocks-moving-lower-in-thursdays-pre-market-ses",
+                    "published_at": "2025-04-03T12:24:40+00:00",
+                    "content": "U.S. stock futures were lower this morning, with the Dow futures falling more than 1,000 points on Thursday. Shares of RH RH fell sharply in today's pre-market trading after the company reported weaker-than-expected fourth-quarter financial results.",
+                    "sentiment_score": -0.08803,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Zacks Commentary",
+                    "author": "Zacks Equity Research",
+                    "title": "Should Schwab U.S. Large-Cap ETF  ( SCHX )  Be on Your Investing Radar?",
+                    "description": "Style Box ETF report for ...",
+                    "url": "https://www.zacks.com/stock/news/2439508/should-schwab-us-large-cap-etf-schx-be-on-your-investing-radar",
+                    "published_at": "2025-04-03T10:20:05+00:00",
+                    "content": "Style Box ETF report for ...",
+                    "sentiment_score": 0.196485,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Zacks Commentary",
+                    "author": "Zacks Equity Research",
+                    "title": "Should SPDR MSCI USA StrategicFactors ETF  ( QUS )  Be on Your Investing Radar?",
+                    "description": "Style Box ETF report for ...",
+                    "url": "https://www.zacks.com/stock/news/2439507/should-spdr-msci-usa-strategicfactors-etf-qus-be-on-your-investing-radar",
+                    "published_at": "2025-04-03T10:20:05+00:00",
+                    "content": "Style Box ETF report for ...",
+                    "sentiment_score": 0.14812,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Zacks Commentary",
+                    "author": "Zacks Equity Research",
+                    "title": "Is Fidelity High Dividend ETF  ( FDVV )  a Strong ETF Right Now?",
+                    "description": "Smart Beta ETF report for ...",
+                    "url": "https://www.zacks.com/stock/news/2439515/is-fidelity-high-dividend-etf-fdvv-a-strong-etf-right-now",
+                    "published_at": "2025-04-03T10:20:04+00:00",
+                    "content": "Smart Beta ETF report for ...",
+                    "sentiment_score": 0.250185,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Keithen Drury",
+                    "title": "Prediction: 4 Artificial Intelligence  ( AI )  Stocks That Could Be Worth More Than Apple by 2030",
+                    "description": "Apple ( NASDAQ: AAPL ) is the world's largest company -- by about half a trillion dollars as I write this. So surpassing it in value is not a thing just any company can do. But I'm willing to make the bold prediction that there are stocks that could be bigger than Apple by 2030.",
+                    "url": "https://www.fool.com/investing/2025/04/03/prediction-4-artificial-intelligence-ai-stocks-tha/",
+                    "published_at": "2025-04-03T10:15:00+00:00",
+                    "content": "Apple ( NASDAQ: AAPL ) is the world's largest company -- by about half a trillion dollars as I write this. So surpassing it in value is not a thing just any company can do. But I'm willing to make the bold prediction that there are stocks that could be bigger than Apple by 2030.",
+                    "sentiment_score": 0.186599,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Kaustubh Bagalkote",
+                    "title": "Larry Summers Warns Trump's Tariffs Will Deliver 'Oil Crisis-Like Shock,' Slash $30 Trillion From Economy As Markets Plunge - Apple  ( NASDAQ:AAPL ) ",
+                    "description": "Former Treasury Secretary Larry Summers said on Thursday that President Donald Trump's tariffs will cause an \"oil crisis-like shock\" to the economy, simultaneously spiking prices and unemployment while shrinking productive capacity.",
+                    "url": "https://www.benzinga.com/markets/25/04/44623179/larry-summers-warns-trumps-tariffs-will-deliver-oil-crisis-like-shock-slash-30-trillion-from-economy-as-m",
+                    "published_at": "2025-04-03T09:31:09+00:00",
+                    "content": "Former Treasury Secretary Larry Summers said on Thursday that President Donald Trump's tariffs will cause an \"oil crisis-like shock\" to the economy, simultaneously spiking prices and unemployment while shrinking productive capacity.",
+                    "sentiment_score": -0.053893,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "James Brumley",
+                    "title": "This Tech Giant Is a Stock Buyback Leader. Here's What That Means for Investors.",
+                    "description": "The argument for owning a stake in this long-leading technology name is even stronger when you look at less-obvious metrics.",
+                    "url": "https://www.fool.com/investing/2025/04/03/tech-giant-stock-buyback-leader-alphabet/",
+                    "published_at": "2025-04-03T09:15:00+00:00",
+                    "content": "The argument for owning a stake in this long-leading technology name is even stronger when you look at less-obvious metrics.",
+                    "sentiment_score": 0.331611,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Rishabh Mishra",
+                    "title": "Meta, AMD, Apple, AT&T Among Biggest US Tech Giants That 'May Suffer The Most' As Tariffs Spark Trade Turmoil: Here's Why - Apple  ( NASDAQ:AAPL ) , Albemarle  ( NYSE:ALB ) ",
+                    "description": "Top U.S. technology multinationals, which have been the biggest beneficiaries of globalization, come to the fore as tariffs could heavily impact the cost of the goods sold by these firms.",
+                    "url": "https://www.benzinga.com/25/04/44622677/meta-amd-apple-att-among-biggest-us-tech-multinationals-that-may-suffer-the-most-as-tariffs-spark-trade-turmoil-h",
+                    "published_at": "2025-04-03T08:28:35+00:00",
+                    "content": "Top U.S. technology multinationals, which have been the biggest beneficiaries of globalization, come to the fore as tariffs could heavily impact the cost of the goods sold by these firms.",
+                    "sentiment_score": 0.072985,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Geoffrey Seiler",
+                    "title": "3 Top Bargain Stocks Ready for the Next Bull Run",
+                    "description": "The recent market pullback has created some nice bargains in the technology space. Let's look at three stocks you can buy before the next bull market run.Trading at a forward price-to-earnings ratio ( P/E ) of 23 times based on this year's analyst estimates and a price/earnings-to-growth ( PEG ) ...",
+                    "url": "https://www.fool.com/investing/2025/04/03/3-top-bargain-stocks-ready-for-the-next-bull-run/",
+                    "published_at": "2025-04-03T08:12:00+00:00",
+                    "content": "The recent market pullback has created some nice bargains in the technology space. Let's look at three stocks you can buy before the next bull market run.Trading at a forward price-to-earnings ratio ( P/E ) of 23 times based on this year's analyst estimates and a price/earnings-to-growth ( PEG ) ...",
+                    "sentiment_score": 0.290722,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Kaustubh Bagalkote",
+                    "title": "Trump's 'Reciprocal Tariff' Plan Hits Market Confidence As Dow Futures Drops Over 830 Points - Apple  ( NASDAQ:AAPL ) , Amazon.com  ( NASDAQ:AMZN ) ",
+                    "description": "U.S. stock futures plunged on Wednesday after President Donald Trump unveiled broad new tariffs on key trading partners, sparking fears of a global trade war that could further weaken the U.S. economy.",
+                    "url": "https://www.benzinga.com/markets/equities/25/04/44620686/sp-500-nasdaq-futures-plunge-over-3-as-trumps-reciprocal-tariff-plan-hits-market-confidence",
+                    "published_at": "2025-04-03T02:45:55+00:00",
+                    "content": "U.S. stock futures plunged on Wednesday after President Donald Trump unveiled broad new tariffs on key trading partners, sparking fears of a global trade war that could further weaken the U.S. economy.",
+                    "sentiment_score": -0.054727,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Shivdeep Dhaliwal",
+                    "title": "Nvidia, AMD, Apple, Meta, Tesla: Why These 5 Stocks Are Trending On Trump's Liberation Day - Apple  ( NASDAQ:AAPL ) , Advanced Micro Devices  ( NASDAQ:AMD ) ",
+                    "description": "Markets faced a turbulent day as President Donald Trump unveiled new tariffs on \"Liberation Day,\" sparking a sharp selloff. The S&P 500 futures dropped 2.7% to 5,557.75, while Nasdaq futures fell 3.3% to 19,905.75.",
+                    "url": "https://www.benzinga.com/markets/equities/25/04/44620650/nvidia-amd-apple-meta-tesla-why-these-5-stocks-are-trending-on-trumps-liberation-day",
+                    "published_at": "2025-04-03T02:33:37+00:00",
+                    "content": "Markets faced a turbulent day as President Donald Trump unveiled new tariffs on \"Liberation Day,\" sparking a sharp selloff. The S&P 500 futures dropped 2.7% to 5,557.75, while Nasdaq futures fell 3.3% to 19,905.75.",
+                    "sentiment_score": 0.10395,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Kaustubh Bagalkote",
+                    "title": "Trump's Sweeping Tariffs Could Cost US $20 Trillion, Crash Markets Warn Economists: 'Monstrously Destructive' - Apple  ( NASDAQ:AAPL ) ",
+                    "description": "Leading economists reacted with alarm after President Donald Trump announced sweeping new tariffs on U.S. trading partners, with some projecting potential economic losses of up to $20 trillion.",
+                    "url": "https://www.benzinga.com/markets/equities/25/04/44620423/trumps-sweeping-tariffs-could-cost-us-20-trillion-crash-markets-warn-economists-monstrously-dest",
+                    "published_at": "2025-04-03T02:11:50+00:00",
+                    "content": "Leading economists reacted with alarm after President Donald Trump announced sweeping new tariffs on U.S. trading partners, with some projecting potential economic losses of up to $20 trillion.",
+                    "sentiment_score": -0.024746,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Jeremy Bowman",
+                    "title": "Panicking Over Trump's Tariffs? 2 Warren Buffett Pearls of Wisdom to Remember",
+                    "description": "Here are Buffett's words on investing through a crisis.",
+                    "url": "https://www.fool.com/investing/2025/04/02/trump-tariffs-warren-buffett-2-pearls-of-wisdom/",
+                    "published_at": "2025-04-03T00:49:00+00:00",
+                    "content": "Here are Buffett's words on investing through a crisis.",
+                    "sentiment_score": 0.148382,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Zacks Commentary",
+                    "author": "Sheraz Mian",
+                    "title": "Looking Ahead to the Q1 Earnings Season",
+                    "description": "Total 2025 Q1 earnings for the S&P 500 index are expected to be up +5.9% from the same period last year on +3.9% higher revenues, continuing the recent growth pace nicely. Next week, we'll hear from the big banks.",
+                    "url": "https://www.zacks.com/commentary/2439438/looking-ahead-to-the-q1-earnings-season",
+                    "published_at": "2025-04-03T00:04:00+00:00",
+                    "content": "Total 2025 Q1 earnings for the S&P 500 index are expected to be up +5.9% from the same period last year on +3.9% higher revenues, continuing the recent growth pace nicely. Next week, we'll hear from the big banks.",
+                    "sentiment_score": 0.205084,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Zacks Commentary",
+                    "author": "Sheraz Mian",
+                    "title": "Looking Ahead to the Q1 Earnings Season",
+                    "description": "Total 2025 Q1 earnings for the S&P 500 index are expected to be up +5.9% from the same period last year on +3.9% higher revenues, continuing the recent growth pace nicely. Next week, we'll hear from the big banks.",
+                    "url": "https://www.zacks.com/commentary/2439439/looking-ahead-to-the-q1-earnings-season",
+                    "published_at": "2025-04-03T00:02:00+00:00",
+                    "content": "Total 2025 Q1 earnings for the S&P 500 index are expected to be up +5.9% from the same period last year on +3.9% higher revenues, continuing the recent growth pace nicely. Next week, we'll hear from the big banks.",
+                    "sentiment_score": 0.205084,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Anusuya Lahiri",
+                    "title": "Apple Set For Strong iPhone Upgrade Cycle Driven By AI, Analyst Says - Apple  ( NASDAQ:AAPL ) ",
+                    "description": "BofA analyst sees strong iPhone upgrade cycle ahead, driven by AI features and internal silicon boosting Apple's margins. Apple App Store revenue jumps 15%, boosted by AI apps like ChatGPT, with downloads hitting 8.9 billion. The 'Trade of the Day' is now live.",
+                    "url": "https://www.benzinga.com/analyst-ratings/price-target/25/04/44613270/apple-set-for-strong-iphone-upgrade-cycle-driven-by-ai-analyst-says",
+                    "published_at": "2025-04-02T18:35:09+00:00",
+                    "content": "BofA analyst sees strong iPhone upgrade cycle ahead, driven by AI features and internal silicon boosting Apple's margins. Apple App Store revenue jumps 15%, boosted by AI apps like ChatGPT, with downloads hitting 8.9 billion. The 'Trade of the Day' is now live.",
+                    "sentiment_score": 0.31912,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "The Arora Report",
+                    "title": "Gold Outshines Tech Stocks And Bitcoin, As Bulls And Bears Battle Ahead Of Trump Tariff Announcement",
+                    "description": "Please click here for an enlarged chart comparing Invesco QQQ Trust Series 1 ( QQQ ) , SPDR S&P 500 ETF Trust ( SPY ) which represents the benchmark stock market index S&P 500 ( SPX ) , iShares Bitcoin Trust ETF ( IBIT ) , and SPDR Gold Trust ( GLD ) .",
+                    "url": "https://www.benzinga.com/general/market-summary/25/04/44610502/gold-outshines-tech-stocks-and-bitcoin-as-bulls-and-bears-battle-ahead-of-trump-tariff-ann",
+                    "published_at": "2025-04-02T16:15:44+00:00",
+                    "content": "Please click here for an enlarged chart comparing Invesco QQQ Trust Series 1 ( QQQ ) , SPDR S&P 500 ETF Trust ( SPY ) which represents the benchmark stock market index S&P 500 ( SPX ) , iShares Bitcoin Trust ETF ( IBIT ) , and SPDR Gold Trust ( GLD ) .",
+                    "sentiment_score": 0.223262,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Benzinga Insights",
+                    "title": "Exploring The Competitive Space: Apple Versus Industry Peers In Technology Hardware, Storage & Peripherals - Apple  ( NASDAQ:AAPL ) ",
+                    "description": "In the dynamic and fiercely competitive business environment, conducting a thorough analysis of companies is crucial for investors and industry enthusiasts. In this article, we will perform an extensive industry comparison, evaluating Apple AAPL in relation to its major competitors in the ...",
+                    "url": "https://www.benzinga.com/insights/news/25/04/44609100/exploring-the-competitive-space-apple-versus-industry-peers-in-technology-hardware-storage-amp-peri",
+                    "published_at": "2025-04-02T15:00:58+00:00",
+                    "content": "In the dynamic and fiercely competitive business environment, conducting a thorough analysis of companies is crucial for investors and industry enthusiasts. In this article, we will perform an extensive industry comparison, evaluating Apple AAPL in relation to its major competitors in the ...",
+                    "sentiment_score": 0.253902,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "RIPS",
+                    "title": "How To Trade SPY, As Market Braces For Trump's Tariffs Plan - Tesla  ( NASDAQ:TSLA ) ",
+                    "description": "Good Morning Traders! In today's Market Clubhouse Morning Memo, we will discuss SPY, QQQ, AAPL, MSFT, NVDA, GOOGL, META, and TSLA. Our proprietary formula, exclusive to Market Clubhouse, dictates these price levels. This dynamic equation takes into account price, volume, and options flow.",
+                    "url": "https://www.benzinga.com/markets/equities/25/04/44605930/how-to-trade-spy-as-market-braces-for-trumps-tariffs-plan",
+                    "published_at": "2025-04-02T12:52:48+00:00",
+                    "content": "Good Morning Traders! In today's Market Clubhouse Morning Memo, we will discuss SPY, QQQ, AAPL, MSFT, NVDA, GOOGL, META, and TSLA. Our proprietary formula, exclusive to Market Clubhouse, dictates these price levels. This dynamic equation takes into account price, volume, and options flow.",
+                    "sentiment_score": 0.139286,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Jeremy Bowman",
+                    "title": "How Much Further Can the \"Magnificent Seven\" Fall? Here's What History Suggests.",
+                    "description": "Just weeks after approaching its all-time high, the Nasdaq Composite is tumbling. As of Tuesday morning, the tech-heavy index was down by about 15% from its peak, putting it well into correction territory.Concerns about new tariffs, weakening consumer sentiment, geopolitical tensions, and a stock ...",
+                    "url": "https://www.fool.com/investing/2025/04/02/how-much-further-can-the-magnificent-seven-fall-he/",
+                    "published_at": "2025-04-02T11:15:00+00:00",
+                    "content": "Just weeks after approaching its all-time high, the Nasdaq Composite is tumbling. As of Tuesday morning, the tech-heavy index was down by about 15% from its peak, putting it well into correction territory.Concerns about new tariffs, weakening consumer sentiment, geopolitical tensions, and a stock ...",
+                    "sentiment_score": 0.017056,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Daniel Foelber",
+                    "title": "These 2 Vanguard ETFs Have Over 10% of Assets in Nvidia Stock. Here's Why Both Growth Funds Are Great Buys Now.",
+                    "description": "Nvidia ( NASDAQ: NVDA ) took the market by storm in 2023 and 2024 -- increasing by several-fold in just two years to become the third most valuable company in the world behind only Apple ( NASDAQ: AAPL ) and Microsoft ( NASDAQ: MSFT ) .",
+                    "url": "https://www.fool.com/investing/2025/04/02/buy-nvidia-stock-growth-etf-vanguard/",
+                    "published_at": "2025-04-02T11:07:00+00:00",
+                    "content": "Nvidia ( NASDAQ: NVDA ) took the market by storm in 2023 and 2024 -- increasing by several-fold in just two years to become the third most valuable company in the world behind only Apple ( NASDAQ: AAPL ) and Microsoft ( NASDAQ: MSFT ) .",
+                    "sentiment_score": 0.220258,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Keithen Drury",
+                    "title": "23% of Warren Buffett's Portfolio Is Invested in This 1 AI Stock",
+                    "description": "Warren Buffett and his crew at Berkshire Hathaway ( NYSE: BRK.A ) ( NYSE: BRK.B ) have one of the best investment track records of all time. Few investors have been able to match Buffett's success over Berkshire's long history.However, Berkshire hasn't achieved this success by investing in flashy ...",
+                    "url": "https://www.fool.com/investing/2025/04/02/23-of-warren-buffetts-portfolio-is-invested-in/",
+                    "published_at": "2025-04-02T11:00:00+00:00",
+                    "content": "Warren Buffett and his crew at Berkshire Hathaway ( NYSE: BRK.A ) ( NYSE: BRK.B ) have one of the best investment track records of all time. Few investors have been able to match Buffett's success over Berkshire's long history.However, Berkshire hasn't achieved this success by investing in flashy ...",
+                    "sentiment_score": 0.243891,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Rishabh Mishra",
+                    "title": "Tesla Short Interest Soars To 21.16%, Making It 4th Most Shorted Stock Currently: Here's What Its Charts Indicate - Microsoft  ( NASDAQ:MSFT ) , Apple  ( NASDAQ:AAPL ) ",
+                    "description": "Tesla Inc. TSLA short interest has increased by over 21% during its current reporting period, making it the fourth most shorted stock in the U.S. market currently. What Happened: The short interest on the company led by Elon Musk has increased from 67.126 million to 81.331 million shares.",
+                    "url": "https://www.benzinga.com/general/market-summary/25/04/44602836/tesla-short-interest-soars-to-2116-making-it-the-4th-largest-shorted-stock-heres-what-its-",
+                    "published_at": "2025-04-02T10:27:04+00:00",
+                    "content": "Tesla Inc. TSLA short interest has increased by over 21% during its current reporting period, making it the fourth most shorted stock in the U.S. market currently. What Happened: The short interest on the company led by Elon Musk has increased from 67.126 million to 81.331 million shares.",
+                    "sentiment_score": 0.255861,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Zacks Commentary",
+                    "author": "Zacks Equity Research",
+                    "title": "Is ALPS  ( OUSA )  a Strong ETF Right Now?",
+                    "description": "Smart Beta ETF report for ...",
+                    "url": "https://www.zacks.com/stock/news/2438709/is-alps-ousa-a-strong-etf-right-now",
+                    "published_at": "2025-04-02T10:20:06+00:00",
+                    "content": "Smart Beta ETF report for ...",
+                    "sentiment_score": 0.277768,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Zacks Commentary",
+                    "author": "Zacks Equity Research",
+                    "title": "Is iShares U.S. Equity Factor ETF  ( LRGF )  a Strong ETF Right Now?",
+                    "description": "Smart Beta ETF report for ...",
+                    "url": "https://www.zacks.com/stock/news/2438716/is-ishares-us-equity-factor-etf-lrgf-a-strong-etf-right-now",
+                    "published_at": "2025-04-02T10:20:05+00:00",
+                    "content": "Smart Beta ETF report for ...",
+                    "sentiment_score": 0.28739,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Namrata Sen",
+                    "title": "Visa Offers $100 Million To Secure Apple Card Network In A Bid To Outdo Mastercard: Report - Apple  ( NASDAQ:AAPL ) , American Express  ( NYSE:AXP ) ",
+                    "description": "Visa Inc. V has reportedly proposed a $100 million payment to Apple Inc. AAPL to secure the Apple Card network. This move comes amid fierce competition among the country's leading payment networks. What Happened: Apple Card is up for grabs as Goldman Sachs Group Inc.",
+                    "url": "https://www.benzinga.com/markets/25/04/44601859/visa-offers-100-million-to-secure-apple-card-network-in-a-bid-to-outdo-mastercard-report",
+                    "published_at": "2025-04-02T09:08:28+00:00",
+                    "content": "Visa Inc. V has reportedly proposed a $100 million payment to Apple Inc. AAPL to secure the Apple Card network. This move comes amid fierce competition among the country's leading payment networks. What Happened: Apple Card is up for grabs as Goldman Sachs Group Inc.",
+                    "sentiment_score": 0.176896,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Kaustubh Bagalkote",
+                    "title": "Apple Labor Cases Frozen By NLRB After Trump Nominates Company's Attorney As General Counsel: Report - Apple  ( NASDAQ:AAPL ) ",
+                    "description": "The National Labor Relations Board has frozen two cases against Apple Inc. AAPL days after President Donald Trump nominated Crystal Carey, an attorney representing the tech giant, as the agency's general counsel.",
+                    "url": "https://www.benzinga.com/markets/equities/25/04/44599605/apple-labor-cases-frozen-by-nlrb-after-trump-nominates-companys-attorney-as-general-counsel-repo",
+                    "published_at": "2025-04-02T03:26:55+00:00",
+                    "content": "The National Labor Relations Board has frozen two cases against Apple Inc. AAPL days after President Donald Trump nominated Crystal Carey, an attorney representing the tech giant, as the agency's general counsel.",
+                    "sentiment_score": 0.038856,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Ananya Gairola",
+                    "title": "Meta Planning To Drop $1,000 Smart Glasses With Hand Gesture Control As It Takes On Apple: Report - Alphabet  ( NASDAQ:GOOG ) , Apple  ( NASDAQ:AAPL ) ",
+                    "description": "Meta Platforms, Inc. META is reportedly gearing up to release an over $1,000 version of its smart glasses to further challenge Apple Inc.'s AAPL AR ambitions.",
+                    "url": "https://www.benzinga.com/25/04/44599475/meta-is-planning-to-drop-1000-smart-glasses-to-disrupt-apples-ar-ambitions-report",
+                    "published_at": "2025-04-02T02:36:15+00:00",
+                    "content": "Meta Platforms, Inc. META is reportedly gearing up to release an over $1,000 version of its smart glasses to further challenge Apple Inc.'s AAPL AR ambitions.",
+                    "sentiment_score": 0.288252,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Erica Kollmann",
+                    "title": "Trump's 'Liberation Day' Creates 'Major Uncertainty' For Big Tech, Analyst Dan Ives Says - NVIDIA  ( NASDAQ:NVDA ) ",
+                    "description": "Retaliatory measures from China could disrupt production of critical components of Nvidia's chips. Decreased consumer confidence and spending could weigh further on companies such as Tesla and Apple. The 'Trade of the Day' is now live. Get a high-probability setup with clear entry and exit ...",
+                    "url": "https://www.benzinga.com/analyst-ratings/analyst-color/25/04/44598088/trumps-liberation-day-creates-major-uncertainty-for-big-tech-analyst-dan-ives-says",
+                    "published_at": "2025-04-01T23:06:21+00:00",
+                    "content": "Retaliatory measures from China could disrupt production of critical components of Nvidia's chips. Decreased consumer confidence and spending could weigh further on companies such as Tesla and Apple. The 'Trade of the Day' is now live. Get a high-probability setup with clear entry and exit ...",
+                    "sentiment_score": -0.004894,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Chris Katje",
+                    "title": "EXCLUSIVE: March's 20 Most-Searched Tickers On Pro - Where Do Tesla, Nvidia, Apple, Applovin Stock Rank? - Apple  ( NASDAQ:AAPL ) , Aclarion  ( NASDAQ:ACON ) ",
+                    "description": "A look at the top 20 most-searched tickers on Benzinga Pro in the month of March. Newcomers in March include MicroAlgo, Visionary Holdings and D-Wave Quantum. Each of these stocks had major news in the month.. Feel unsure about the market's next move?",
+                    "url": "https://www.benzinga.com/trading-ideas/25/04/44597684/exclusive-marchs-20-most-searched-tickers-on-benzinga-pro-where-do-tesla-nvidia-apple-applovin-stoc",
+                    "published_at": "2025-04-01T22:28:05+00:00",
+                    "content": "A look at the top 20 most-searched tickers on Benzinga Pro in the month of March. Newcomers in March include MicroAlgo, Visionary Holdings and D-Wave Quantum. Each of these stocks had major news in the month.. Feel unsure about the market's next move?",
+                    "sentiment_score": 0.206616,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Zacks Commentary",
+                    "author": "Zacks Equity Research",
+                    "title": "Apple  ( AAPL )  Laps the Stock Market: Here's Why",
+                    "description": "Apple (AAPL) concluded the recent trading session at $223.19, signifying a +0.48% move from its prior day's close.",
+                    "url": "https://www.zacks.com/stock/news/2438559/apple-aapl-laps-the-stock-market-heres-why",
+                    "published_at": "2025-04-01T21:45:15+00:00",
+                    "content": "Apple (AAPL) concluded the recent trading session at $223.19, signifying a +0.48% move from its prior day's close.",
+                    "sentiment_score": 0.229583,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Surbhi Jain",
+                    "title": "PayPal Stock's Death Cross Looms - Will It Trigger A Turnaround? - PayPal Holdings  ( NASDAQ:PYPL ) ",
+                    "description": "PayPal stock nears a death cross as key moving averages signal a bearish trend despite buying pressure. Mizuho maintains a bullish stance, betting on Pay with Venmo and AI-driven innovations to drive growth.",
+                    "url": "https://www.benzinga.com/25/04/44593074/paypals-death-cross-looms-will-it-trigger-a-turnaround",
+                    "published_at": "2025-04-01T19:01:34+00:00",
+                    "content": "PayPal stock nears a death cross as key moving averages signal a bearish trend despite buying pressure. Mizuho maintains a bullish stance, betting on Pay with Venmo and AI-driven innovations to drive growth.",
+                    "sentiment_score": -0.034881,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "The Arora Report",
+                    "title": "Here Is How The Stock Market Will Move After Trump's Tariff Reveal On Liberation Day - Invesco QQQ Trust, Series 1  ( NASDAQ:QQQ ) , Alphabet  ( NASDAQ:GOOG ) ",
+                    "description": "To gain an edge, this is what you need to know today. Please click here for an enlarged chart of Invesco QQQ Trust Series 1 QQQ. Permabulls are expecting a rip-roaring rally and urging their followers to aggressively buy stocks. Permabears are expecting a big market drop.",
+                    "url": "https://www.benzinga.com/markets/equities/25/04/44590032/here-is-how-the-stock-market-will-move-after-trumps-tariff-reveal-on-liberation-day",
+                    "published_at": "2025-04-01T16:14:03+00:00",
+                    "content": "To gain an edge, this is what you need to know today. Please click here for an enlarged chart of Invesco QQQ Trust Series 1 QQQ. Permabulls are expecting a rip-roaring rally and urging their followers to aggressively buy stocks. Permabears are expecting a big market drop.",
+                    "sentiment_score": 0.224456,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Chris Katje",
+                    "title": "Apple Stock A Buy On 'Revenue Durability & Visibility': Analyst Highlights China Smartphone Sales Up In February - Apple  ( NASDAQ:AAPL ) ",
+                    "description": "China smartphone sales were up in February, which could be a positive for Apple. An Apple analyst sees the stock as a buy on valuation and strong services revenue growth. The 'Trade of the Day' is now live. Get a high-probability setup with clear entry and exit points right here.",
+                    "url": "https://www.benzinga.com/25/04/44588577/apple-stock-a-buy-on-revenue-durability-visibility-analyst-highlights-china-smartphone-sales-up-in-february",
+                    "published_at": "2025-04-01T15:14:12+00:00",
+                    "content": "China smartphone sales were up in February, which could be a positive for Apple. An Apple analyst sees the stock as a buy on valuation and strong services revenue growth. The 'Trade of the Day' is now live. Get a high-probability setup with clear entry and exit points right here.",
+                    "sentiment_score": 0.2126,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Benzinga Insights",
+                    "title": "Market Analysis: Apple And Competitors In Technology Hardware, Storage & Peripherals Industry - Apple  ( NASDAQ:AAPL ) ",
+                    "description": "In the fast-paced and cutthroat world of business, conducting thorough company analysis is essential for investors and industry experts. In this article, we will undertake a comprehensive industry comparison, evaluating Apple AAPL in comparison to its major competitors within the Technology ...",
+                    "url": "https://www.benzinga.com/insights/news/25/04/44588214/market-analysis-apple-and-competitors-in-technology-hardware-storage-amp-peripherals-industry",
+                    "published_at": "2025-04-01T15:00:51+00:00",
+                    "content": "In the fast-paced and cutthroat world of business, conducting thorough company analysis is essential for investors and industry experts. In this article, we will undertake a comprehensive industry comparison, evaluating Apple AAPL in comparison to its major competitors within the Technology ...",
+                    "sentiment_score": 0.224817,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Zacks Commentary",
+                    "author": "Zacks Investment Research",
+                    "title": "10 Stocks of the S&P 500 ETF Up More Than 20% in Q1",
+                    "description": "While many stocks in the S&P 500 ETF posted dismal performance in the just-concluded quarter, we discuss some that rose by more than 20%.",
+                    "url": "https://www.zacks.com/stock/news/2438305/10-stocks-of-the-sp-500-etf-up-more-than-20-in-q1",
+                    "published_at": "2025-04-01T15:00:00+00:00",
+                    "content": "While many stocks in the S&P 500 ETF posted dismal performance in the just-concluded quarter, we discuss some that rose by more than 20%.",
+                    "sentiment_score": 0.120605,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Benzinga Insights",
+                    "title": "Apple Unusual Options Activity For April 01 - Apple  ( NASDAQ:AAPL ) ",
+                    "description": "Whales with a lot of money to spend have taken a noticeably bearish stance on Apple. Looking at options history for Apple AAPL we detected 25 trades. If we consider the specifics of each trade, it is accurate to state that 32% of the investors opened trades with bullish expectations and 64% with ...",
+                    "url": "https://www.benzinga.com/insights/options/25/04/44587814/apple-unusual-options-activity-for-april-01",
+                    "published_at": "2025-04-01T14:45:58+00:00",
+                    "content": "Whales with a lot of money to spend have taken a noticeably bearish stance on Apple. Looking at options history for Apple AAPL we detected 25 trades. If we consider the specifics of each trade, it is accurate to state that 32% of the investors opened trades with bullish expectations and 64% with ...",
+                    "sentiment_score": 0.182485,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Zacks Commentary",
+                    "author": "Zacks Equity Research",
+                    "title": "Zacks Investment Ideas feature highlights: Amazon, Meta Platforms, Microsoft, Apple, Alphabet, Tesla and Nvidia",
+                    "description": "Amazon, Meta Platforms, Microsoft, Apple, Alphabet, Tesla and Nvidia are part of the Zacks Investment Ideas article.",
+                    "url": "https://www.zacks.com/stock/news/2438340/zacks-investment-ideas-feature-highlights-amazon-meta-platforms-microsoft-apple-alphabet-tesla-and-nvidia",
+                    "published_at": "2025-04-01T14:23:00+00:00",
+                    "content": "Amazon, Meta Platforms, Microsoft, Apple, Alphabet, Tesla and Nvidia are part of the Zacks Investment Ideas article.",
+                    "sentiment_score": 0.266898,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "RIPS",
+                    "title": "How To Trade SPY As Market Awaits JOLTS Data",
+                    "description": "Good Morning Traders! In today's Market Clubhouse Morning Memo, we will discuss SPY, QQQ, AAPL, MSFT, NVDA, GOOGL, META, and TSLA. Our proprietary formula, exclusive to Market Clubhouse, dictates these price levels. This dynamic equation takes into account price, volume, and options flow.",
+                    "url": "https://www.benzinga.com/markets/equities/25/04/44585367/how-to-trade-spy-as-market-awaits-jolts-data",
+                    "published_at": "2025-04-01T13:19:36+00:00",
+                    "content": "Good Morning Traders! In today's Market Clubhouse Morning Memo, we will discuss SPY, QQQ, AAPL, MSFT, NVDA, GOOGL, META, and TSLA. Our proprietary formula, exclusive to Market Clubhouse, dictates these price levels. This dynamic equation takes into account price, volume, and options flow.",
+                    "sentiment_score": 0.145847,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Rishabh Mishra",
+                    "title": "Days After Calling The CHIPS Act A 'Horrible Thing' Donald Trump Sets Up New Entity For 'Negotiating Much Better...Deals:' Here's More - Apple  ( NASDAQ:AAPL ) , Analog Devices  ( NASDAQ:ADI ) ",
+                    "description": "President Donald Trump has set up a new body within the Commerce Department to manage the CHIPS and Science Act, 2022. What Happened: A new entity, the United States Investment Accelerator within the Commerce Department, will now oversee the CHIPS Act program, as established by an executive order ...",
+                    "url": "https://www.benzinga.com/25/04/44584283/trump-sets-up-investment-accelerator-for-chips-act-management-heres-a-list-of-beneficiaries-that-could-be-impacte",
+                    "published_at": "2025-04-01T12:47:29+00:00",
+                    "content": "President Donald Trump has set up a new body within the Commerce Department to manage the CHIPS and Science Act, 2022. What Happened: A new entity, the United States Investment Accelerator within the Commerce Department, will now oversee the CHIPS Act program, as established by an executive order ...",
+                    "sentiment_score": 0.227244,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Keith Noonan and Jennifer Saibil",
+                    "title": "37% of Warren Buffett's $290 Billion Berkshire Hathaway Portfolio Is Invested in These 2 S&P 500 Dividend Stocks",
+                    "description": "Even though Berkshire Hathaway ( NYSE: BRK.A ) ( NYSE: BRK.B ) doesn't pay a dividend, it's clear that CEO Warren Buffett is a big fan of companies that cut investors in on their profits through regularly delivered cash checks.",
+                    "url": "https://www.fool.com/investing/2025/04/01/warren-buffett-berkshire-hathaway-dividend-stock/",
+                    "published_at": "2025-04-01T09:12:00+00:00",
+                    "content": "Even though Berkshire Hathaway ( NYSE: BRK.A ) ( NYSE: BRK.B ) doesn't pay a dividend, it's clear that CEO Warren Buffett is a big fan of companies that cut investors in on their profits through regularly delivered cash checks.",
+                    "sentiment_score": 0.266697,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Ananya Gairola",
+                    "title": "iOS 18.4 Is Now Live With New Emojis, Apple News+ Food, And Priority AI Notifications Alongside Vision Pro Updates: What You Need To Know - Apple  ( NASDAQ:AAPL ) ",
+                    "description": "Apple Inc. AAPL has officially released iOS 18.4, iPadOS 18.4, macOS 15.4, and VisionOS 2.4, bringing a range of new features to its devices. What Happened: The iOS 18.4 update introduces several exciting features, such as a new Apple News+ Food section in the News app.",
+                    "url": "https://www.benzinga.com/tech/25/04/44579491/ios-18-4-is-now-live-with-new-emojis-apple-news-food-and-priority-ai-notifications-alongside-vision-pro-upda",
+                    "published_at": "2025-04-01T08:43:07+00:00",
+                    "content": "Apple Inc. AAPL has officially released iOS 18.4, iPadOS 18.4, macOS 15.4, and VisionOS 2.4, bringing a range of new features to its devices. What Happened: The iOS 18.4 update introduces several exciting features, such as a new Apple News+ Food section in the News app.",
+                    "sentiment_score": 0.287536,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Ananya Gairola",
+                    "title": "Who Is Peter Thiel's Protégé, Michael Kratsios, Now Leading Trump's AI Strategy Amid Rising Tech Tensions With China - Apple  ( NASDAQ:AAPL ) , Advanced Micro Devices  ( NASDAQ:AMD ) ",
+                    "description": "Michael Kratsios, a former deputy to venture capitalist Peter Thiel and one of Silicon Valley's most influential tech policy figures, has taken charge of the U.S. government's AI strategy amid escalating competition with China's tech giants.",
+                    "url": "https://www.benzinga.com/media/25/04/44579268/who-is-peter-thiels-protege-michael-kratsios-now-leading-trumps-ai-strategy-amid-rising-tech-tensions-with-",
+                    "published_at": "2025-04-01T08:11:21+00:00",
+                    "content": "Michael Kratsios, a former deputy to venture capitalist Peter Thiel and one of Silicon Valley's most influential tech policy figures, has taken charge of the U.S. government's AI strategy amid escalating competition with China's tech giants.",
+                    "sentiment_score": 0.147791,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Trevor Jennewine",
+                    "title": "Apple Stock vs. Tesla Stock: Billionaires Buy One and Sell the Other",
+                    "description": "Apple ( NASDAQ: AAPL ) and Tesla ( NASDAQ: TSLA ) are two of the popular stocks among individual investors, but the hedge fund billionaires listed below sold one and bought the other in the fourth quarter.Millennium and D.E. Shaw rank among the three most profitable hedge funds in history, ...",
+                    "url": "https://www.fool.com/investing/2025/04/01/apple-stock-vs-tesla-stock-billionaires-buy-sell/",
+                    "published_at": "2025-04-01T08:02:00+00:00",
+                    "content": "Apple ( NASDAQ: AAPL ) and Tesla ( NASDAQ: TSLA ) are two of the popular stocks among individual investors, but the hedge fund billionaires listed below sold one and bought the other in the fourth quarter.Millennium and D.E. Shaw rank among the three most profitable hedge funds in history, ...",
+                    "sentiment_score": 0.070496,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Zacks Commentary",
+                    "author": "Andrew Rocco",
+                    "title": "Bull of the Day: Baidu  ( BIDU ) ",
+                    "description": "Baidu's advancements in AI, strategic partnerships like the one with Apple, and the impressive growth of its Apollo Go robotaxi service, highlight its strong growth potential.",
+                    "url": "https://www.zacks.com/commentary/2437656/bull-of-the-day-baidu-bidu",
+                    "published_at": "2025-04-01T08:00:00+00:00",
+                    "content": "Baidu's advancements in AI, strategic partnerships like the one with Apple, and the impressive growth of its Apollo Go robotaxi service, highlight its strong growth potential.",
+                    "sentiment_score": 0.226882,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Namrata Sen",
+                    "title": "Tim Cook's Apple And Elon Musk's SpaceX Engage In A Heated Battle Over Satellite Tech And App Control: Report - Apple  ( NASDAQ:AAPL ) , Amazon.com  ( NASDAQ:AMZN ) ",
+                    "description": "The reported rivalry between Tim Cook's Apple Inc. AAPL and Elon Musk's SpaceX is heating up over satellite technology designed to eliminate cellphone dead zones. What Happened: Apple is pouring significant resources into satellite-based communications, while SpaceX has already launched over 550 ...",
+                    "url": "https://www.benzinga.com/markets/25/04/44578567/tim-cooks-apple-and-elon-musks-spacex-engage-in-a-heated-battle-over-satellite-tech-and-app-control-repor",
+                    "published_at": "2025-04-01T07:06:56+00:00",
+                    "content": "The reported rivalry between Tim Cook's Apple Inc. AAPL and Elon Musk's SpaceX is heating up over satellite technology designed to eliminate cellphone dead zones. What Happened: Apple is pouring significant resources into satellite-based communications, while SpaceX has already launched over 550 ...",
+                    "sentiment_score": 0.114052,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Benzinga Insights",
+                    "title": "Here's How Much $100 Invested In Apple 5 Years Ago Would Be Worth Today - Apple  ( NASDAQ:AAPL ) ",
+                    "description": "Apple AAPL has outperformed the market over the past 5 years by 12.12% on an annualized basis producing an average annual return of 29.77%. Currently, Apple has a market capitalization of $3.32 trillion.",
+                    "url": "https://www.benzinga.com/insights/news/25/03/44575275/heres-how-much-100-invested-in-apple-5-years-ago-would-be-worth-today",
+                    "published_at": "2025-03-31T23:15:10+00:00",
+                    "content": "Apple AAPL has outperformed the market over the past 5 years by 12.12% on an annualized basis producing an average annual return of 29.77%. Currently, Apple has a market capitalization of $3.32 trillion.",
+                    "sentiment_score": 0.25,
+                    "sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        }
+    },
+    "summary": {
+        "reddit_submissions_count": 9,
+        "reddit_comments_count": 0,
+        "news_articles_count": 150,
+        "total_content_count": 159
+    }
+}
