@@ -179,7 +179,7 @@ custom_ticker = st.sidebar.text_input(
 st.sidebar.markdown('</div>', unsafe_allow_html=True)
 
 ##alpha_vantage_key = "BZW2K8SFI3GETDOV"
-fmp_api_key = os.getenv("FMP_API_KEY")
+fmp_api_key = get_api_key("FMP_API_KEY")
 
 if custom_ticker:
     with st.sidebar:
