@@ -34,29 +34,23 @@ def get_demo_data(ticker, period="6mo"):
 def get_stock_data(ticker, period="6mo", interval="1d", fmp_api_key=None):
     """
     Fetch stock data from Financial Modeling Prep.
-    
-    Args:
-        ticker (str): Stock ticker symbol
-        period (str): Period for data (e.g., '1mo', '3mo', '6mo', '1y', '2y', '5y', 'max')
-        interval (str): Data interval (only 'daily' supported in this implementation)
-        fmp_api_key (str, optional): Financial Modeling Prep API key
-    
-    Returns:
-        pd.DataFrame: DataFrame containing the stock data
-        str: Error message if any, None otherwise
     """
+    # Check if in demo mode first
     if "demo_mode" in st.session_state and st.session_state.demo_mode:
         return get_demo_data(ticker, period)
+    
+    # Check cache for regular mode
     cached_data, error, cache_info = get_cached_data(ticker, period)
-    if cached_data is not None:
-        return cached_data, None, cache_info
+    
+    # If we have cache that's less than 24 hours old, use it
+    if cached_data is not None and cache_info is not None:
+        file_modified = cache_info.get("last_updated")
+        if file_modified and (datetime.now() - file_modified < timedelta(hours=24)):
+            return cached_data, None, cache_info
+    
+    # No recent cache, so fetch fresh data
     if not fmp_api_key:
-        return None, "FMP API key is required"
-        
-    # First check cache
-    cached_data, error,cache_info = get_cached_data(ticker, period)
-    if cached_data is not None:
-        return cached_data, None
+        return None, "FMP API key is required", None
         
     try:
         print(f"Fetching {ticker} data using Financial Modeling Prep API...")
@@ -107,20 +101,20 @@ def get_stock_data(ticker, period="6mo", interval="1d", fmp_api_key=None):
                 # Save to cache
                 save_to_cache(fmp_data, ticker, period)
                 
-                return fmp_data, None, None
+                # Return fresh data with no cache info
+                return fmp_data, None, {"used": False}
             else:
-                return None, f"No data returned for {ticker}"
+                return None, f"No data returned for {ticker}", None
         else:
             error_message = "No historical data in FMP response"
             if 'Error Message' in result:
                 error_message = result['Error Message']
-            return None, f"Error: {error_message}"
+            return None, f"Error: {error_message}", None
             
     except requests.exceptions.RequestException as e:
-        return None, f"API request error: {str(e)}"
+        return None, f"API request error: {str(e)}", None
     except Exception as e:
-        return None, f"Unexpected error: {str(e)}"
-
+        return None, f"Unexpected error: {str(e)}", None
 def verify_ticker(ticker,fmp_api_key = None):
     """
     Verify if a ticker symbol is valid using FMP API.
@@ -158,25 +152,23 @@ def get_cached_data(ticker, period):
     
     cache_file = f"{cache_dir}/{ticker.upper()}_{period}.csv"
     
-    # Check if cache file exists and is less than 24 hours old
+    # Check if cache file exists
     if os.path.exists(cache_file):
         file_modified = datetime.fromtimestamp(os.path.getmtime(cache_file))
-        # Cache is valid for 24 hours
-        if datetime.now() - file_modified < timedelta(hours=24):
-            try:
-                data = pd.read_csv(cache_file)
-                data['date'] = pd.to_datetime(data['date'])
-                print(f"Using cached data for {ticker} ({period})")
-                cache_info = {
-                    "used": True,
-                    "file": cache_file,
-                    "last_updated": file_modified
-                }
-                return data, None, cache_info
-            except Exception as e:
-                print(f"Error reading cached data: {str(e)}")
+        try:
+            data = pd.read_csv(cache_file)
+            data['date'] = pd.to_datetime(data['date'])
+            print(f"Found cached data for {ticker} ({period})")
+            cache_info = {
+                "used": True,
+                "file": cache_file,
+                "last_updated": file_modified
+            }
+            return data, None, cache_info
+        except Exception as e:
+            print(f"Error reading cached data: {str(e)}")
     
-    return None, "No cached data available or cache expired", None
+    return None, "No cached data available", None
 
 def save_to_cache(data, ticker, period):
     """
