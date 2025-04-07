@@ -1,0 +1,574 @@
+{
+    "ticker": "AMZN",
+    "company_name": null,
+    "search_period": {
+        "start": "2025-03-31T00:11:39.667530+00:00",
+        "end": "2025-04-07T00:11:39.667530+00:00"
+    },
+    "sources": {
+        "reddit": {
+            "submissions": [],
+            "comments": []
+        },
+        "news": {
+            "articles": [
+                {
+                    "source": "Motley Fool",
+                    "author": "Prosper Junior Bakiny",
+                    "title": "History Says the Best Time to Buy Stocks May Be Coming",
+                    "description": "Equities haven't performed well so far in 2025. President Donald Trump's trade wars are creating significant uncertainty, while many fear that a recession might be coming -- something else that could send the stock market in the wrong direction.",
+                    "url": "https://www.fool.com/investing/2025/04/06/history-says-the-best-time-to-buy-stocks-may-be-co/",
+                    "published_at": "2025-04-06T19:15:00+00:00",
+                    "content": "Equities haven't performed well so far in 2025. President Donald Trump's trade wars are creating significant uncertainty, while many fear that a recession might be coming -- something else that could send the stock market in the wrong direction.",
+                    "sentiment_score": 0.049401,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Geoffrey Seiler",
+                    "title": "3 Top Bargain Tech Stocks Ready for the Next Bull Run",
+                    "description": "Following President Donald Trump's \"Liberation Day\" tariff announcement, stocks plummeted as fears escalated regarding a potential global trade war and how it could impact the global economy. While there certainly could be more pressure on stocks in the coming weeks depending on how this all ...",
+                    "url": "https://www.fool.com/investing/2025/04/06/top-bargain-tech-stocks-ready-for-next-bull-run/",
+                    "published_at": "2025-04-06T14:15:00+00:00",
+                    "content": "Following President Donald Trump's \"Liberation Day\" tariff announcement, stocks plummeted as fears escalated regarding a potential global trade war and how it could impact the global economy. While there certainly could be more pressure on stocks in the coming weeks depending on how this all ...",
+                    "sentiment_score": 0.240745,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Robert Izquierdo",
+                    "title": "Is This Artificial Intelligence IPO a Buy?",
+                    "description": "Although recent stock market volatility has pushed down prices for many stocks, the artificial intelligence ( AI ) sector remains a compelling investment, with the tremendous transformative potential it brings to many industries.As Lisa Su, CEO of semiconductor giant Advanced Micro Devices, ...",
+                    "url": "https://www.fool.com/investing/2025/04/06/is-this-artificial-intelligence-ipo-stock-a-buy/",
+                    "published_at": "2025-04-06T13:13:00+00:00",
+                    "content": "Although recent stock market volatility has pushed down prices for many stocks, the artificial intelligence ( AI ) sector remains a compelling investment, with the tremendous transformative potential it brings to many industries.As Lisa Su, CEO of semiconductor giant Advanced Micro Devices, ...",
+                    "sentiment_score": 0.098106,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Keithen Drury",
+                    "title": "5 Brilliant AI Stocks That Billionaire Chase Coleman Is Betting Big On",
+                    "description": "Looking at what successful hedge fund managers buy and hold is a great way for investors to drum up ideas about which stocks to pick. Fortunately, anyone with over $100 million in holdings must disclose what they own to the SEC, then they make that information public knowledge 45 days after the ...",
+                    "url": "https://www.fool.com/investing/2025/04/06/5-brilliant-ai-stocks-that-billionaire-chase-colem/",
+                    "published_at": "2025-04-06T11:30:00+00:00",
+                    "content": "Looking at what successful hedge fund managers buy and hold is a great way for investors to drum up ideas about which stocks to pick. Fortunately, anyone with over $100 million in holdings must disclose what they own to the SEC, then they make that information public knowledge 45 days after the ...",
+                    "sentiment_score": 0.024206,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Ryan Vanzo",
+                    "title": "2 No-Brainer Artificial Intelligence  ( AI )  Stocks Owned by Warren Buffett Right Now",
+                    "description": "Warren Buffett isn't known for his tech investing. But right now, two of his largest positions are benefiting big from rising demand for artificial intelligence ( AI ) services. Most people don't think of these companies as AI businesses, but when you dig deeper, few companies stand to benefit as ...",
+                    "url": "https://www.fool.com/investing/2025/04/06/no-brainer-ai-warren-buffett-stocks/",
+                    "published_at": "2025-04-06T10:25:00+00:00",
+                    "content": "Warren Buffett isn't known for his tech investing. But right now, two of his largest positions are benefiting big from rising demand for artificial intelligence ( AI ) services. Most people don't think of these companies as AI businesses, but when you dig deeper, few companies stand to benefit as ...",
+                    "sentiment_score": 0.186238,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Leo Sun",
+                    "title": "2 Soaring Stocks to Hold for the Next 20 Years",
+                    "description": "Amazon and Costco could still beat the market over the next two decades.",
+                    "url": "https://www.fool.com/investing/2025/04/06/2-soaring-stocks-to-hold-for-the-next-20-years/",
+                    "published_at": "2025-04-06T09:25:00+00:00",
+                    "content": "Amazon and Costco could still beat the market over the next two decades.",
+                    "sentiment_score": 0.142779,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Geoffrey Seiler",
+                    "title": "1 Growth Stock Down 25% to Buy Right Now",
+                    "description": "The markets were already on edge with concerns regarding tariffs, and President Donald Trump's \"Liberation Day\" tariff announcement sent them over the edge. While there could be some continued market pain, the sell-off has also brought some top growth stocks down to attractive levels.One growth ...",
+                    "url": "https://www.fool.com/investing/2025/04/06/1-growth-stock-down-25-to-buy-right-now/",
+                    "published_at": "2025-04-06T08:19:00+00:00",
+                    "content": "The markets were already on edge with concerns regarding tariffs, and President Donald Trump's \"Liberation Day\" tariff announcement sent them over the edge. While there could be some continued market pain, the sell-off has also brought some top growth stocks down to attractive levels.One growth ...",
+                    "sentiment_score": 0.26179,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Geoffrey Seiler",
+                    "title": "4 Growth Stocks Down 20% or More to Buy Right Now",
+                    "description": "The recent market sell-off has opened the door for some good buying opportunities in growth stocks. Let's look at four that investors can buy for the long term.Down just over 20% from its highs, Amazon ( NASDAQ: AMZN ) is trading at one of its lowest valuations in its history with a trailing ...",
+                    "url": "https://www.fool.com/investing/2025/04/05/4-growth-stock-down-20-or-more-to-buy-right-now/",
+                    "published_at": "2025-04-05T22:14:00+00:00",
+                    "content": "The recent market sell-off has opened the door for some good buying opportunities in growth stocks. Let's look at four that investors can buy for the long term.Down just over 20% from its highs, Amazon ( NASDAQ: AMZN ) is trading at one of its lowest valuations in its history with a trailing ...",
+                    "sentiment_score": 0.269948,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "John Ballard",
+                    "title": "3 Top Buffett Stocks to Buy and Hold for the Next 20 Years",
+                    "description": "Warren Buffett has built a fortune for Berkshire Hathaway shareholders. Buffett's success at buying stocks of great businesses and holding them for the long term has inspired many investors to follow his style.Berkshire held a stock portfolio worth $271 billion at the end of 2024.",
+                    "url": "https://www.fool.com/investing/2025/04/05/3-top-buffett-stocks-buy-hold-next-20-years/",
+                    "published_at": "2025-04-05T22:03:00+00:00",
+                    "content": "Warren Buffett has built a fortune for Berkshire Hathaway shareholders. Buffett's success at buying stocks of great businesses and holding them for the long term has inspired many investors to follow his style.Berkshire held a stock portfolio worth $271 billion at the end of 2024.",
+                    "sentiment_score": 0.394156,
+                    "sentiment_label": "Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Bibhu Pattnaik",
+                    "title": "Elon Musk Loses $11 Billion As Tesla Stock Plummets In Wake Of New Trump Tariffs",
+                    "description": "Elon Musk's fortune takes a $12 billion hit as Tesla shares tumble amid market turmoil. Trump's tariff announcement sends shockwaves through the stock market, with tech giants bearing the brunt.",
+                    "url": "https://www.benzinga.com/markets/25/04/44657033/elon-musk-loses-11-billion-as-tesla-stock-plummets-in-wake-of-new-trump-tariffs",
+                    "published_at": "2025-04-05T19:31:48+00:00",
+                    "content": "Elon Musk's fortune takes a $12 billion hit as Tesla shares tumble amid market turmoil. Trump's tariff announcement sends shockwaves through the stock market, with tech giants bearing the brunt.",
+                    "sentiment_score": 0.115648,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Bibhu Pattnaik",
+                    "title": "$74 Billion Wiped Out Since Tariff Declaration - See How Much The Billionaires Lost - Alphabet  ( NASDAQ:GOOGL ) , Amazon.com  ( NASDAQ:AMZN ) ",
+                    "description": "Trump's tariff turmoil tanks titan's fortunes, slashing $74 billion from top billionaires' bankrolls. Market mayhem hits Musk and Bezos hard, with Tesla chief's net worth tumbling by $11 billion.",
+                    "url": "https://www.benzinga.com/markets/25/04/44656945/74-billion-wiped-out-since-tariff-declaration-see-how-much-the-billionaires-lost",
+                    "published_at": "2025-04-05T18:30:17+00:00",
+                    "content": "Trump's tariff turmoil tanks titan's fortunes, slashing $74 billion from top billionaires' bankrolls. Market mayhem hits Musk and Bezos hard, with Tesla chief's net worth tumbling by $11 billion.",
+                    "sentiment_score": 0.116481,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "James Brumley",
+                    "title": "Should You Forget Amazon? Why These Unstoppable Stocks Are Better Buys",
+                    "description": "It's time to expect a little less from enormous Amazon. Here's a closer look at three new leading growth prospects for your portfolio.",
+                    "url": "https://www.fool.com/investing/2025/04/05/should-you-forget-amazon-why-these-unstoppable-sto/",
+                    "published_at": "2025-04-05T14:00:00+00:00",
+                    "content": "It's time to expect a little less from enormous Amazon. Here's a closer look at three new leading growth prospects for your portfolio.",
+                    "sentiment_score": 0.24095,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Geoffrey Seiler",
+                    "title": "Is Cameco Stock a Buy Now?",
+                    "description": "With artificial intelligence ( AI ) increasing demand for electricity, nuclear energy is becoming a more viable option. In fact, all three big cloud computing companies have announced major investments in nuclear power.Microsoft started the ball rolling when last fall it signed a 20-year power ...",
+                    "url": "https://www.fool.com/investing/2025/04/05/is-cameco-stock-a-buy-now/",
+                    "published_at": "2025-04-05T13:07:00+00:00",
+                    "content": "With artificial intelligence ( AI ) increasing demand for electricity, nuclear energy is becoming a more viable option. In fact, all three big cloud computing companies have announced major investments in nuclear power.Microsoft started the ball rolling when last fall it signed a 20-year power ...",
+                    "sentiment_score": 0.113339,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Manali Pradhan",
+                    "title": "Billionaire Paul Tudor Jones Trimmed His Position in Nvidia and Is Piling Into 2 Turnaround Tech Stocks",
+                    "description": "Paul Tudor Jones is betting on these two turnaround stocks over Nvidia.",
+                    "url": "https://www.fool.com/investing/2025/04/05/billionaire-paul-tudor-jones-trimmed-position-in/",
+                    "published_at": "2025-04-05T12:53:00+00:00",
+                    "content": "Paul Tudor Jones is betting on these two turnaround stocks over Nvidia.",
+                    "sentiment_score": 0.151253,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Rich Smith",
+                    "title": "Boeing Space Joint Venture to Launch 12 Times in 2025, and Double That in 2026",
+                    "description": "To make more money, United Launch Alliance must launch more rockets. And now it can.",
+                    "url": "https://www.fool.com/investing/2025/04/05/boeing-space-venture-to-launch-12-times-in-2025/",
+                    "published_at": "2025-04-05T11:07:00+00:00",
+                    "content": "To make more money, United Launch Alliance must launch more rockets. And now it can.",
+                    "sentiment_score": 0.111095,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Justin Pope",
+                    "title": "This E-Commerce Stock Could Be the Best Investment of the Decade",
+                    "description": "Don't try to fix something that isn't broken. This stock has plenty more to offer long-term investors.",
+                    "url": "https://www.fool.com/investing/2025/04/05/this-e-commerce-stock-could-be-the-best-investment/",
+                    "published_at": "2025-04-05T09:23:00+00:00",
+                    "content": "Don't try to fix something that isn't broken. This stock has plenty more to offer long-term investors.",
+                    "sentiment_score": 0.337092,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "James Brumley",
+                    "title": "3 No-Brainer Warren Buffett Stocks to Buy Right Now",
+                    "description": "When in doubt about your next best bet, consider poaching an idea (or three) from the world's most proven stock picker.",
+                    "url": "https://www.fool.com/investing/2025/04/05/3-no-brainer-warren-buffett-stocks-to-buy-right-no/",
+                    "published_at": "2025-04-05T09:07:00+00:00",
+                    "content": "When in doubt about your next best bet, consider poaching an idea (or three) from the world's most proven stock picker.",
+                    "sentiment_score": 0.239997,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Justin Pope",
+                    "title": "The Best Stocks to Invest $1,000 in Right Now",
+                    "description": "Recent volatility hasn't altered the compelling long-term growth opportunities ahead of these \"Magnificent\" stocks.",
+                    "url": "https://www.fool.com/investing/2025/04/05/the-best-stocks-to-invest-1000-in-right-now/",
+                    "published_at": "2025-04-05T08:35:00+00:00",
+                    "content": "Recent volatility hasn't altered the compelling long-term growth opportunities ahead of these \"Magnificent\" stocks.",
+                    "sentiment_score": 0.293949,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Adria Cimino",
+                    "title": "President Trump's Tariffs Have Arrived. 3 Things to Do to Protect Your Portfolio.",
+                    "description": "The idea of an import tax started weighing on investor sentiment in March, when President Trump laid out his initial plan to target Canada, Mexico, and China. Stocks tumbled, with the S&P 500 ( SNPINDEX: ^GSPC ) and Nasdaq Composite ( NASDAQINDEX: ^IXIC ) both temporarily slipping into correction ...",
+                    "url": "https://www.fool.com/investing/2025/04/05/trumps-tariffs-3-things-to-protect-portfolio/",
+                    "published_at": "2025-04-05T07:40:00+00:00",
+                    "content": "The idea of an import tax started weighing on investor sentiment in March, when President Trump laid out his initial plan to target Canada, Mexico, and China. Stocks tumbled, with the S&P 500 ( SNPINDEX: ^GSPC ) and Nasdaq Composite ( NASDAQINDEX: ^IXIC ) both temporarily slipping into correction ...",
+                    "sentiment_score": 0.147721,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Jennifer Saibil",
+                    "title": "3 Ways the New U.S. Tariffs Might Affect Amazon Stock",
+                    "description": "President Donald Trump's \"Liberation Day\" tariff program set off a string of worries and sent the markets tumbling on Thursday and Friday. New fears about how the tariffs could trigger a recession sent investors running toward safer instruments like U.S. Treasury bills. Analysts at J.P.",
+                    "url": "https://www.fool.com/investing/2025/04/04/ways-us-tariffs-might-affect-amazon-stock/",
+                    "published_at": "2025-04-04T20:46:48+00:00",
+                    "content": "President Donald Trump's \"Liberation Day\" tariff program set off a string of worries and sent the markets tumbling on Thursday and Friday. New fears about how the tariffs could trigger a recession sent investors running toward safer instruments like U.S. Treasury bills. Analysts at J.P.",
+                    "sentiment_score": -0.111506,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Zacks Commentary",
+                    "author": "Zacks Equity Research",
+                    "title": "Navitas GaNSense Power ICs Gaining Traction: Buy the Stock Now?",
+                    "description": "NVTS and GreatWall team up for next-gen 400V-DC AI data center power, leveraging GaN and SiC tech to boost efficiency and meet rising AI demands.",
+                    "url": "https://www.zacks.com/stock/news/2440784/navitas-gansense-power-ics-gaining-traction-buy-the-stock-now",
+                    "published_at": "2025-04-04T15:57:00+00:00",
+                    "content": "NVTS and GreatWall team up for next-gen 400V-DC AI data center power, leveraging GaN and SiC tech to boost efficiency and meet rising AI demands.",
+                    "sentiment_score": 0.355425,
+                    "sentiment_label": "Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Benzinga Insights",
+                    "title": "Market Analysis: Amazon.com And Competitors In Broadline Retail Industry - Amazon.com  ( NASDAQ:AMZN ) ",
+                    "description": "In the fast-paced and highly competitive business world of today, conducting thorough company analysis is essential for investors and industry observers. In this article, we will conduct an extensive industry comparison, evaluating Amazon.com AMZN in relation to its major competitors in the ...",
+                    "url": "https://www.benzinga.com/insights/news/25/04/44647793/market-analysis-amazon-com-and-competitors-in-broadline-retail-industry",
+                    "published_at": "2025-04-04T15:00:46+00:00",
+                    "content": "In the fast-paced and highly competitive business world of today, conducting thorough company analysis is essential for investors and industry observers. In this article, we will conduct an extensive industry comparison, evaluating Amazon.com AMZN in relation to its major competitors in the ...",
+                    "sentiment_score": 0.308209,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Matt Frankel",
+                    "title": "Tariffs Are Crushing These 2 Stocks. But Long-Term Investors Are Getting an Incredible Bargain.",
+                    "description": "The stock market has taken a steep downturn after President Donald Trump's tariff announcements. As of this writing, the S&P 500 is firmly in correction territory, and the Nasdaq Composite is just a couple percentage points away from officially being in a bear market.To be sure, stocks are down ...",
+                    "url": "https://www.fool.com/investing/2025/04/04/tariffs-are-crushing-these-2-stocks-but-long-term/",
+                    "published_at": "2025-04-04T14:54:37+00:00",
+                    "content": "The stock market has taken a steep downturn after President Donald Trump's tariff announcements. As of this writing, the S&P 500 is firmly in correction territory, and the Nasdaq Composite is just a couple percentage points away from officially being in a bear market.To be sure, stocks are down ...",
+                    "sentiment_score": 0.168984,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Anusuya Lahiri",
+                    "title": "Temu Parent PDD Stock Tumbles As Trump's New Tariffs Threaten Chinese E-Commerce - PDD Holdings  ( NASDAQ:PDD ) ",
+                    "description": "US-listed Chinese stocks fall after Trump announces 34% tariff on China, with PDD hit hardest due to its rivalry with Amazon. Temu parent PDD faces tariff risks as Goldman forecasts Chinese retaliation, while Tepper boosts stakes in Chinese e-commerce.",
+                    "url": "https://www.benzinga.com/25/04/44646719/pdd-stock-drops-as-trumps-new-tariffs-threaten-chinese-e-commerce-giants",
+                    "published_at": "2025-04-04T13:59:02+00:00",
+                    "content": "US-listed Chinese stocks fall after Trump announces 34% tariff on China, with PDD hit hardest due to its rivalry with Amazon. Temu parent PDD faces tariff risks as Goldman forecasts Chinese retaliation, while Tepper boosts stakes in Chinese e-commerce.",
+                    "sentiment_score": 0.084495,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Chris Neiger",
+                    "title": "Best Stock to Buy Right Now: Amazon vs. Home Depot",
+                    "description": "There's a lot of uncertainty in the stock market right now, and it's causing many investors to reconsider some of their stocks and look at which ones might offer good opportunities to buy. With U.S. President Donald Trump's ongoing tariff actions against trade partners and some economists ...",
+                    "url": "https://www.fool.com/investing/2025/04/04/best-stock-to-buy-right-now-amazon-vs-home-depot/",
+                    "published_at": "2025-04-04T12:45:00+00:00",
+                    "content": "There's a lot of uncertainty in the stock market right now, and it's causing many investors to reconsider some of their stocks and look at which ones might offer good opportunities to buy. With U.S. President Donald Trump's ongoing tariff actions against trade partners and some economists ...",
+                    "sentiment_score": 0.066227,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Nabaparna Bhattacharya",
+                    "title": "AppLovin Wants TikTok But Can It Beat Amazon And OnlyFans To The Punch? - AppLovin  ( NASDAQ:APP ) ",
+                    "description": "AppLovin submitted a preliminary bid to acquire TikTok's international operations, with no guarantee of a deal. Amazon and a group led by OnlyFans founder are also competing to buy TikTok's assets outside China. With stocks plunging, steady income is key.",
+                    "url": "https://www.benzinga.com/trading-ideas/movers/25/04/44645102/applovin-wants-tiktok-but-can-it-beat-amazon-and-onlyfans-to-the-punch",
+                    "published_at": "2025-04-04T12:24:16+00:00",
+                    "content": "AppLovin submitted a preliminary bid to acquire TikTok's international operations, with no guarantee of a deal. Amazon and a group led by OnlyFans founder are also competing to buy TikTok's assets outside China. With stocks plunging, steady income is key.",
+                    "sentiment_score": 0.101365,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Keithen Drury",
+                    "title": "3 Brilliant Stocks That I'm Buying if the Stock Market Crashes",
+                    "description": "Although the market has been in a significant drawdown recently, it's still nowhere near the levels of what anyone should consider a \"crash.\" Still, investors need to have their buying list ready to go in case of a crash, as it's easy to get wrapped up emotionally when you see your portfolio ...",
+                    "url": "https://www.fool.com/investing/2025/04/04/3-stocks-im-buying-in-a-stock-market-crash/",
+                    "published_at": "2025-04-04T10:17:00+00:00",
+                    "content": "Although the market has been in a significant drawdown recently, it's still nowhere near the levels of what anyone should consider a \"crash.\" Still, investors need to have their buying list ready to go in case of a crash, as it's easy to get wrapped up emotionally when you see your portfolio ...",
+                    "sentiment_score": -0.053456,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Anthony Di Pizio",
+                    "title": "2 \"Magnificent Seven\" Stocks Down 19% and 25% You'll Wish You'd Bought on the Dip",
+                    "description": "The stock market is off to a shaky start to 2025, with the S&P 500 ( SNPINDEX: ^GSPC ) index down nearly 12% from its recent all-time high. With that said, it's coming off back-to-back annual gains of more than 25% in both 2023 and 2024, which is something it has only achieved on one other ...",
+                    "url": "https://www.fool.com/investing/2025/04/04/2-magnificent-seven-stocks-down-19-and-25-wish-dip/",
+                    "published_at": "2025-04-04T09:47:00+00:00",
+                    "content": "The stock market is off to a shaky start to 2025, with the S&P 500 ( SNPINDEX: ^GSPC ) index down nearly 12% from its recent all-time high. With that said, it's coming off back-to-back annual gains of more than 25% in both 2023 and 2024, which is something it has only achieved on one other ...",
+                    "sentiment_score": 0.267246,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Dominic Basulto",
+                    "title": "3 Important Numbers to Know for Bitcoin Investors",
+                    "description": "As a Bitcoin ( CRYPTO: BTC ) investor, it can be confusing to make sense of all the information out there. And that's especially the case when it comes to the weekly influx of new macroeconomic data. It's becoming increasingly difficult to separate the signal from the noise.So, to help make sense ...",
+                    "url": "https://www.fool.com/investing/2025/04/04/3-important-numbers-to-know-for-bitcoin-investors/",
+                    "published_at": "2025-04-04T09:30:00+00:00",
+                    "content": "As a Bitcoin ( CRYPTO: BTC ) investor, it can be confusing to make sense of all the information out there. And that's especially the case when it comes to the weekly influx of new macroeconomic data. It's becoming increasingly difficult to separate the signal from the noise.So, to help make sense ...",
+                    "sentiment_score": 0.179654,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Keith Speights",
+                    "title": "Billionaire David Tepper Is Selling Amazon and Meta Stocks but Betting on Artificial Intelligence  ( AI )  in a Different Way",
+                    "description": "David Tepper didn't amass a net worth of $21.3 billion by thinking conventionally. He's viewed by some as the greatest hedge fund manager of this generation as a result of his out-of-the-box moves. If you look at the top holdings in Tepper's Appaloosa Management portfolio, you'll probably quickly ...",
+                    "url": "https://www.fool.com/investing/2025/04/04/billionaire-david-tepper-amazon-meta-ai-stocks/",
+                    "published_at": "2025-04-04T08:47:00+00:00",
+                    "content": "David Tepper didn't amass a net worth of $21.3 billion by thinking conventionally. He's viewed by some as the greatest hedge fund manager of this generation as a result of his out-of-the-box moves. If you look at the top holdings in Tepper's Appaloosa Management portfolio, you'll probably quickly ...",
+                    "sentiment_score": 0.259521,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Trevor Jennewine",
+                    "title": "Shopify Stock Takes Its Cue From Palantir Technologies. History Says This Will Happen Next.",
+                    "description": "On March 31, Shopify ( NASDAQ: SHOP ) removed its U.S. shares from the New York Stock Exchange and relisted them on the Nasdaq Stock Exchange. The company did not give an explicit reason for the change, but the goal was probably to make itself eligible for inclusion in the Nasdaq-100.Palantir ...",
+                    "url": "https://www.fool.com/investing/2025/04/04/shopify-stock-cue-from-palantir-this-happen-next/",
+                    "published_at": "2025-04-04T07:16:00+00:00",
+                    "content": "On March 31, Shopify ( NASDAQ: SHOP ) removed its U.S. shares from the New York Stock Exchange and relisted them on the Nasdaq Stock Exchange. The company did not give an explicit reason for the change, but the goal was probably to make itself eligible for inclusion in the Nasdaq-100.Palantir ...",
+                    "sentiment_score": 0.29318,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Zacks Commentary",
+                    "author": "Shaun Pruitt",
+                    "title": "Stocks are Going on Sale, Time to be Greedy While Others are Fearful?",
+                    "description": "History shows that buying stocks when they \"go on sale\" during a down period can be extremely rewarding for investors.",
+                    "url": "https://www.zacks.com/commentary/2440078/stocks-are-going-on-sale-time-to-be-greedy-while-others-are-fearful",
+                    "published_at": "2025-04-03T22:26:00+00:00",
+                    "content": "History shows that buying stocks when they \"go on sale\" during a down period can be extremely rewarding for investors.",
+                    "sentiment_score": 0.090874,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Anders Bylund",
+                    "title": "Amazon's Stock Takes the Tariff Tumble. Here's Why I'm Still Holding.",
+                    "description": "Tariffs crushed Amazon's stock price on Thursday. Here's why you should see this discount as a wide-open buying window for this resilient tech stock.",
+                    "url": "https://www.fool.com/investing/2025/04/03/amazons-stock-takes-the-tariff-tumble/",
+                    "published_at": "2025-04-03T20:04:18+00:00",
+                    "content": "Tariffs crushed Amazon's stock price on Thursday. Here's why you should see this discount as a wide-open buying window for this resilient tech stock.",
+                    "sentiment_score": 0.092703,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Benzinga Insights",
+                    "title": "Exploring The Competitive Space: Amazon.com Versus Industry Peers In Broadline Retail - Amazon.com  ( NASDAQ:AMZN ) ",
+                    "description": "In the ever-changing and fiercely competitive business landscape, conducting thorough company analysis is crucial for investors and industry experts. In this article, we will undertake a comprehensive industry comparison, evaluating Amazon.com AMZN and its primary competitors in the Broadline ...",
+                    "url": "https://www.benzinga.com/insights/news/25/04/44629904/exploring-the-competitive-space-amazon-com-versus-industry-peers-in-broadline-retail",
+                    "published_at": "2025-04-03T15:01:00+00:00",
+                    "content": "In the ever-changing and fiercely competitive business landscape, conducting thorough company analysis is crucial for investors and industry experts. In this article, we will undertake a comprehensive industry comparison, evaluating Amazon.com AMZN and its primary competitors in the Broadline ...",
+                    "sentiment_score": 0.300162,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Avi Kapoor",
+                    "title": "Amazon, Alphabet, KLA And A Health Care Stock On CNBC's 'Final Trades' - Gilead Sciences  ( NASDAQ:GILD ) , Amazon.com  ( NASDAQ:AMZN ) ",
+                    "description": "Stephen Weiss names Alphabet as his final trade. Bill Baruch says Amazon.com is ready to rally. In a market dominated by tariff tensions, geopolitical surprises, and Fed uncertainty, Matt Maley's technical approach delivers clear entry & exit points for consistent income potential.",
+                    "url": "https://www.benzinga.com/markets/25/04/44626141/amazon-alphabet-kla-and-a-health-care-stock-on-cnbcs-final-trades",
+                    "published_at": "2025-04-03T12:28:04+00:00",
+                    "content": "Stephen Weiss names Alphabet as his final trade. Bill Baruch says Amazon.com is ready to rally. In a market dominated by tariff tensions, geopolitical surprises, and Fed uncertainty, Matt Maley's technical approach delivers clear entry & exit points for consistent income potential.",
+                    "sentiment_score": 0.330905,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Zacks Commentary",
+                    "author": "Sanghamitra Saha",
+                    "title": "Nasdaq-100 Sees Worst Quarter in 3 Years: What Lies Ahead for ETFs?",
+                    "description": "The Nasdaq 100 has suffered its worst quarter in nearly three years.",
+                    "url": "https://www.zacks.com/stock/news/2439561/nasdaq-100-sees-worst-quarter-in-3-years-what-lies-ahead-for-etfs",
+                    "published_at": "2025-04-03T12:00:00+00:00",
+                    "content": "The Nasdaq 100 has suffered its worst quarter in nearly three years.",
+                    "sentiment_score": -0.024528,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Namrata Sen",
+                    "title": "Jeff Bezos Amazon To Launch Kuiper Internet Satellites On April 9, Taking On Elon Musk's Starlink - Amazon.com  ( NASDAQ:AMZN ) ",
+                    "description": "In a stride towards the initiation of its commercial service, Jeff Bezos' Amazon Inc. AMZN is set to launch its long-awaited Kuiper internet satellites on April 9. What Happened: Amazon announced on Wednesday that the satellites will be launched from Cape Canaveral, Florida, using United Launch ...",
+                    "url": "https://www.benzinga.com/markets/25/04/44624537/jeff-bezos-amazon-to-launch-kuiper-internet-satellites-on-april-9-taking-on-elon-musks-starlink",
+                    "published_at": "2025-04-03T11:15:16+00:00",
+                    "content": "In a stride towards the initiation of its commercial service, Jeff Bezos' Amazon Inc. AMZN is set to launch its long-awaited Kuiper internet satellites on April 9. What Happened: Amazon announced on Wednesday that the satellites will be launched from Cape Canaveral, Florida, using United Launch ...",
+                    "sentiment_score": 0.184874,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Keithen Drury",
+                    "title": "Prediction: 4 Artificial Intelligence  ( AI )  Stocks That Could Be Worth More Than Apple by 2030",
+                    "description": "Apple ( NASDAQ: AAPL ) is the world's largest company -- by about half a trillion dollars as I write this. So surpassing it in value is not a thing just any company can do. But I'm willing to make the bold prediction that there are stocks that could be bigger than Apple by 2030.",
+                    "url": "https://www.fool.com/investing/2025/04/03/prediction-4-artificial-intelligence-ai-stocks-tha/",
+                    "published_at": "2025-04-03T10:15:00+00:00",
+                    "content": "Apple ( NASDAQ: AAPL ) is the world's largest company -- by about half a trillion dollars as I write this. So surpassing it in value is not a thing just any company can do. But I'm willing to make the bold prediction that there are stocks that could be bigger than Apple by 2030.",
+                    "sentiment_score": 0.186599,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Lawrence Nga",
+                    "title": "MercadoLibre Stock: Bull vs. Bear",
+                    "description": "MercadoLibre's stock is not for the faint-hearted.",
+                    "url": "https://www.fool.com/investing/2025/04/03/mercadolibre-stock-bull-vs-bear/",
+                    "published_at": "2025-04-03T08:50:00+00:00",
+                    "content": "MercadoLibre's stock is not for the faint-hearted.",
+                    "sentiment_score": 0.286368,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Aniket Verma",
+                    "title": "OnlyFans Founder's Startup And HBAR Foundation Enter Race To Acquire Tiktok To Maintain 'American Ownership And Governance' - Amazon.com  ( NASDAQ:AMZN ) ",
+                    "description": "Tim Stokely, the founder of OnlyFans, and a cryptocurrency foundation have joined forces to place a late-stage bid for the acquisition of TikTok's U.S. operations from ByteDance.",
+                    "url": "https://www.benzinga.com/markets/cryptocurrency/25/04/44620779/onlyfans-founders-startup-and-hbar-foundation-enter-the-race-to-acquire-tiktok-us-to-maint",
+                    "published_at": "2025-04-03T03:18:49+00:00",
+                    "content": "Tim Stokely, the founder of OnlyFans, and a cryptocurrency foundation have joined forces to place a late-stage bid for the acquisition of TikTok's U.S. operations from ByteDance.",
+                    "sentiment_score": 0.134081,
+                    "sentiment_label": "Neutral"
+                },
+                {
+                    "source": "Zacks Commentary",
+                    "author": "Sheraz Mian",
+                    "title": "Looking Ahead to the Q1 Earnings Season",
+                    "description": "Total 2025 Q1 earnings for the S&P 500 index are expected to be up +5.9% from the same period last year on +3.9% higher revenues, continuing the recent growth pace nicely. Next week, we'll hear from the big banks.",
+                    "url": "https://www.zacks.com/commentary/2439438/looking-ahead-to-the-q1-earnings-season",
+                    "published_at": "2025-04-03T00:04:00+00:00",
+                    "content": "Total 2025 Q1 earnings for the S&P 500 index are expected to be up +5.9% from the same period last year on +3.9% higher revenues, continuing the recent growth pace nicely. Next week, we'll hear from the big banks.",
+                    "sentiment_score": 0.205084,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Zacks Commentary",
+                    "author": "Sheraz Mian",
+                    "title": "Looking Ahead to the Q1 Earnings Season",
+                    "description": "Total 2025 Q1 earnings for the S&P 500 index are expected to be up +5.9% from the same period last year on +3.9% higher revenues, continuing the recent growth pace nicely. Next week, we'll hear from the big banks.",
+                    "url": "https://www.zacks.com/commentary/2439439/looking-ahead-to-the-q1-earnings-season",
+                    "published_at": "2025-04-03T00:02:00+00:00",
+                    "content": "Total 2025 Q1 earnings for the S&P 500 index are expected to be up +5.9% from the same period last year on +3.9% higher revenues, continuing the recent growth pace nicely. Next week, we'll hear from the big banks.",
+                    "sentiment_score": 0.205084,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Brett Schafer",
+                    "title": "Where Will Amazon Stock Be in 5 Years?",
+                    "description": "It's Amazon's ( NASDAQ: AMZN ) world, we're just living in it. At least, sometimes that's how it feels with how large the technology giant and e-commerce pioneer has gotten. Generating $638 billion in revenue last year, Amazon is now one of the largest companies in the world in terms of sales, ...",
+                    "url": "https://www.fool.com/investing/2025/04/02/where-will-amazon-stock-be-in-5-years/",
+                    "published_at": "2025-04-02T22:22:00+00:00",
+                    "content": "It's Amazon's ( NASDAQ: AMZN ) world, we're just living in it. At least, sometimes that's how it feels with how large the technology giant and e-commerce pioneer has gotten. Generating $638 billion in revenue last year, Amazon is now one of the largest companies in the world in terms of sales, ...",
+                    "sentiment_score": 0.240122,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Chris Katje",
+                    "title": "NFL Gets 3 Christmas Day Games In 2025: How Netflix & Amazon Will Both Benefit - Amazon.com  ( NASDAQ:AMZN ) , Walt Disney  ( NYSE:DIS ) ",
+                    "description": "The NFL is adding a third Christmas Day game in 2025. The three games will see two streaming platforms benefit and could hurt the NBA. The 'Trade of the Day' is now live. Get a high-probability setup with clear entry and exit points right here.",
+                    "url": "https://www.benzinga.com/general/sports/25/04/44615929/nfl-gets-3-christmas-day-games-in-2025-how-netflix-amazon-will-both-benefit",
+                    "published_at": "2025-04-02T20:25:55+00:00",
+                    "content": "The NFL is adding a third Christmas Day game in 2025. The three games will see two streaming platforms benefit and could hurt the NBA. The 'Trade of the Day' is now live. Get a high-probability setup with clear entry and exit points right here.",
+                    "sentiment_score": 0.170225,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Henry Khederian",
+                    "title": "Amazon's Surprise Bid For TikTok As U.S. Ban Threat Looms - Amazon.com  ( NASDAQ:AMZN ) ",
+                    "description": "Amazon has reportedly made a surprise, last-minute bid to acquire TikTok in its entirety. The news comes just days before the popular video app faces a U.S. ban if it does not sever ties with its Chinese parent company. Feel unsure about the market's next move?",
+                    "url": "https://www.benzinga.com/news/25/04/44613084/amazon-makes-surprise-bid-for-tiktok-amid-us-ban-threat-report",
+                    "published_at": "2025-04-02T18:21:52+00:00",
+                    "content": "Amazon has reportedly made a surprise, last-minute bid to acquire TikTok in its entirety. The news comes just days before the popular video app faces a U.S. ban if it does not sever ties with its Chinese parent company. Feel unsure about the market's next move?",
+                    "sentiment_score": 0.162857,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Benzinga Insights",
+                    "title": "Amazon.com Options Trading: A Deep Dive into Market Sentiment - Amazon.com  ( NASDAQ:AMZN ) ",
+                    "description": "Investors with a lot of money to spend have taken a bullish stance on Amazon.com AMZN. We noticed this today when the trades showed up on publicly available options history that we track here at Benzinga. Whether these are institutions or just wealthy individuals, we don't know.",
+                    "url": "https://www.benzinga.com/insights/options/25/04/44612990/amazon-com-options-trading-a-deep-dive-into-market-sentiment",
+                    "published_at": "2025-04-02T18:18:07+00:00",
+                    "content": "Investors with a lot of money to spend have taken a bullish stance on Amazon.com AMZN. We noticed this today when the trades showed up on publicly available options history that we track here at Benzinga. Whether these are institutions or just wealthy individuals, we don't know.",
+                    "sentiment_score": 0.208332,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Motley Fool",
+                    "author": "Johnny Rice",
+                    "title": "Why Amazon Stock Is Soaring Today",
+                    "description": "Shares of Amazon ( NASDAQ: AMZN ) are climbing on Wednesday. The company's stock gained 2.6% as of 1:30 p.m. ET and as much as 3.2% earlier in the day. The gain comes as the S&P 500 ( SNPINDEX: ^GSPC ) and Nasdaq Composite ( NASDAQINDEX: ^IXIC ) were up 0.9% and 1.3%, respectively.The tech ...",
+                    "url": "https://www.fool.com/investing/2025/04/02/why-amazon-stock-is-soaring-today/",
+                    "published_at": "2025-04-02T17:59:26+00:00",
+                    "content": "Shares of Amazon ( NASDAQ: AMZN ) are climbing on Wednesday. The company's stock gained 2.6% as of 1:30 p.m. ET and as much as 3.2% earlier in the day. The gain comes as the S&P 500 ( SNPINDEX: ^GSPC ) and Nasdaq Composite ( NASDAQINDEX: ^IXIC ) were up 0.9% and 1.3%, respectively.The tech ...",
+                    "sentiment_score": 0.197795,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Benzinga Insights",
+                    "title": "Evaluating Amazon.com Against Peers In Broadline Retail Industry - Amazon.com  ( NASDAQ:AMZN ) ",
+                    "description": "In today's rapidly changing and fiercely competitive business landscape, it is vital for investors and industry enthusiasts to carefully evaluate companies. In this article, we will perform a comprehensive industry comparison, evaluating Amazon.com AMZN against its key competitors in the ...",
+                    "url": "https://www.benzinga.com/insights/news/25/04/44609098/evaluating-amazon-com-against-peers-in-broadline-retail-industry",
+                    "published_at": "2025-04-02T15:00:48+00:00",
+                    "content": "In today's rapidly changing and fiercely competitive business landscape, it is vital for investors and industry enthusiasts to carefully evaluate companies. In this article, we will perform a comprehensive industry comparison, evaluating Amazon.com AMZN against its key competitors in the ...",
+                    "sentiment_score": 0.229458,
+                    "sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "source": "Benzinga",
+                    "author": "Nabaparna Bhattacharya",
+                    "title": "Rockwell Automation Teams Up With Amazon To Supercharge Manufacturing's Digital Future - Rockwell Automation  ( NYSE:ROK ) ",
+                    "description": "Rockwell Automation and AWS partner to drive digital transformation in manufacturing with cloud-based solutions for AI and analytics. Collaboration expands Rockwell's FactoryTalk Hub to AWS, enabling manufacturers to optimize performance and gain data-driven insights.",
+                    "url": "https://www.benzinga.com/trading-ideas/movers/25/04/44608867/rockwell-automation-teams-up-with-amazon-to-supercharge-manufacturings-digital-future",
+                    "published_at": "2025-04-02T14:46:42+00:00",
+                    "content": "Rockwell Automation and AWS partner to drive digital transformation in manufacturing with cloud-based solutions for AI and analytics. Collaboration expands Rockwell's FactoryTalk Hub to AWS, enabling manufacturers to optimize performance and gain data-driven insights.",
+                    "sentiment_score": 0.40093,
+                    "sentiment_label": "Bullish"
+                },
+                {
+                    "source": "Zacks Commentary",
+                    "author": "Zacks Equity Research",
+                    "title": "Should You Hold on to SMTC Stock Despite its 47% Decline in 3 Months?",
+                    "description": "Semtech's strong market position in the data center, IoT and AI space, and its latest signal integrity product innovation make the stock worth retaining.",
+                    "url": "https://www.zacks.com/stock/news/2439115/should-you-hold-on-to-smtc-stock-despite-its-47-decline-in-3-months",
+                    "published_at": "2025-04-02T14:08:00+00:00",
+                    "content": "Semtech's strong market position in the data center, IoT and AI space, and its latest signal integrity product innovation make the stock worth retaining.",
+                    "sentiment_score": 0.269079,
+                    "sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        }
+    },
+    "summary": {
+        "reddit_submissions_count": 0,
+        "reddit_comments_count": 0,
+        "news_articles_count": 50,
+        "total_content_count": 50
+    }
+}

@@ -1,0 +1,24 @@
+cat > .gitignore << 'EOL'
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+alphakeys.txt
+IP\ Address.txt
+
+# Regular cache (not demo)
+/cache/
+cache/
+
+# Development files
+/standalone/
+standalone/
+/stock_data_for_prophet/
+stock_data_for_prophet/
+
+# Specific files
+.DS_Store
+EOL
