@@ -100,6 +100,17 @@ def load_css():
             font-weight: bold;
             margin-bottom: 5px;
         }
+        
+        /* Common button styling for better visibility */
+        div.stButton > button {
+            font-weight: bold !important;
+            border: none !important;
+            transition: all 0.2s ease-in-out;
+        }
+        
+        div.stButton > button:hover {
+            transform: scale(1.02);
+        }
         """
         
         # Dark theme specific CSS
@@ -130,14 +141,36 @@ def load_css():
 
             /* --- buttons --- */
             section[data-testid="stSidebar"] div.stButton > button {
-                background-color: #66ffe0 !important;
-                color: #0e1117 !important;
+                background-color: #0e8374 !important;
+                color: #ffffff !important;
                 font-weight: bold !important;
                 border: none !important;
                 box-shadow: 0 0 8px #66ffe0;
                 transition: all 0.2s ease-in-out;
             }
             section[data-testid="stSidebar"] div.stButton > button:hover {
+                background-color: #4fd9c8 !important;
+                transform: scale(1.02);
+            }
+            
+            /* --- Main content buttons --- */
+            div.stButton > button {
+                background-color: #0e8374 !important;
+                color: #0e1117 !0e8374;
+                box-shadow: 0 0 8px rgba(102, 255, 224, 0.4);
+            }
+            div.stButton > button:hover {
+                background-color: #4fd9c8 !important;
+            }
+            
+            /* --- Download button --- */
+            .stDownloadButton > button {
+                background-color: #66ffe0 !important;
+                color: #0e1117 !important;
+                font-weight: bold !important;
+                box-shadow: 0 0 8px rgba(102, 255, 224, 0.4);
+            }
+            .stDownloadButton > button:hover {
                 background-color: #4fd9c8 !important;
                 transform: scale(1.02);
             }
@@ -213,10 +246,19 @@ def load_css():
                 border: 1px solid #66ffe0 !important;
                 padding: 6px 10px !important;
             }
+            button[kind="primary"] {
+                linear-gradient(90deg, #66ffe0 0%, #4fd9c8 100%) !important;
+                color: #aaffcc !important;
+                border: 1px solid #66ffe0 !important;
+                font-weight: bold !important;
+                box-shadow: 0 0 5px rgba(102, 255, 224, 0.4);
+                transition: all 0.2s ease-in-out;
+            }
+            button[kind="primary"]:hover {
+                background-color: #1f2b30 !important;
+                transform: scale(1.02);
+            }
         """
-
-
-
 
         # Light theme specific CSS
         light_css = """
@@ -247,6 +289,30 @@ def load_css():
 
         .negative-change {
             color: #ef4444 !important;
+        }
+        
+        /* Light theme button styling */
+        div.stButton > button {
+            background-color: #4fd9c8 !important;
+            color: #ffffff !important;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        div.stButton > button:hover {
+            background-color: #3bc1b0 !important;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+        }
+        
+        /* Download button styling */
+        .stDownloadButton > button {
+            background-color: #4fd9c8 !important;
+            color: #ffffff !important;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .stDownloadButton > button:hover {
+            background-color: #3bc1b0 !important;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
         }
 """
         
