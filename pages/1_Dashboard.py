@@ -20,12 +20,22 @@ from utils.risk_analysis import render_risk_metrics_ui  # Import the risk analys
 from utils.comparative_analysis import render_comparative_analysis_ui  # Import the comparative analysis UI
 load_dotenv()
 
+if 'dark_mode' not in st.session_state:
+    # Default to system preference
+    st.session_state.dark_mode = True
+
 # Page configuration - THIS MUST BE THE FIRST STREAMLIT COMMAND
 st.set_page_config(
     page_title="Finbud - An AI Powered Technical Analysis Platform",
     page_icon="📈",
     layout="wide"
 )
+st.sidebar.markdown("---")
+st.sidebar.markdown('<div class="sidebar-header">Display Settings</div>', unsafe_allow_html=True)
+if st.sidebar.checkbox("Dark Mode", value=st.session_state.dark_mode):
+    st.session_state.dark_mode = True
+else:
+    st.session_state.dark_mode = False
 
 # Check for demo mode AFTER page config
 demo_mode = st.session_state.get("demo_mode", False)
@@ -57,10 +67,200 @@ def get_api_key(key_name, default=""):
 # Load custom CSS - MOVED AFTER set_page_config
 def load_css():
     try:
-        with open('custom.css') as f:
-            st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
-    except FileNotFoundError:
-        st.warning("custom.css file not found. UI enhancements will be limited.")
+        # Base CSS that's common to both themes
+        base_css = """
+        /* Common styles for both themes */
+        .sidebar-header {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .metric-card {
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .metric-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+        }
+        
+        .metric-label {
+            font-size: 0.85em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .metric-value {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        """
+        
+        # Dark theme specific CSS
+        dark_css = """
+            /* --- base app --- */
+            .stApp {
+                background-color: #0e1117 !important;
+                color: #aaffcc !important;
+                font-family: 'Segoe UI', sans-serif;
+            }
+
+            /* --- sidebar --- */
+            section[data-testid="stSidebar"] {
+                background-color: #0e1117 !important;
+            }
+            section[data-testid="stSidebar"] * {
+                color: #aaffcc !important;
+            }
+
+            /* --- inputs & selects --- */
+            section[data-testid="stSidebar"] input,
+            section[data-testid="stSidebar"] textarea,
+            section[data-testid="stSidebar"] select {
+                background-color: #1a1a1a !important;
+                color: #aaffcc !important;
+                border: 1px solid #66ffe0 !important;
+            }
+
+            /* --- buttons --- */
+            section[data-testid="stSidebar"] div.stButton > button {
+                background-color: #66ffe0 !important;
+                color: #0e1117 !important;
+                font-weight: bold !important;
+                border: none !important;
+                box-shadow: 0 0 8px #66ffe0;
+                transition: all 0.2s ease-in-out;
+            }
+            section[data-testid="stSidebar"] div.stButton > button:hover {
+                background-color: #4fd9c8 !important;
+                transform: scale(1.02);
+            }
+
+            /* --- dropdown fix (popover + selectbox) --- */
+            div[`data-ba`seweb="popover"] {
+                background-color: transparent !important;
+            }
+
+            div[data-baseweb="popover"] div {
+                background-color: #121417 !important;
+                color: #aaffcc !important;
+                border: 1px solid #66ffe0 !important;
+                box-shadow: 0 0 10px #1f2b30 !important;
+            }
+
+            div[role="listbox"] {
+                background-color: #121417 !important;
+                color: #aaffcc !important;
+                font-family: 'Segoe UI', sans-serif;
+            }
+
+            div[role="listbox"] > div[role="option"] {
+                color: #aaffcc !important;
+                background-color: transparent !important;
+            }
+
+            div[role="listbox"] > div[role="option"]:hover {
+                background-color: #1f2b30 !important;
+            }
+
+            div[role="listbox"] > div[role="option"][aria-selected="true"] {
+                background-color: #223338 !important;
+            }
+
+            /* selected value input area */
+            div[role="combobox"] {
+                background-color: #121417!important;
+                color: #121417 !important;
+                border: 1px solid #66ffe0 !important;
+                box-shadow: 0 0 5px #1f2b30;
+            }
+            div[role="combobox"] > div {
+                color: #aaffcc !important;
+            }
+
+            /* --- text --- */
+            h1, h2, h3, h4, h5, h6 {
+                color: #66ffe0 !important;
+            }
+            p, span, label, div {
+                color: #aaffcc !important;
+            }
+
+            /* --- metric cards --- */
+            .metric-card {
+                background-color: #1e1e1e !important;
+                border: 1px solid #2c2f33 !important;
+                box-shadow: 0 0 6px rgba(102, 255, 224, 0.2);
+            }
+            .metric-label, .metric-value, .metric-change {
+                color: #aaffcc !important;
+            }
+            div[role="combobox"] input {
+                background-color: #121417
+                color: #aaffcc !important;
+                border : None 
+            }
+            div[data-baseweb="select"] > div {
+                background-color: #121417 !important;
+                color: #aaffcc !important;
+                border-radius: 4px !important;
+                border: 1px solid #66ffe0 !important;
+                padding: 6px 10px !important;
+            }
+        """
+
+
+
+
+        # Light theme specific CSS
+        light_css = """
+        /* Metric cards with light theme styling */
+        .metric-card {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Light theme text colors */
+        h1, h2, h3, h4, h5, h6 {
+            color: #111827 !important;
+        }
+
+        p, span, label, div {
+            color: #374151 !important;
+        }
+
+        .metric-label, .metric-value, .metric-change {
+            color: #111827 !important;
+        }
+
+        /* Positive/negative values */
+        .positive-change {
+            color: #10b981 !important;
+        }
+
+        .negative-change {
+            color: #ef4444 !important;
+        }
+"""
+        
+        # Apply the base CSS
+        st.markdown(f'<style>{base_css}</style>', unsafe_allow_html=True)
+        
+        # Apply theme-specific CSS
+        if st.session_state.dark_mode:
+            st.markdown(f'<style>{dark_css}</style>', unsafe_allow_html=True)
+        else:
+            st.markdown(f'<style>{light_css}</style>', unsafe_allow_html=True)
+            
+    except Exception as e:
+        st.warning(f"Error loading CSS: {str(e)}")
 
 # HTML templates for UI components
 def get_header_html(date_str):
@@ -160,26 +360,51 @@ if 'selected_indicators' not in st.session_state:
 st.sidebar.markdown('<div class="sidebar-header">Settings</div>', unsafe_allow_html=True)
 
 # Stock selection
+# Stock selection
 st.sidebar.markdown('<div class="filter-section">', unsafe_allow_html=True)
 popular_stocks = get_popular_stocks()
 stock_options = [f"{stock['symbol']} - {stock['name']}" for stock in popular_stocks]
-selected_stock_option = st.sidebar.selectbox(
-    "Select a stock:",
-    options=stock_options,
-    index=0
-)
-selected_stock = selected_stock_option.split(" - ")[0]
 
-# Custom ticker input
-custom_ticker = st.sidebar.text_input(
-    "Or enter a custom ticker symbol:",
-    value="",
-    help="Enter a valid ticker symbol (e.g., AAPL, MSFT, GOOG)"
-)
+# Create a variable to hold the custom ticker input
+custom_ticker = ""
+
+# Default to the first popular stock
+selected_stock = stock_options[0].split(" - ")[0]
+
+# Add a checkbox to toggle between popular stocks and custom ticker
+use_custom_ticker = st.sidebar.checkbox("Use custom ticker")
+fmp_api_key = get_api_key("FMP_API_KEY")
+
+
+if not use_custom_ticker:
+    # Popular stocks dropdown
+    selected_stock_option = st.sidebar.selectbox(
+        "Select a stock:",
+        options=stock_options,
+        index=0
+    )
+    selected_stock = selected_stock_option.split(" - ")[0]
+else:
+    # Custom ticker input
+    custom_ticker = st.sidebar.text_input(
+        "Enter a ticker symbol:",
+        value="",
+        help="Enter a valid ticker symbol (e.g., AAPL, MSFT, GOOG)"
+    )
+    
+    if custom_ticker:
+        with st.sidebar:
+            with st.spinner(f"Verifying ticker {custom_ticker.upper()}..."):
+                if verify_ticker(custom_ticker.upper(), fmp_api_key=fmp_api_key):
+                    selected_stock = custom_ticker.upper()
+                    st.sidebar.success(f"✅ {selected_stock} is a valid ticker")
+                else:
+                    st.sidebar.error(f"❌ {custom_ticker.upper()} doesn't appear to be a valid ticker")
+                    st.sidebar.info(f"Using {selected_stock} instead")
+
 st.sidebar.markdown('</div>', unsafe_allow_html=True)
 
 ##alpha_vantage_key = "BZW2K8SFI3GETDOV"
-fmp_api_key = get_api_key("FMP_API_KEY")
 
 if custom_ticker:
     with st.sidebar:
@@ -400,7 +625,7 @@ with tab1:
                 )
                 if cache_info and cache_info.get("used", False):
                     last_updated = cache_info.get("last_updated").strftime('%Y-%m-%d %H:%M:%S')
-                    if cache_info and cache_info.get("used", False):
+                    if cache_info.get("is_demo", False):
                         st.info(f"📊 Using demo data for {selected_stock}. This is pre-cached example data.")
                     else:
                         st.info(f"📦 Using cached data for {selected_stock}. Last updated: {last_updated}")
@@ -927,11 +1152,11 @@ with tab2:
                 fmp_api_key = fmp_api_key
             )
             if cache_info and cache_info.get("used", False):
-                    last_updated = cache_info.get("last_updated").strftime('%Y-%m-%d %H:%M:%S')
-                    if cache_info and cache_info.get("used", False):
-                        st.info(f"📊 Using demo data for {selected_stock}. This is pre-cached example data.")
-                    else:
-                        st.info(f"📦 Using cached data for {selected_stock}. Last updated: {last_updated}")
+                last_updated = cache_info.get("last_updated").strftime('%Y-%m-%d %H:%M:%S')
+                if cache_info.get("is_demo", False):
+                    st.info(f"📊 Using demo data for {selected_stock}. This is pre-cached example data.")
+                else:
+                    st.info(f"📦 Using cached data for {selected_stock}. Last updated: {last_updated}")
             
             if error:
                 st.error(f"Error: {error}")
@@ -1100,7 +1325,7 @@ with tab4:
                     )
                     if cache_info and cache_info.get("used", False):
                         last_updated = cache_info.get("last_updated").strftime('%Y-%m-%d %H:%M:%S')
-                        if cache_info and cache_info.get("used", False):
+                        if cache_info.get("is_demo", False):
                             st.info(f"📊 Using demo data for {selected_stock}. This is pre-cached example data.")
                         else:
                             st.info(f"📦 Using cached data for {selected_stock}. Last updated: {last_updated}")
@@ -1126,7 +1351,7 @@ with tab4:
                     )
                     if cache_info and cache_info.get("used", False):
                         last_updated = cache_info.get("last_updated").strftime('%Y-%m-%d %H:%M:%S')
-                        if cache_info and cache_info.get("used", False):
+                        if cache_info.get("is_demo", False):
                             st.info(f"📊 Using demo data for {selected_stock}. This is pre-cached example data.")
                         else:
                             st.info(f"📦 Using cached data for {selected_stock}. Last updated: {last_updated}")
@@ -1166,7 +1391,7 @@ with tab5:
                         )
                         if cache_info and cache_info.get("used", False):
                             last_updated = cache_info.get("last_updated").strftime('%Y-%m-%d %H:%M:%S')
-                            if cache_info and cache_info.get("used", False):
+                            if cache_info.get("is_demo", False):
                                 st.info(f"📊 Using demo data for {selected_stock}. This is pre-cached example data.")
                             else:
                                 st.info(f"📦 Using cached data for {selected_stock}. Last updated: {last_updated}")
@@ -1186,7 +1411,7 @@ with tab5:
                             )
                             if cache_info and cache_info.get("used", False):
                                 last_updated = cache_info.get("last_updated").strftime('%Y-%m-%d %H:%M:%S')
-                                if cache_info and cache_info.get("used", False):
+                                if cache_info.get("is_demo", False):
                                     st.info(f"📊 Using demo data for {selected_stock}. This is pre-cached example data.")
                                 else:
                                     st.info(f"📦 Using cached data for {selected_stock}. Last updated: {last_updated}")

@@ -230,6 +230,8 @@ if st.button("Save API Keys and Continue to Dashboard", use_container_width=True
     }
     
     # Check if essential keys are provided
+    if fmp_key:
+        st.session_state.demo_mode = False
     if not fmp_key:
         st.error("Financial Modeling Prep API key is required to proceed.")
     else:

@@ -1,0 +1,11 @@
+
+        # Risk Analysis for MSFT
+
+        No demo risk analysis available. In production mode, a comprehensive risk assessment would be generated here.
+        
+        ## Risk Metrics Summary
+        
+        - Maximum Drawdown: -10.76%
+        - Annualized Volatility: 26.15%
+        - Sharpe Ratio: -3.50
+        

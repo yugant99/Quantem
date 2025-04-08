@@ -35,87 +35,92 @@ def get_stock_data(ticker, period="6mo", interval="1d", fmp_api_key=None):
     """
     Fetch stock data from Financial Modeling Prep.
     """
-    # Check if in demo mode first
+    # Check if we're in demo mode first
     if "demo_mode" in st.session_state and st.session_state.demo_mode:
-        return get_demo_data(ticker, period)
-    
-    # Check cache for regular mode
-    cached_data, error, cache_info = get_cached_data(ticker, period)
-    
-    # If we have cache that's less than 24 hours old, use it
-    if cached_data is not None and cache_info is not None:
-        file_modified = cache_info.get("last_updated")
-        if file_modified and (datetime.now() - file_modified < timedelta(hours=24)):
-            return cached_data, None, cache_info
-    
-    # No recent cache, so fetch fresh data
-    if not fmp_api_key:
-        return None, "FMP API key is required", None
-        
-    try:
-        print(f"Fetching {ticker} data using Financial Modeling Prep API...")
-        
-        # Map period to timeframe for FMP
-        if period == "1mo":
-            timeframe = "30"
-        elif period == "3mo":
-            timeframe = "90"
-        elif period == "6mo":
-            timeframe = "180"
-        elif period == "1y":
-            timeframe = "365"
-        elif period == "2y":
-            timeframe = "730"
-        elif period == "5y":
-            timeframe = "1825"
-        else:  # max
-            timeframe = "3650"  # ~10 years
-            
-        # Call FMP API for historical data
-        url = f'https://financialmodelingprep.com/api/v3/historical-price-full/{ticker}?timeseries={timeframe}&apikey={fmp_api_key}'
-        response = requests.get(url)
-        response.raise_for_status()
-        result = response.json()
-        
-        # Check if we have valid data
-        if 'historical' in result:
-            data_list = []
-            
-            for item in result['historical']:
-                data_list.append({
-                    'date': datetime.strptime(item['date'], '%Y-%m-%d'),
-                    'open': float(item['open']),
-                    'high': float(item['high']),
-                    'low': float(item['low']),
-                    'close': float(item['close']),
-                    'volume': int(item['volume'])
-                })
-            
-            # Convert to DataFrame and sort by date
-            fmp_data = pd.DataFrame(data_list)
-            fmp_data = fmp_data.sort_values('date')
-            
-            if not fmp_data.empty:
-                print(f"Successfully retrieved {len(fmp_data)} rows for {ticker} using FMP")
-                
-                # Save to cache
-                save_to_cache(fmp_data, ticker, period)
-                
-                # Return fresh data with no cache info
-                return fmp_data, None, {"used": False}
-            else:
-                return None, f"No data returned for {ticker}", None
+        # In demo mode, always try demo data first
+        demo_data, demo_error, demo_cache_info = get_demo_data(ticker, period)
+        if demo_data is not None:
+            print(f"Using demo data for {ticker} in demo mode")
+            return demo_data, None, demo_cache_info
         else:
-            error_message = "No historical data in FMP response"
-            if 'Error Message' in result:
-                error_message = result['Error Message']
-            return None, f"Error: {error_message}", None
+            print(f"No demo data available for {ticker}: {demo_error}")
             
-    except requests.exceptions.RequestException as e:
-        return None, f"API request error: {str(e)}", None
-    except Exception as e:
-        return None, f"Unexpected error: {str(e)}", None
-def verify_ticker(ticker,fmp_api_key = None):
+    # If not in demo mode or no demo data available, proceed with API logic
+    if fmp_api_key and fmp_api_key != "demo_mode_placeholder_key":
+        # When using real API key, check cache first
+        cached_data, error, cache_info = get_cached_data(ticker, period)
+        if cached_data is not None and cache_info is not None:
+            file_modified = cache_info.get("last_updated")
+            if file_modified and (datetime.now() - file_modified < timedelta(hours=24)):
+                return cached_data, None, cache_info
+        
+        # If no cache or it's stale, make real API call
+        try:
+            print(f"Fetching {ticker} data using Financial Modeling Prep API...")
+            # Map period to timeframe for FMP
+            if period == "1mo":
+                timeframe = "30"
+            elif period == "3mo":
+                timeframe = "90"
+            elif period == "6mo":
+                timeframe = "180"
+            elif period == "1y":
+                timeframe = "365"
+            elif period == "2y":
+                timeframe = "730"
+            elif period == "5y":
+                timeframe = "1825"
+            else:  # max
+                timeframe = "3650"  # ~10 years
+                
+            # Call FMP API for historical data
+            url = f'https://financialmodelingprep.com/api/v3/historical-price-full/{ticker}?timeseries={timeframe}&apikey={fmp_api_key}'
+            response = requests.get(url)
+            response.raise_for_status()
+            result = response.json()
+            
+            # Process API response
+            if 'historical' in result:
+                data_list = []
+                for item in result['historical']:
+                    data_list.append({
+                        'date': datetime.strptime(item['date'], '%Y-%m-%d'),
+                        'open': float(item['open']),
+                        'high': float(item['high']),
+                        'low': float(item['low']),
+                        'close': float(item['close']),
+                        'volume': int(item['volume'])
+                    })
+                
+                # Convert to DataFrame and sort by date
+                fmp_data = pd.DataFrame(data_list)
+                fmp_data = fmp_data.sort_values('date')
+                
+                if not fmp_data.empty:
+                    print(f"Successfully retrieved {len(fmp_data)} rows for {ticker} using FMP")
+                    # Save to cache
+                    save_to_cache(fmp_data, ticker, period)
+                    # Return fresh data
+                    return fmp_data, None, {"used": False}
+                else:
+                    return None, f"No data returned for {ticker}", None
+            else:
+                error_message = "No historical data in FMP response"
+                if 'Error Message' in result:
+                    error_message = result['Error Message']
+                return None, f"Error: {error_message}", None
+                
+        except requests.exceptions.RequestException as e:
+            return None, f"API request error: {str(e)}", None
+        except Exception as e:
+            return None, f"Unexpected error: {str(e)}", None
+    
+    # No valid API key (or placeholder) and no demo data
+    return None, "FMP API key is required", None
+        
+    
+        
+def verify_ticker(ticker, fmp_api_key=None):
     """
     Verify if a ticker symbol is valid using FMP API.
     
@@ -125,6 +130,19 @@ def verify_ticker(ticker,fmp_api_key = None):
     Returns:
         bool: True if valid, False otherwise
     """
+    # In demo mode, check if we have demo data for this ticker
+    ticker = ticker.upper()
+    if "demo_mode" in st.session_state and st.session_state.demo_mode:
+        # Check if the ticker data exists in demo_cache
+        demo_file = f"demo_cache/{ticker}_1mo.csv"
+        if os.path.exists(demo_file):
+            return True
+            
+        # List of popular demo tickers we support
+        demo_tickers = ["AAPL", "MSFT", "GOOGL"]
+        return ticker in demo_tickers
+    
+    # Otherwise use the API to verify
     try:
         # Use search API to check if ticker exists
         url = f'https://financialmodelingprep.com/api/v3/search?query={ticker}&limit=1&apikey={fmp_api_key}'
