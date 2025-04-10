@@ -81,14 +81,10 @@ Supported APIs:
 
 ## 🧪 Demo Mode
 
-If you don't have API keys, you can use Demo Mode which provides pre-cached data for popular stocks including:
+If you don't have API keys, you can use Demo Mode which provides pre-cached data of 1 month for popular stocks including:
 - AAPL (Apple)
 - MSFT (Microsoft)
 - GOOG (Google)
-- AMZN (Amazon)
-- TSLA (Tesla)
-- META (Meta/Facebook)
-- NVDA (NVIDIA)
 - and more
 
 ## 🔍 Technical Details
