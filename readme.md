@@ -46,7 +46,7 @@ Quantem is an advanced stock analysis platform that provides professional-grade 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/quantem.git
+git clone https://github.com/yugant99/Quantiem.git
 cd quantem
 ```
 
